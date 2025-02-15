@@ -597,40 +597,16 @@
       "Root"
     ],
     [
-      "f6740722-35c8-4139-b744-2041123c4574",
-      "Bank 1"
-    ],
-    [
-      "9ba3bc41-a288-45a5-b331-0f87054e57ac",
-      "Bank 2"
-    ],
-    [
-      "40d673c3-789c-48a8-8661-3231aa0e0c2b",
-      "Bank 3"
-    ],
-    [
-      "c089cbdc-e447-472f-aea2-b5033fc8f737",
-      "Bank 4"
-    ],
-    [
-      "acbc906d-2490-460a-addb-a22ef9542684",
-      "Bank 5"
-    ],
-    [
-      "f3933ef2-b485-4035-bf1a-6a6d44fa46b8",
-      "Bank 6"
-    ],
-    [
-      "de88e0e1-cbd7-442d-8161-0297331a7802",
-      "Bank 7"
-    ],
-    [
-      "4a5eeb9e-123c-4d57-bb41-3c47066a94ad",
-      "Bank 8"
-    ],
-    [
       "a40e8631-6af3-4d0f-b1b9-51a13e66bfc2",
       "Power Management"
+    ],
+    [
+      "fd3950dc-fcdc-4c6c-b6ed-362340a95212",
+      "DDR"
+    ],
+    [
+      "2ea0a37b-ec3f-4963-a70d-616cc957f267",
+      "FPGA power pins"
     ]
   ],
   "text_variables": {}
