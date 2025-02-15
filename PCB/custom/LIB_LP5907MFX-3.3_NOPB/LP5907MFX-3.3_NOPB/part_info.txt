@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LP5907MFX-3.3/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=2.3
+Released=2016-01-25 13:05:16
+Downloaded=2025-02-15 04:02:07
+3D=Y

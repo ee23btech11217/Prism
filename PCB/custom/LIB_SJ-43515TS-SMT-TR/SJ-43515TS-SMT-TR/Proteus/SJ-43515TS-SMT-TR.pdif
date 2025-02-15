@@ -1,0 +1,181 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SJ-43515TS-SMT-TR"
+   (description "4 conductor 3.5 mm Surface Mount Audio Jack w/ Tip Switch")
+   (family "CON")
+   (package "SJ43515TSSMTTR")
+   (attribute "Datasheet Link" "https://www.sameskydevices.com/product/resource/supplyframepdf/sj-4351x-smt.pdf")
+   (attribute "Geometry.Height" "5.3mm")
+   (attribute "Mouser Part Number" "490-SJ43515TS-SMT-TR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-43515TS-SMT-TR?qs=WyjlAZoYn50eO9pw4mW8cQ%3D%3D")
+   (attribute "Manufacturer_Name" "Same Sky")
+   (attribute "Manufacturer_Part_Number" "SJ-43515TS-SMT-TR")
+   (gate
+    (symbol "SJ-43515TS-SMT-TR")
+    (pin "SLEEVE" 1 PS)
+    (pin "TIP" 2 PS)
+    (pin "RING_1" 3 PS)
+    (pin "RING_2" 4 PS)
+    (pin "TIP_SWITCH" 5 PS)
+   )
+  )
+  (symbol "SJ-43515TS-SMT-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1300 100) (pt 1300 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1500 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SJ43515TSSMTTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.5 3)
+      (pt 7 3)
+      (pt 7 -3.8)
+      (pt -8.5 -3.8)
+      (pt -8.5 3))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -11 6)
+      (pt 11 6)
+      (pt 11 -6)
+      (pt -11 -6)
+      (pt -11 6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -8.5 -2.5)
+      (pt -10 -2.5)
+      (pt -10 2.5)
+      (pt -8.5 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.4 -3.8)
+      (pt 2.9 -3.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7 -0.6)
+      (pt 7 -3.8)
+      (pt 5.9 -3.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.6 3)
+      (pt 7 3)
+      (pt 7 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -9.4 -2.5)
+      (pt -10 -2.5)
+      (pt -10 2.5)
+      (pt -8.5 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -8.5 -1.5)
+      (pt -8.5 3)
+      (pt -4.75 3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.9 -5.55)
+      (arc (pt -7.900 -5.550) (pt -7.950 -5.550) (pt -7.850 -5.450) (start 180.0) (sweep -90.0))
+      (pt -7.9 -5.45)
+      (arc (pt -7.900 -5.450) (pt -7.950 -5.550) (pt -7.850 -5.450) (start 180.0) (sweep 90.0))
+      (pt -7.9 -5.55))))
+   (leg 1 (pt -7.900 -3.500) (padstack 0))
+   (leg 2 (pt 4.500 -3.500) (padstack 0))
+   (leg 3 (pt -3.200 3.500) (padstack 0))
+   (leg 4 (pt -5.000 -3.500) (padstack 0))
+   (leg 5 (pt 8.500 0.800) (padstack 5))
+   (leg MH1 (pt -4.000 -0.000) (padstack 6))
+   (leg MH2 (pt 3.000 -0.000) (padstack 7))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.000 3.000 0 0 90.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 2.000 3.000 0 0 0.000))
+   )
+   (padstack 6
+    (hole 1.9)
+    (plated false)
+    (pad (layer TCOP) (round 0.950))
+    (pad (layer INNER) (round 0.950))
+    (pad (layer BCOP) (round 0.950))
+   )
+   (padstack 7
+    (hole 1.9)
+    (plated false)
+    (pad (layer TCOP) (round 0.950))
+    (pad (layer INNER) (round 0.950))
+    (pad (layer BCOP) (round 0.950))
+   )
+   (model "SJ-43515TS-SMT-TR.stp"
+    (euler 90 0 -90)
+    (offset -9.989999771118164 0 2.4800000190734863)
+   )
+  )
+ )
+)

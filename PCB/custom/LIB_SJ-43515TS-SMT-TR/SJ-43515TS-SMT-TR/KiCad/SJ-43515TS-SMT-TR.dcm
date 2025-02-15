@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SJ-43515TS-SMT-TR
+D 4 conductor 3.5 mm Surface Mount Audio Jack w/ Tip Switch
+K
+F https://www.sameskydevices.com/product/resource/supplyframepdf/sj-4351x-smt.pdf
+$ENDCMP
+#
+#End Doc Library

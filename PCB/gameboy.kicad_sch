@@ -1,0 +1,360 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bfbf29d7-ad29-43e7-b23f-5805508cd3f0")
+	(paper "A4")
+	(title_block
+		(title "Overall")
+		(company "IITH")
+		(comment 1 "Prajwal M")
+	)
+	(lib_symbols)
+	(sheet
+		(at 76.835 101.6)
+		(size 26.035 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40d673c3-789c-48a8-8661-3231aa0e0c2b")
+		(property "Sheetname" "Bank 3"
+			(at 76.835 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank3.kicad_sch"
+			(at 76.835 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 101.6)
+		(size 26.035 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a5eeb9e-123c-4d57-bb41-3c47066a94ad")
+		(property "Sheetname" "Bank 8"
+			(at 173.99 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank8.kicad_sch"
+			(at 173.99 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.835 76.835)
+		(size 26.035 14.605)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ba3bc41-a288-45a5-b331-0f87054e57ac")
+		(property "Sheetname" "Bank 2"
+			(at 76.835 76.1234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank2.kicad_sch"
+			(at 76.835 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 132.08)
+		(size 74.93 19.685)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a40e8631-6af3-4d0f-b1b9-51a13e66bfc2")
+		(property "Sheetname" "Power Management"
+			(at 76.2 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_management.kicad_sch"
+			(at 76.2 152.3496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 76.835)
+		(size 26.035 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "acbc906d-2490-460a-addb-a22ef9542684")
+		(property "Sheetname" "Bank 5"
+			(at 124.46 76.1234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank5.kicad_sch"
+			(at 124.46 92.6596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 50.8)
+		(size 26.035 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c089cbdc-e447-472f-aea2-b5033fc8f737")
+		(property "Sheetname" "Bank 4"
+			(at 124.46 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank4.kicad_sch"
+			(at 124.46 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 50.165)
+		(size 26.035 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de88e0e1-cbd7-442d-8161-0297331a7802")
+		(property "Sheetname" "Bank 7"
+			(at 173.99 49.4534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank7.kicad_sch"
+			(at 173.99 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 101.6)
+		(size 26.035 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3933ef2-b485-4035-bf1a-6a6d44fa46b8")
+		(property "Sheetname" "Bank 6"
+			(at 124.46 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank6.kicad_sch"
+			(at 124.46 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 51.435)
+		(size 25.4 15.875)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6740722-35c8-4139-b744-2041123c4574")
+		(property "Sheetname" "Bank 1"
+			(at 77.47 50.7234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bank1.kicad_sch"
+			(at 77.47 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

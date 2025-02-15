@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LP5907MFX_3.3_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LP5907MFX-3.3/NOPB" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "595-LP5907MFX-3.3NPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907MFX-3.3-NOPB?qs=biyDIajrTn6NhrJCoL%2FdSQ%3D%3D", "TEXAS INSTRUMENTS - LP5907MFX-3.3/NOPB - LDO, FIXED, 3.3V, 0.25A, SOT-23-5", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100037200.pdf", "1.45 mm"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SJ-43515TS-SMT-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-02-28-04:48:39)
+    (mountForm default
+        (footprintRef "SJ43515TSSMTTR")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.LP5907MFX-3.3_NOPB :1 ;TEXAS INSTRUMENTS - LP5907MFX-3.3/NOPB - LDO, FIXED, 3.3V, 0.25A, SOT-23-5
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="IN" 2="GND" 3="EN" 4="N/C" 5="OUT"
+*MXP 5
+*DFN LP5907MFX-3.3_NOPB
+~!Mouser Part Number (595-LP5907MFX-3.3NPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LP5907MFX-3.3-NOPB?qs=biyDIajrTn6NhrJCoL%2FdSQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LP5907MFX-3.3/NOPB)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU2/DSASFU100037200.pdf)
+~!Height (1.45mm)
+~!3D_Model (LP5907MFX-3.3_NOPB)
+LP5907MFX-3.3_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 
