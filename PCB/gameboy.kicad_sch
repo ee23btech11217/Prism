@@ -124,6 +124,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 161.29 74.93)
+		(size 27.305 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe87c0f4-2fd1-406e-b634-b7f61870ec18")
+		(property "Sheetname" "Audio System"
+			(at 161.29 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "prism-audio.kicad_sch"
+			(at 161.29 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

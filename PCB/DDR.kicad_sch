@@ -4482,6 +4482,7 @@
 	)
 	(label "MEM_ADD2"
 		(at 99.06 41.275 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4492,6 +4493,7 @@
 	)
 	(label "DDR3_D8"
 		(at 160.655 56.515 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4502,6 +4504,7 @@
 	)
 	(label "MEM_ADD5"
 		(at 99.06 48.895 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4512,6 +4515,7 @@
 	)
 	(label "MEM_ADD8"
 		(at 99.06 56.515 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4522,6 +4526,7 @@
 	)
 	(label "MEM_ADD13"
 		(at 99.06 69.215 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4532,6 +4537,7 @@
 	)
 	(label "MEM_ADD3"
 		(at 99.06 43.815 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4542,6 +4548,7 @@
 	)
 	(label "MEM_ADD6"
 		(at 99.06 51.435 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4552,6 +4559,7 @@
 	)
 	(label "DDR3_D5"
 		(at 160.655 47.625 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4562,6 +4570,7 @@
 	)
 	(label "DDR3_D3"
 		(at 160.655 42.545 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4572,6 +4581,7 @@
 	)
 	(label "DDR3_D11"
 		(at 160.655 64.135 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4582,6 +4592,7 @@
 	)
 	(label "DDR3_D0"
 		(at 160.655 34.925 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4592,6 +4603,7 @@
 	)
 	(label "DDR3_D1"
 		(at 160.655 37.465 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4602,6 +4614,7 @@
 	)
 	(label "DDR3_D13"
 		(at 160.655 69.215 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4612,6 +4625,7 @@
 	)
 	(label "DDR3_D10"
 		(at 160.655 61.595 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4622,6 +4636,7 @@
 	)
 	(label "MEM_BANK1"
 		(at 98.425 80.645 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4632,6 +4647,7 @@
 	)
 	(label "DDR3_D4"
 		(at 160.655 45.085 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4642,6 +4658,7 @@
 	)
 	(label "MEM_ADD7"
 		(at 99.06 53.975 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4652,6 +4669,7 @@
 	)
 	(label "MEM_ADD15"
 		(at 99.06 74.295 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4662,6 +4680,7 @@
 	)
 	(label "DDR3_D15"
 		(at 160.655 74.295 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4672,6 +4691,7 @@
 	)
 	(label "MEM_ADD9"
 		(at 99.06 59.055 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4682,6 +4702,7 @@
 	)
 	(label "DDR3_D7"
 		(at 160.655 52.705 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4692,6 +4713,7 @@
 	)
 	(label "MEM_ADD14"
 		(at 99.06 71.755 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4702,6 +4724,7 @@
 	)
 	(label "MEM_ADD10"
 		(at 99.06 61.595 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4712,6 +4735,7 @@
 	)
 	(label "MEM_ADD11"
 		(at 99.06 64.135 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4722,6 +4746,7 @@
 	)
 	(label "MEM_ADD4"
 		(at 99.06 46.355 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4732,6 +4757,7 @@
 	)
 	(label "MEM_BANK2"
 		(at 98.425 83.185 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4742,6 +4768,7 @@
 	)
 	(label "DDR3_D14"
 		(at 160.655 71.755 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4752,6 +4779,7 @@
 	)
 	(label "DDR3_D2"
 		(at 160.655 40.005 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4762,6 +4790,7 @@
 	)
 	(label "DDR3_D12"
 		(at 160.655 66.675 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4772,6 +4801,7 @@
 	)
 	(label "MEM_BANK0"
 		(at 98.425 78.105 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4782,6 +4812,7 @@
 	)
 	(label "MEM_ADD12"
 		(at 99.06 66.675 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4792,6 +4823,7 @@
 	)
 	(label "MEM_ADD1"
 		(at 99.06 38.735 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4802,6 +4834,7 @@
 	)
 	(label "MEM_ADD0"
 		(at 88.9 36.195 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4812,6 +4845,7 @@
 	)
 	(label "DDR3_D9"
 		(at 160.655 59.055 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4822,6 +4856,7 @@
 	)
 	(label "DDR3_D6"
 		(at 160.655 50.165 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5488,7 +5523,7 @@
 			(uuid "47ec24d3-eccd-4806-afc8-c994c5f589a6")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
 					(reference "#PWR065")
 					(unit 1)
@@ -6446,7 +6481,7 @@
 			(uuid "f24eca90-472b-480e-959c-8f70a7b5bcc1")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
 					(reference "#PWR067")
 					(unit 1)
@@ -7528,7 +7563,7 @@
 			(uuid "0d338cd7-371f-4175-8155-7d3a6099710d")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
 					(reference "IC1")
 					(unit 1)
