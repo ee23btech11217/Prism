@@ -2799,7 +2799,7 @@
 			(uuid "64871ab3-13ad-43c4-9c3e-0dd9f7ed20c0")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/873f49b0-de10-4969-a045-ab304594bc32"
 					(reference "#PWR0301")
 					(unit 1)
@@ -3290,7 +3290,7 @@
 			(uuid "0da3484a-9014-4f87-a989-6241cac7f706")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/873f49b0-de10-4969-a045-ab304594bc32"
 					(reference "J302")
 					(unit 1)
@@ -3357,7 +3357,7 @@
 			(uuid "f64286e3-2953-4d58-8045-c0b031672eea")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/873f49b0-de10-4969-a045-ab304594bc32"
 					(reference "#PWR0302")
 					(unit 1)
@@ -3753,7 +3753,7 @@
 			(uuid "e700182b-d826-46a7-b7b4-d1c1b4bafffe")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/873f49b0-de10-4969-a045-ab304594bc32"
 					(reference "U301")
 					(unit 1)

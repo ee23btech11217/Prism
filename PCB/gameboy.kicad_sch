@@ -87,7 +87,7 @@
 		)
 	)
 	(sheet
-		(at 156.21 77.47)
+		(at 162.56 102.235)
 		(size 28.575 18.415)
 		(fields_autoplaced yes)
 		(stroke
@@ -99,7 +99,7 @@
 		)
 		(uuid "873f49b0-de10-4969-a045-ab304594bc32")
 		(property "Sheetname" "SD card"
-			(at 156.21 76.7584 0)
+			(at 162.56 101.5234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -108,7 +108,7 @@
 			)
 		)
 		(property "Sheetfile" "sd.kicad_sch"
-			(at 156.21 96.4696 0)
+			(at 162.56 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
