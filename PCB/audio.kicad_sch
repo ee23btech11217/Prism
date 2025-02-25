@@ -3,6 +3,8596 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "62f0df0a-781d-4b5c-a63b-1243d7a7db56")
-	(paper "A4")
-	(lib_symbols)
+	(paper "A3")
+	(lib_symbols
+		(symbol "2025-02-19_15-12-31:PMBT3904_215"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 10.16 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "PMBT3904_215"
+				(at 10.16 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SOT23_TO-236AB_NEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "PMBT3904_215"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PMBT3904,215"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT23_TO-236AB_NEX SOT23_TO-236AB_NEX-M SOT23_TO-236AB_NEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMBT3904_215_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.2098) (xy 3.81 2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.9398) (xy 7.62 -2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.9398) (xy 7.62 2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -2.2098)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.2098) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.3848 -0.9398) (xy 5.08 -1.905) (xy 6.6548 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.3848 0)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ADAU1761:ADAU1761BCPZ"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 28.956 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ADAU1761BCPZ"
+				(at -1.778 -1.524 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CP-32-4_ADI"
+				(at -44.45 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "ADAU1761BCPZ"
+				(at -44.45 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -44.45 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ADAU1761BCPZ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP-32-4_ADI CP-32-4_ADI-M CP-32-4_ADI-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADAU1761BCPZ_0_1"
+				(polyline
+					(pts
+						(xy -36.83 -25.4) (xy 34.29 -25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -36.83 25.4) (xy -36.83 -25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 34.29 -25.4) (xy 34.29 25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 34.29 25.4) (xy -36.83 25.4)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 3.81 33.02 270)
+					(length 7.62)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -7.62 0)
+					(length 7.62)
+					(name "LINP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -10.16 0)
+					(length 7.62)
+					(name "LINN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -12.7 0)
+					(length 7.62)
+					(name "RINP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -15.24 0)
+					(length 7.62)
+					(name "RINN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -22.86 0)
+					(length 7.62)
+					(name "RAUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -22.86 180)
+					(length 7.62)
+					(name "ROUTP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -20.32 180)
+					(length 7.62)
+					(name "ROUTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -17.78 180)
+					(length 7.62)
+					(name "LOUTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -15.24 180)
+					(length 7.62)
+					(name "LOUTP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -11.43 180)
+					(length 7.62)
+					(name "RHP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 3.81 0)
+					(length 7.62)
+					(name "MCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 -8.89 180)
+					(length 7.62)
+					(name "LHP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 13.97 0)
+					(length 7.62)
+					(name "MONOOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -33.02 90)
+					(length 7.62)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 33.02 270)
+					(length 7.62)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 19.05 -33.02 90)
+					(length 7.62)
+					(name "DVDDOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -33.02 90)
+					(length 7.62)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 1.27 180)
+					(length 7.62)
+					(name "ADC_SDATA/_GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 3.81 180)
+					(length 7.62)
+					(name "DAC_SDATA/_GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 7.62 180)
+					(length 7.62)
+					(name "BCLK/GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 10.16 180)
+					(length 7.62)
+					(name "LRCLK/GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 15.24 180)
+					(length 7.62)
+					(name "ADDR0/CLATCH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 17.78 180)
+					(length 7.62)
+					(name "ADDR1/CDATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 0 0)
+					(length 7.62)
+					(name "SDA/COUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -3.81 0)
+					(length 7.62)
+					(name "SCL/CCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 41.91 21.59 180)
+					(length 7.62)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 22.86 0)
+					(length 7.62)
+					(name "JACKDET/MICIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 19.05 0)
+					(length 7.62)
+					(name "MICBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -20.32 0)
+					(length 7.62)
+					(name "LAUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 7.62 0)
+					(length 7.62)
+					(name "CM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 33.02 270)
+					(length 7.62)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 -33.02 90)
+					(length 7.62)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SJ-43515TS-SMT-TR:SJ-43515TS-SMT-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 34.29 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SJ-43515TS-SMT-TR"
+				(at 34.29 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SJ43515TSSMTTR"
+				(at 34.29 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/sj-4351x-smt.pdf"
+				(at 34.29 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 conductor 3.5 mm Surface Mount Audio Jack w/ Tip Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.3"
+				(at 34.29 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "490-SJ43515TS-SMT-TR"
+				(at 34.29 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-43515TS-SMT-TR?qs=WyjlAZoYn50eO9pw4mW8cQ%3D%3D"
+				(at 34.29 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Same Sky"
+				(at 34.29 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SJ-43515TS-SMT-TR"
+				(at 34.29 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SJ-43515TS-SMT-TR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 33.02 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SLEEVE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "TIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "RING_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "RING_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "TIP_SWITCH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TS3A226AEYFFR:TS3A226AEYFFR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TS3A226AEYFFR"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BGA9C40P3X3_126X136X62"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3a226ae.pdf?ts=1606903224847&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTS3A226AEYFFR%2526keyMatch%253DTS3A226AEYFFR%2526tisearch%253DSearch-EN-everything%2526usecase"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Autonomous Audio Headset Switch with Reduced GND Switch RON and FM Capability"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.625"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TS3A226AEYFFR"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TS3A226AEYFFR"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TS3A226AEYFFR"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TS3A226AEYFFR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GNDB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "RING2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "MICP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "SLEEVE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "TIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 92.075 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2db4a039-8932-4041-b945-53ac72eafb4e")
+	)
+	(junction
+		(at 250.825 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b45ea3c-4bb6-47ef-b264-2e31b8724612")
+	)
+	(junction
+		(at 113.665 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "654fd05b-f83e-4ccb-ad52-997b3fe1ea14")
+	)
+	(junction
+		(at 250.825 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6891944e-dab3-4706-b140-cbd2d58d911d")
+	)
+	(junction
+		(at 255.905 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ee0566-86da-404c-b240-e6a5220bef9e")
+	)
+	(junction
+		(at 92.075 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72cf3c11-e8a2-42c1-aa4d-93834ba20f80")
+	)
+	(junction
+		(at 159.385 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e17588-5aff-42df-888b-0b5b53c647eb")
+	)
+	(junction
+		(at 184.785 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85dd9562-b232-4865-8813-5375ca6ca69c")
+	)
+	(junction
+		(at 276.225 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d7ac2a4-6f94-4764-b94f-2fa9cf6b6581")
+	)
+	(junction
+		(at 318.135 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe9e164-5b5b-4f2a-91ea-7e6137176fc8")
+	)
+	(junction
+		(at 97.155 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a80961db-60f2-4fc8-a643-9faa2ad02241")
+	)
+	(junction
+		(at 255.905 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a92773a5-4bb7-438e-95a0-4ced1e3e1f69")
+	)
+	(junction
+		(at 60.325 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb2e2a42-3c07-446c-bc0b-91a855b18976")
+	)
+	(junction
+		(at 159.385 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "befa4022-37d0-40c0-bf3b-5fa452c66d4a")
+	)
+	(junction
+		(at 56.515 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c17fe7ba-a0d1-48ae-8f9e-7426bdef33db")
+	)
+	(junction
+		(at 238.125 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7135d02-5496-4321-92d5-1fd2e6456e77")
+	)
+	(junction
+		(at 60.325 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc63e07f-676b-48fd-b4ba-246efe81e148")
+	)
+	(junction
+		(at 238.125 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce44f88f-bc2d-4ef1-8ea1-e80efb5b43fa")
+	)
+	(junction
+		(at 92.075 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d10e5df4-2048-469f-a72a-867a44e59f1a")
+	)
+	(junction
+		(at 164.465 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9614fb0-2c22-4c24-913f-9b080a1e9c4d")
+	)
+	(junction
+		(at 97.155 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3e28a33-222c-4ac5-b6e0-2af64f205df6")
+	)
+	(wire
+		(pts
+			(xy 255.905 63.5) (xy 255.905 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a34107-40e0-45a0-afe6-c0065eb72170")
+	)
+	(wire
+		(pts
+			(xy 55.245 96.52) (xy 60.325 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c40c4c3-28aa-4ef1-9a38-801e906f97b3")
+	)
+	(wire
+		(pts
+			(xy 342.265 147.32) (xy 332.105 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cd8477-c4d2-4cc9-8ac9-e5dacc9d3d86")
+	)
+	(wire
+		(pts
+			(xy 86.995 39.37) (xy 86.995 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139683c5-3162-4271-9687-cefc95fbedb2")
+	)
+	(wire
+		(pts
+			(xy 197.485 96.52) (xy 200.025 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14028765-f5d9-463b-b5f1-dddf6f054fa4")
+	)
+	(wire
+		(pts
+			(xy 226.695 73.66) (xy 238.125 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f212e9-ef2e-45ee-b091-981c48500553")
+	)
+	(wire
+		(pts
+			(xy 250.825 125.73) (xy 250.825 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1617bf5e-d7a7-474a-9745-d6f90e38b4bb")
+	)
+	(wire
+		(pts
+			(xy 217.805 48.26) (xy 229.235 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181f6b60-fe8f-405c-89f4-3c1ed2e9c82d")
+	)
+	(wire
+		(pts
+			(xy 236.855 59.69) (xy 238.125 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a70c28-786d-4222-ae5a-a43f4e6264db")
+	)
+	(wire
+		(pts
+			(xy 93.345 93.98) (xy 95.885 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8ff493-1fc3-4220-8baf-ea3ae078a095")
+	)
+	(wire
+		(pts
+			(xy 196.215 185.42) (xy 196.215 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8c9fec-9005-42f4-af61-70344044f89e")
+	)
+	(wire
+		(pts
+			(xy 95.885 83.82) (xy 95.885 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f654a35-624d-49f4-af25-f52764321354")
+	)
+	(wire
+		(pts
+			(xy 97.155 48.26) (xy 97.155 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c0296a-285a-4c9c-ba0f-855df7f0d6ab")
+	)
+	(wire
+		(pts
+			(xy 146.685 168.91) (xy 164.465 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2690ec0c-47d5-4b43-86a1-cf334ee1cc81")
+	)
+	(wire
+		(pts
+			(xy 95.885 106.68) (xy 92.075 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f5c80a-12dc-4269-9b35-0e3ccdb5eecf")
+	)
+	(wire
+		(pts
+			(xy 182.245 78.74) (xy 187.325 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29757999-4a7b-4357-8a8c-1e799382425a")
+	)
+	(wire
+		(pts
+			(xy 98.425 171.45) (xy 113.665 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b73a2d-c9f9-4a54-bbe0-53e31b3283bf")
+	)
+	(wire
+		(pts
+			(xy 276.225 152.4) (xy 276.225 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cabaa36-e956-4539-a820-14d069c7cf14")
+	)
+	(wire
+		(pts
+			(xy 250.825 110.49) (xy 258.445 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0a5eeb-99d4-41ee-a155-d1160c71f656")
+	)
+	(wire
+		(pts
+			(xy 94.615 114.3) (xy 95.885 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3022d049-d1e1-4f33-9188-e796ec26e20f")
+	)
+	(wire
+		(pts
+			(xy 255.905 36.83) (xy 255.905 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dbcc10-f339-4f19-86c1-4030e982c20f")
+	)
+	(wire
+		(pts
+			(xy 61.595 57.15) (xy 56.515 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3706bc3a-8702-41cb-9780-41eaf2a5ab37")
+	)
+	(wire
+		(pts
+			(xy 56.515 68.58) (xy 56.515 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3895af6d-cdec-4aa8-980a-b4ad2ee716f4")
+	)
+	(wire
+		(pts
+			(xy 94.615 116.84) (xy 95.885 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a5136d-9f6e-423e-ac38-02bb5011c498")
+	)
+	(wire
+		(pts
+			(xy 255.905 59.69) (xy 260.985 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe0c479-dd82-47b3-a7f0-499cc78d69e0")
+	)
+	(wire
+		(pts
+			(xy 164.465 168.91) (xy 164.465 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4360b4b3-7541-40a1-bfc6-a2542ed1cead")
+	)
+	(wire
+		(pts
+			(xy 154.305 135.89) (xy 159.385 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4629d79e-f222-4008-ba99-d9f5ae0aaceb")
+	)
+	(wire
+		(pts
+			(xy 222.885 121.92) (xy 222.885 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4896a9fe-ac5b-45f8-9d03-8b8515e9c271")
+	)
+	(wire
+		(pts
+			(xy 92.075 105.41) (xy 92.075 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49133321-4290-4109-a0f7-14e3ef439566")
+	)
+	(wire
+		(pts
+			(xy 206.375 170.18) (xy 210.185 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49416bec-a08c-417f-9ffd-ba4f1439b5d5")
+	)
+	(wire
+		(pts
+			(xy 60.325 85.09) (xy 60.325 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49645438-6c70-4bcc-96f4-99b8242cc3c8")
+	)
+	(wire
+		(pts
+			(xy 244.475 125.73) (xy 250.825 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aed5bac-8739-4b9c-8555-335c321b3c6b")
+	)
+	(wire
+		(pts
+			(xy 244.475 110.49) (xy 250.825 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5262376b-4ecc-4b3c-8c19-824533274e51")
+	)
+	(wire
+		(pts
+			(xy 255.905 48.26) (xy 260.985 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533eaa08-7191-4891-8278-45be6c624236")
+	)
+	(wire
+		(pts
+			(xy 324.485 147.32) (xy 318.135 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ad9dbe-41c6-455f-84ca-91f00a0f6ba0")
+	)
+	(wire
+		(pts
+			(xy 92.075 101.6) (xy 92.075 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5555b4cc-a8c9-4764-aa20-019438760079")
+	)
+	(wire
+		(pts
+			(xy 252.095 152.4) (xy 262.255 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5672a31e-994c-4740-aa1f-c88730d51660")
+	)
+	(wire
+		(pts
+			(xy 55.245 95.25) (xy 55.245 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab64ae4-6cee-4b04-b462-d825e32ffb49")
+	)
+	(wire
+		(pts
+			(xy 276.225 166.37) (xy 276.225 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b530297-4764-45a3-832c-1ecfd3f775d0")
+	)
+	(wire
+		(pts
+			(xy 146.685 171.45) (xy 151.765 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6d9ad1-0014-41e3-9d20-58df771a0b54")
+	)
+	(wire
+		(pts
+			(xy 154.305 127) (xy 159.385 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5daa8a38-1bc0-41d8-9ae4-9c3f7ff104c3")
+	)
+	(wire
+		(pts
+			(xy 97.155 50.8) (xy 107.315 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f98efc9-e3dd-4ea7-8ecf-5038f275ec5b")
+	)
+	(wire
+		(pts
+			(xy 250.825 48.26) (xy 255.905 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613de539-4b53-44a7-bb7c-33acca5d303d")
+	)
+	(wire
+		(pts
+			(xy 238.125 48.26) (xy 243.205 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61de8f66-520c-4988-afca-5c64496a188e")
+	)
+	(wire
+		(pts
+			(xy 86.995 50.8) (xy 97.155 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634c4cd3-168a-475e-8d9e-6761fc4155dc")
+	)
+	(wire
+		(pts
+			(xy 164.465 135.89) (xy 164.465 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e642a5-07fd-4afa-85f3-7164de2dfc1c")
+	)
+	(wire
+		(pts
+			(xy 266.065 110.49) (xy 272.415 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678032a2-0649-494f-a49b-42754f73fb20")
+	)
+	(wire
+		(pts
+			(xy 184.785 83.82) (xy 182.245 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af39e98-ea8d-42a4-beac-01a614c30aab")
+	)
+	(wire
+		(pts
+			(xy 69.215 57.15) (xy 71.755 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3d7af7-9a66-428a-b048-69234eba5251")
+	)
+	(wire
+		(pts
+			(xy 250.825 106.68) (xy 250.825 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7169e2dd-5c40-4c54-b3ee-f28801651d30")
+	)
+	(wire
+		(pts
+			(xy 146.685 166.37) (xy 151.765 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7406fe6f-84c4-4afe-a3e1-cf4152f726d3")
+	)
+	(wire
+		(pts
+			(xy 159.385 127) (xy 164.465 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765c046a-f496-43bd-8218-1729a4fb2ad3")
+	)
+	(wire
+		(pts
+			(xy 164.465 168.91) (xy 170.815 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d2cba6-f750-40d9-a97d-d65d4bf6e521")
+	)
+	(wire
+		(pts
+			(xy 97.155 39.37) (xy 86.995 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779e801a-4684-4d7e-b9c7-359603b1fc75")
+	)
+	(wire
+		(pts
+			(xy 184.785 83.82) (xy 198.755 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fb677b-6a41-4a0b-8d3c-dde5b6872075")
+	)
+	(wire
+		(pts
+			(xy 255.905 71.12) (xy 255.905 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc54080-ca21-4060-be37-aa4744e9ad76")
+	)
+	(wire
+		(pts
+			(xy 222.885 125.73) (xy 236.855 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b6fc48-eeca-47a4-af33-3aa2af6a50b1")
+	)
+	(wire
+		(pts
+			(xy 71.755 80.01) (xy 71.755 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8522f897-6c91-400f-8f88-014051adfc5f")
+	)
+	(wire
+		(pts
+			(xy 180.975 168.91) (xy 180.975 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8634d0e6-377c-46cd-bfa4-5a5f7e3f635b")
+	)
+	(wire
+		(pts
+			(xy 238.125 35.56) (xy 238.125 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8813be5f-651a-4e43-aab0-06941d228e70")
+	)
+	(wire
+		(pts
+			(xy 113.665 173.99) (xy 113.665 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88dfee88-292e-49c1-b750-79b3d684b9f0")
+	)
+	(wire
+		(pts
+			(xy 196.215 172.72) (xy 210.185 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b25644b-73bb-40ee-8d15-c84bc57c780e")
+	)
+	(wire
+		(pts
+			(xy 92.075 104.14) (xy 92.075 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc488ee-8172-4f9f-b4d7-026667bed691")
+	)
+	(wire
+		(pts
+			(xy 107.315 48.26) (xy 107.315 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d279b29-3c4b-4fbd-a4de-ac94f0c8b204")
+	)
+	(wire
+		(pts
+			(xy 55.245 87.63) (xy 60.325 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd0b94a-6cf1-4530-961a-f0e0df5dc471")
+	)
+	(wire
+		(pts
+			(xy 76.835 115.57) (xy 79.375 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3d229b-056a-4aef-966a-9c0c5403aa83")
+	)
+	(wire
+		(pts
+			(xy 159.385 135.89) (xy 164.465 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9247d82d-3a7e-485d-ab54-f30c68354349")
+	)
+	(wire
+		(pts
+			(xy 92.075 106.68) (xy 92.075 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2a1f24-859e-4e13-8b78-f62cbfbeb78d")
+	)
+	(wire
+		(pts
+			(xy 92.075 104.14) (xy 95.885 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3c8137-11c9-4313-ad00-208ed2b515e9")
+	)
+	(wire
+		(pts
+			(xy 92.075 90.17) (xy 95.885 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9678d8-ae7d-41b8-9758-0167597348f6")
+	)
+	(wire
+		(pts
+			(xy 238.125 73.66) (xy 238.125 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52d0d7d-f4b9-4c06-bd80-94293a614f5d")
+	)
+	(wire
+		(pts
+			(xy 238.125 59.69) (xy 243.205 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66d1671-1982-48dd-a145-c660aed108d5")
+	)
+	(wire
+		(pts
+			(xy 81.915 83.82) (xy 95.885 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a685b0a9-ef5d-4499-9dbf-141dd1c14328")
+	)
+	(wire
+		(pts
+			(xy 269.875 152.4) (xy 276.225 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b09de3-4d21-43e9-a7c2-661594473e9f")
+	)
+	(wire
+		(pts
+			(xy 93.345 97.79) (xy 95.885 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8410c1e-6e08-47f5-bcd5-b3497b7d15b6")
+	)
+	(wire
+		(pts
+			(xy 226.695 35.56) (xy 238.125 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a941f830-66db-47ac-90be-9800e7ac70be")
+	)
+	(wire
+		(pts
+			(xy 107.315 39.37) (xy 97.155 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4c7e47-5de5-47ff-96d2-e93f969ac94b")
+	)
+	(wire
+		(pts
+			(xy 205.105 167.64) (xy 210.185 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae637fab-159d-447a-bd5d-5b92f236f0c6")
+	)
+	(wire
+		(pts
+			(xy 95.885 80.01) (xy 71.755 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2851e01-baf4-4765-be57-6bb8bc491d15")
+	)
+	(wire
+		(pts
+			(xy 222.885 110.49) (xy 236.855 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b693f316-74d1-4506-8019-6f3da7a92c17")
+	)
+	(wire
+		(pts
+			(xy 184.785 81.28) (xy 184.785 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7813416-1fa7-48b2-8dbf-c3d5a6c78336")
+	)
+	(wire
+		(pts
+			(xy 250.825 59.69) (xy 255.905 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7881faf-6f29-4f3f-9eb9-a39ea4ef4aac")
+	)
+	(wire
+		(pts
+			(xy 278.765 149.86) (xy 280.035 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8379c9d-efe8-4f90-be5e-58a0c06fb41a")
+	)
+	(wire
+		(pts
+			(xy 186.055 81.28) (xy 184.785 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc394a9-094a-49b3-b29b-dfb684236827")
+	)
+	(wire
+		(pts
+			(xy 88.265 105.41) (xy 92.075 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddac375-1db4-450c-b97a-24e2a43c8a88")
+	)
+	(wire
+		(pts
+			(xy 178.435 168.91) (xy 180.975 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be75dc12-3fa5-47cb-a683-02d314badb83")
+	)
+	(wire
+		(pts
+			(xy 76.835 91.44) (xy 76.835 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c9606b-aa95-4cf3-93cb-077a4ebff08c")
+	)
+	(wire
+		(pts
+			(xy 318.135 133.35) (xy 318.135 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35a6a24-6867-428a-81d1-f417f8a779d3")
+	)
+	(wire
+		(pts
+			(xy 60.325 87.63) (xy 65.405 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90f3b25-a472-4013-a10e-14322c5aafdf")
+	)
+	(wire
+		(pts
+			(xy 56.515 53.34) (xy 56.515 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f8e3f6-8a03-4d62-9600-b7758891c503")
+	)
+	(wire
+		(pts
+			(xy 266.065 125.73) (xy 272.415 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca201e84-21f5-47f8-a5b7-6bd8bc754269")
+	)
+	(wire
+		(pts
+			(xy 92.075 109.22) (xy 95.885 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb812935-ec5e-4f2a-bc9a-4215b5258b92")
+	)
+	(wire
+		(pts
+			(xy 154.305 135.89) (xy 154.305 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71ed4bf-dc44-4fb3-9a86-76abc3111dab")
+	)
+	(wire
+		(pts
+			(xy 65.405 95.25) (xy 65.405 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98857a6-6fdc-4201-a0fa-dea326e90405")
+	)
+	(wire
+		(pts
+			(xy 107.315 40.64) (xy 107.315 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bcbe49-5f18-47e6-bf30-d00f7b13444d")
+	)
+	(wire
+		(pts
+			(xy 60.325 96.52) (xy 65.405 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da95478c-b633-4d3f-b166-83add21684e1")
+	)
+	(wire
+		(pts
+			(xy 95.885 101.6) (xy 92.075 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba02139-4a8e-4187-84b7-8ceb379d7cb3")
+	)
+	(wire
+		(pts
+			(xy 217.805 59.69) (xy 229.235 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbead520-7a86-4e3e-afcc-1624bef52160")
+	)
+	(wire
+		(pts
+			(xy 252.095 170.18) (xy 248.285 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0ec006-9470-495b-805f-2845b80733b4")
+	)
+	(wire
+		(pts
+			(xy 86.995 48.26) (xy 86.995 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27e2a54-8a0b-4db6-aeb9-347f1c7e38ec")
+	)
+	(wire
+		(pts
+			(xy 318.135 147.32) (xy 318.135 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3647a6c-efce-4d43-b5db-e6e2d86aeb46")
+	)
+	(wire
+		(pts
+			(xy 236.855 48.26) (xy 238.125 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6971f51-f46f-45a4-8fc0-e611682d5f69")
+	)
+	(wire
+		(pts
+			(xy 56.515 57.15) (xy 56.515 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94ec15d-060e-48ee-a94f-59edb4c1a372")
+	)
+	(wire
+		(pts
+			(xy 159.385 135.89) (xy 159.385 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c0ecde-8748-497c-a7e3-57cc0ffb5759")
+	)
+	(wire
+		(pts
+			(xy 196.215 172.72) (xy 196.215 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabc0ae5-f43a-4eae-9fa3-0a48f47d4a96")
+	)
+	(wire
+		(pts
+			(xy 182.245 76.2) (xy 187.325 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4de5b3-6cdb-4924-8f7d-9cfa0a0947a1")
+	)
+	(wire
+		(pts
+			(xy 250.825 99.06) (xy 250.825 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec12883d-8ecf-447f-9fa9-8784d7d388fe")
+	)
+	(wire
+		(pts
+			(xy 222.885 107.95) (xy 222.885 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7390925-41c1-42c2-85f3-4b6cc91767c3")
+	)
+	(wire
+		(pts
+			(xy 252.095 167.64) (xy 248.285 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8565bd6-0fa7-459f-a79a-14ad4c6f127a")
+	)
+	(wire
+		(pts
+			(xy 255.905 44.45) (xy 255.905 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9022922-8d48-4bdd-b378-73ff47ab4820")
+	)
+	(wire
+		(pts
+			(xy 276.225 152.4) (xy 280.035 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9eb986-c435-491f-9bcf-b4051d442dca")
+	)
+	(wire
+		(pts
+			(xy 250.825 125.73) (xy 258.445 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb44d624-2590-4b9a-8b6c-1e386a7174f2")
+	)
+	(wire
+		(pts
+			(xy 97.155 36.83) (xy 97.155 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee12909-5244-4375-be1c-89cf1239c088")
+	)
+	(wire
+		(pts
+			(xy 97.155 39.37) (xy 97.155 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff29ec5c-2a19-48d3-8d58-928cd24a3250")
+	)
+	(label "FRONT R"
+		(at 260.985 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05972443-620c-4477-ad18-385c6dab6032")
+	)
+	(label "LINE1_L_C"
+		(at 342.265 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10510d86-1c16-4b82-ba74-ac1c7c69a14c")
+	)
+	(label "CM"
+		(at 88.265 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a8abaf2-11e4-4e94-bbde-2059c308d722")
+	)
+	(label "CM"
+		(at 93.345 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e7a694a-09b2-4b96-aad5-f2a5c8769f70")
+	)
+	(label "FRONT R"
+		(at 206.375 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20633d61-5b94-460c-abfd-f6752efc910e")
+	)
+	(label "Q19_1"
+		(at 56.515 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "412cf468-731c-4a26-9ec3-be1a1d3645ab")
+	)
+	(label "SLEEVE"
+		(at 151.765 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "426f2667-bee5-438e-8d0f-11c2ec660848")
+	)
+	(label "FRONT_R_C"
+		(at 226.695 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52dfd6e3-2a95-4876-b4d0-7c5ba7191031")
+	)
+	(label "FRONT L"
+		(at 260.985 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57c5f105-dcdb-49af-a71f-1be7b49e9cf8")
+	)
+	(label "RING2"
+		(at 252.095 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a25a201-e0de-40ce-936f-39135a351d05")
+	)
+	(label "HP_EN"
+		(at 252.095 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6729422e-0c74-42e1-ba86-45d9b77e04b0")
+	)
+	(label "LINE1_R_C"
+		(at 252.095 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "712f91a6-5f26-4427-a4b0-e8a3a551bdf8")
+	)
+	(label "CM"
+		(at 60.325 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7875f7ef-5193-4f19-bd53-b95128fdfe97")
+	)
+	(label "MCLK1"
+		(at 92.075 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cc8444b-bfc5-4597-9b3e-8361694f3447")
+	)
+	(label "MONOOUT"
+		(at 94.615 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b846e4a-8f1b-4166-bac6-a0f867d0dc4f")
+	)
+	(label "FRONT L"
+		(at 206.375 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92372dc3-acad-46ac-837f-72a6454ee517")
+	)
+	(label "FRONT L"
+		(at 151.765 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab6c1b96-fa04-44f9-a3cd-d669d78650c7")
+	)
+	(label "LINE1_R_C"
+		(at 222.885 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b95f069b-406e-45a0-8681-391155fd31d8")
+	)
+	(label "HP_EN"
+		(at 151.765 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd3bab5a-5112-4257-bae9-5c24b8928377")
+	)
+	(label "FRONT_L_C"
+		(at 226.695 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f106fb-6223-4175-9946-1ec060e3a5cb")
+	)
+	(label "RING2"
+		(at 98.425 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca18c0ef-e3b6-477a-9ec8-279829553c6c")
+	)
+	(label "SLEEVE"
+		(at 205.105 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6a972d8-063f-4c27-a1de-78c735c757e2")
+	)
+	(label "LINE1_L_C"
+		(at 222.885 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6e6a4e5-dd04-4710-86f4-849905753547")
+	)
+	(label "Q19_1"
+		(at 76.835 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc3e3299-6e1e-464d-b4e3-07effebefba2")
+	)
+	(label "MCLK1"
+		(at 79.375 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe035303-776a-4ab8-b323-cef4114ef9c2")
+	)
+	(global_label "AU_WCLK"
+		(shape input)
+		(at 186.055 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05d76f07-35d8-46b4-ad63-ea779a040fa9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.4464 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LAUX"
+		(shape input)
+		(at 94.615 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07772bc0-5b3d-4601-aba1-3c033da4d957")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.9731 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AU_MCLK"
+		(shape input)
+		(at 69.215 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ddde949-cab5-48bd-a77a-adfeb3eb9468")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.8236 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADR1"
+		(shape input)
+		(at 187.325 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17fc70be-ec87-400f-b60f-c7269615eedf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.1483 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AU_DOUT"
+		(shape input)
+		(at 182.245 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31cdc86a-ea50-4d94-bd12-348eefc98cf9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.5155 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RAUX"
+		(shape input)
+		(at 94.615 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a02552c-92e3-44cb-878d-9c52d4ecf543")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.7312 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FR_L"
+		(shape input)
+		(at 182.245 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69cf48f5-4194-403d-a09e-94a51c955b8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.5845 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADR0"
+		(shape input)
+		(at 187.325 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80661c04-bccf-48e0-84e7-29ea21209b52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.1483 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AU_SDA"
+		(shape input)
+		(at 93.345 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f678516-3faa-4e0d-9302-886763ec66be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.405 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AU_SCL"
+		(shape input)
+		(at 93.345 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a994b40a-c0f0-4d85-a15d-4558ddba0cb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.4655 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LAUX"
+		(shape input)
+		(at 272.415 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b59a484b-ea76-4030-9c6e-5fd7b47df429")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.0569 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RAUX"
+		(shape input)
+		(at 272.415 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd75955c-f24d-46ea-8df2-6377c76e21b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.2988 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AU_BCLK"
+		(shape input)
+		(at 182.245 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c53c8e47-f126-4bdf-9d0d-431d4bade968")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.455 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AU_DIN"
+		(shape input)
+		(at 182.245 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8fa2709-de01-4345-b29a-3895cb22f986")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.8222 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FL_L"
+		(shape input)
+		(at 182.245 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0aadded-7aba-43c9-9dd5-841de131f83a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.3426 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FR_L"
+		(shape input)
+		(at 217.805 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eddffda0-ad50-4cce-b6bb-7f5f0eeec6fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.4655 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FL_L"
+		(shape input)
+		(at 217.805 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7c75d84-2000-428c-8e05-2dbb5a2ab633")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.7074 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.135 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "060096ab-bee0-4dda-9dcd-c0852cf3e3a8")
+		(property "Reference" "#PWR0491"
+			(at 318.135 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.135 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.135 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.135 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.135 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49510184-ceec-4611-a78a-81a336e396a1")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0491")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.065 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "076b8793-cece-4473-bc08-40c579368596")
+		(property "Reference" "#PWR0474"
+			(at 139.065 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.065 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.065 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3edea1-4c27-45e9-95fe-822a8a64d847")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0474")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 276.225 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10a9fd5f-5c17-4e34-9ad4-71c4ac64d7a6")
+		(property "Reference" "C469"
+			(at 280.035 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF 50V"
+			(at 280.035 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 277.1902 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.225 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 276.225 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb76cd3a-4c35-4766-ac74-7a02b7f06a92")
+		)
+		(pin "2"
+			(uuid "4a6820ff-9a81-4e06-9678-419ff55e37fb")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C469")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.905 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "127036a0-03bc-435a-9cc8-8fdbc91255d6")
+		(property "Reference" "#PWR0486"
+			(at 255.905 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.905 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.905 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.905 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.905 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c9dd02a-615e-4c72-920d-90eaf4072186")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0486")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.255 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14229295-cc04-4596-8a9b-213135fe068e")
+		(property "Reference" "C467"
+			(at 262.255 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF 25V"
+			(at 262.255 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 266.065 109.5248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.255 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.255 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3a3d66b-0ee6-4db3-b558-48116eeb3af7")
+		)
+		(pin "2"
+			(uuid "cd96b997-1018-43c4-abaf-669779a14781")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C467")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 139.065 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a11c19f-fa31-4ab3-9160-c40511e63f65")
+		(property "Reference" "#PWR0473"
+			(at 139.065 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC3V3"
+			(at 139.065 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.065 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.065 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 139.065 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76020220-d545-4757-b06c-96c5cb07eebf")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0473")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SJ-43515TS-SMT-TR:SJ-43515TS-SMT-TR")
+		(at 280.035 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bd6ea1a-101e-4c01-a7f1-5a1ced3365b2")
+		(property "Reference" "J403"
+			(at 299.085 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SJ-43515TS-SMT-TR"
+			(at 299.085 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SJ-43515TS-SMT-TR:SJ43515TSSMTTR"
+			(at 314.325 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/sj-4351x-smt.pdf"
+			(at 314.325 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 conductor 3.5 mm Surface Mount Audio Jack w/ Tip Switch"
+			(at 280.035 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.3"
+			(at 314.325 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-SJ43515TS-SMT-TR"
+			(at 314.325 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-43515TS-SMT-TR?qs=WyjlAZoYn50eO9pw4mW8cQ%3D%3D"
+			(at 314.325 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 314.325 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SJ-43515TS-SMT-TR"
+			(at 314.325 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93303b80-1fb6-459a-a766-bacd60283f2d")
+		)
+		(pin "4"
+			(uuid "29f84744-c6e1-4ca9-9cef-495f3dcdb5d7")
+		)
+		(pin "5"
+			(uuid "4ba0a459-0642-4f96-bcc8-1e22d5882587")
+		)
+		(pin "2"
+			(uuid "78dd75c2-dd84-4ed9-a441-33c754c781f3")
+		)
+		(pin "3"
+			(uuid "a164e43a-fa18-4c0d-ab74-fbb9d5c6127b")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "J403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.245 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c3da0b4-55f2-4445-a422-2b4e3a71ecc7")
+		(property "Reference" "C452"
+			(at 55.753 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16V"
+			(at 55.753 93.98 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 56.2102 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.245 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.245 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a181e4d9-73a8-499d-aa29-c348f86b3e37")
+		)
+		(pin "2"
+			(uuid "87f2e4c6-d143-4f8a-8ab8-16de3d909037")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C452")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 71.755 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2335be71-69ec-4779-a98c-7f8568b340b8")
+		(property "Reference" "#PWR0465"
+			(at 67.945 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC3V3"
+			(at 75.565 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.755 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.755 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 71.755 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87ec8efb-f7b8-4a57-ad6d-74cff0d19669")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0465")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 65.405 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276e61fd-33f7-400e-9553-f162479647bf")
+		(property "Reference" "C453"
+			(at 69.215 90.8049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 6.3V"
+			(at 69.215 92.71 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 66.3702 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.405 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 65.405 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a494876e-9571-4a4c-8df4-d208d11fcee1")
+		)
+		(pin "2"
+			(uuid "fca5fa1e-7d0b-454f-bcb6-a5f9042982a1")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C453")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 164.465 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ea3269-7725-4d93-a667-f2d0b0f03cdd")
+		(property "Reference" "C458"
+			(at 168.275 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16V"
+			(at 168.275 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 165.4302 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 164.465 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 164.465 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f940ec6e-2579-4e4e-bfd8-e417c39eb097")
+		)
+		(pin "2"
+			(uuid "5ff608a6-138e-4bb0-b411-f20d7bbac083")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C458")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 144.145 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33c8b2fd-66dc-49cb-8579-25aa41327847")
+		(property "Reference" "#PWR0475"
+			(at 144.145 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC3V3"
+			(at 149.225 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.145 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.145 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 144.145 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59395eed-2001-4af2-9b07-f3075a6d0ee1")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0475")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.825 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36911885-26e8-4317-8836-f298c978b975")
+		(property "Reference" "C464"
+			(at 254.635 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4700pF 50V"
+			(at 254.635 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 251.7902 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.825 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 250.825 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d500286e-7d8d-4e41-b647-0a36c6a5bcb2")
+		)
+		(pin "2"
+			(uuid "9decb123-85c7-4aa1-89b0-d32acee2cda9")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C464")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.665 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37d8dcb8-897c-4be1-8e36-8b6fd1e1cc96")
+		(property "Reference" "#PWR0470"
+			(at 107.315 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.855 176.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.665 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.665 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.665 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c6754a4-0da0-44f1-bbb8-f90f508dc6a5")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0470")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 113.665 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d2dbfe4-5f82-47b2-9cb2-b9bb73a59134")
+		(property "Reference" "#PWR0468"
+			(at 117.475 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC3V3"
+			(at 109.855 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.665 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.665 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 113.665 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49e35e01-0e65-4ba3-aaa0-753b71c67f33")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0468")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.215 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f78a865-74b8-4536-9e31-c1ea79c409f9")
+		(property "Reference" "R444"
+			(at 198.755 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k 1%"
+			(at 198.755 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 194.437 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.215 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.215 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5703677-ea93-4126-a1fa-6228cf4b99e4")
+		)
+		(pin "2"
+			(uuid "12521dc8-728e-4bc7-81a7-39ec18095010")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "R444")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 255.905 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f891404-75a0-4b88-a902-a69d86742a91")
+		(property "Reference" "C466"
+			(at 252.095 68.5801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF 50V"
+			(at 252.095 66.0401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 254.9398 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.905 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 255.905 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb71ee0f-77a5-49d9-afac-3a4ab37c2b61")
+		)
+		(pin "2"
+			(uuid "168809cc-7d5f-444d-bc6e-73cb71636da2")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C466")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 247.015 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4203ebd5-cbcc-4ff4-bb0d-2220270bf678")
+		(property "Reference" "FB402"
+			(at 246.9642 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 246.9642 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 247.015 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.015 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 247.015 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "243bd0e6-2408-4900-be78-df6336f6ee42")
+		)
+		(pin "2"
+			(uuid "a6c0f8ac-fbad-4849-a47d-e352d696f493")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "FB402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 164.465 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43c40a86-eef4-45fa-a3fc-2cb708326802")
+		(property "Reference" "#PWR0479"
+			(at 164.465 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC3V3"
+			(at 164.465 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.465 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 164.465 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 164.465 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d54fe7d0-8d61-497b-96bd-f462ca4da2e9")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0479")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SJ-43515TS-SMT-TR:SJ-43515TS-SMT-TR")
+		(at 210.185 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4430b50a-f9f9-43b0-8cbb-8fe96b70a31a")
+		(property "Reference" "J402"
+			(at 229.235 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SJ-43515TS-SMT-TR"
+			(at 229.235 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SJ-43515TS-SMT-TR:SJ43515TSSMTTR"
+			(at 244.475 262.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/sj-4351x-smt.pdf"
+			(at 244.475 362.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 conductor 3.5 mm Surface Mount Audio Jack w/ Tip Switch"
+			(at 210.185 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.3"
+			(at 244.475 562.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-SJ43515TS-SMT-TR"
+			(at 244.475 662.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-43515TS-SMT-TR?qs=WyjlAZoYn50eO9pw4mW8cQ%3D%3D"
+			(at 244.475 762.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 244.475 862.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SJ-43515TS-SMT-TR"
+			(at 244.475 962.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d0678ac-2b9f-4015-8be5-6160ca3b698b")
+		)
+		(pin "4"
+			(uuid "4a59c851-3de9-4880-b7f0-ea0ebc9ca6bc")
+		)
+		(pin "5"
+			(uuid "3f8a6903-d021-45a6-b04a-e0cf201802ed")
+		)
+		(pin "2"
+			(uuid "4fc7ddfa-9822-4ddf-b0aa-6c54d87096e1")
+		)
+		(pin "3"
+			(uuid "9f16032c-6d88-4a50-b48c-552926bcd935")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "J402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.325 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "453cddd1-3880-459f-8a0c-27660a1f8444")
+		(property "Reference" "#PWR0464"
+			(at 60.325 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.325 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.325 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.325 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.325 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b08f79e9-e2e9-4617-b3cb-0955eb16c925")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0464")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.155 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5074be87-c303-46e0-8720-5301f5dc0fc2")
+		(property "Reference" "C455"
+			(at 100.965 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 6.3V"
+			(at 92.075 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 98.1202 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.155 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.155 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c30dd045-6d1a-4580-91b0-1c9268d7ced5")
+		)
+		(pin "1"
+			(uuid "327d857f-5b9a-42b1-b061-5973cfdf6e07")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C455")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.665 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54328593-f64c-4b5a-a137-1f43bda459a5")
+		(property "Reference" "#PWR0469"
+			(at 107.315 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.855 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.665 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.665 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.665 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bf889c0-ba5c-4298-b474-354758c9ecf7")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0469")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.975 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "579102ff-e8e1-4168-928c-b12163d4d3e6")
+		(property "Reference" "#PWR0480"
+			(at 180.975 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.975 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.975 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.975 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.975 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dbaaeb2-7dfb-452e-adc9-e8bef5f52291")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0480")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.985 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59e7b607-e949-4341-b297-cd11127b8d6b")
+		(property "Reference" "#PWR0472"
+			(at 133.985 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.985 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.985 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.985 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.985 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8166fc04-0bd8-4d3c-97ec-176228b3cba6")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0472")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.025 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b71be76-8794-4ab7-a493-b566566038d1")
+		(property "Reference" "R442"
+			(at 73.025 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 73.025 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 73.025 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.025 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.025 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0a5af1a-8ccb-427e-9fd6-5e2f92203e5e")
+		)
+		(pin "2"
+			(uuid "25d14d82-59b7-451c-b634-a5e8ba81217d")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "R442")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 97.155 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ce8146-93fa-4ef9-8de3-0842b31874a1")
+		(property "Reference" "#PWR0466"
+			(at 97.155 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC3V3"
+			(at 97.155 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.155 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 97.155 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02d3bbed-0b98-47a8-bafc-f1908ec5195c")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0466")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TS3A226AEYFFR:TS3A226AEYFFR")
+		(at 113.665 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ec9c01-8954-4b87-abc2-1f52d5ec394e")
+		(property "Reference" "IC401"
+			(at 130.175 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS3A226AEYFFR"
+			(at 130.175 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BGA9C40P3X3_126X136X62"
+			(at 142.875 261.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts3a226ae.pdf?ts=1606903224847&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTS3A226AEYFFR%2526keyMatch%253DTS3A226AEYFFR%2526tisearch%253DSearch-EN-everything%2526usecase"
+			(at 142.875 361.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Autonomous Audio Headset Switch with Reduced GND Switch RON and FM Capability"
+			(at 113.665 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.625"
+			(at 142.875 561.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TS3A226AEYFFR"
+			(at 142.875 661.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TS3A226AEYFFR"
+			(at 142.875 761.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 142.875 861.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TS3A226AEYFFR"
+			(at 142.875 961.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "9cd39b2f-86d7-4344-a2bd-bc6f8b7ca4c4")
+		)
+		(pin "A2"
+			(uuid "44982de7-5bb6-4313-86e4-e658c012128b")
+		)
+		(pin "A3"
+			(uuid "d134986f-8f8f-4b12-84e4-2aaeacdfbe50")
+		)
+		(pin "B1"
+			(uuid "194f2ba1-80ca-48b6-80f3-fa02ad4c5fa1")
+		)
+		(pin "B2"
+			(uuid "66fd6255-471f-4b2e-85e7-ca5eaa8de614")
+		)
+		(pin "B3"
+			(uuid "7e743913-c6df-4692-b1f9-b80ff9165e8e")
+		)
+		(pin "C1"
+			(uuid "0df92ddb-7b19-4107-83c1-82780abdd41d")
+		)
+		(pin "C2"
+			(uuid "2685b60d-05a0-403b-a134-f95cfbe1a01d")
+		)
+		(pin "C3"
+			(uuid "aa46e1a6-b3a6-478e-94ff-fd051fe66be6")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "IC401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.825 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64bb83c1-f655-4f4b-b8d4-9cfc1d4d727d")
+		(property "Reference" "#PWR0483"
+			(at 250.825 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.825 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.825 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dbd7b9d-7357-432d-84f0-1ff8eb729507")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0483")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.215 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "692dcac1-2773-4b1f-b74c-6fee7c1648b6")
+		(property "Reference" "#PWR0481"
+			(at 196.215 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.215 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.215 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.215 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.215 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91ed2cc0-6126-443e-8199-42270434a3af")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0481")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.145 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "749e58d7-1544-42d4-abb4-b9c4911c2ee1")
+		(property "Reference" "#PWR0476"
+			(at 144.145 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.145 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.145 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.145 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.145 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4d323f-7bb4-4c50-babe-a8cfdcf55fe2")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0476")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.825 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7521bb19-1cb0-41ae-842f-a7320cb5bd3c")
+		(property "Reference" "C463"
+			(at 254.635 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4700pF 50V"
+			(at 245.237 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 251.7902 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.825 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 250.825 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "752ced67-be6a-4f30-a89e-60b926e27d7a")
+		)
+		(pin "2"
+			(uuid "82a68638-d490-47a4-97ba-14fce15ccc1a")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C463")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.665 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7de49c04-d067-48cc-8bb8-3af46c5ef724")
+		(property "Reference" "R445"
+			(at 240.665 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K 1%"
+			(at 240.665 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 240.665 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.665 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.665 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9d3abb6-52f8-4b48-875f-10970384dae0")
+		)
+		(pin "2"
+			(uuid "931a1e3f-79c2-4b0b-a8b4-2d5a6a378f6b")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "R445")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.765 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "829c63e9-e9b5-4c5b-a5af-20966f1d152a")
+		(property "Reference" "#PWR0488"
+			(at 272.415 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.955 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.765 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.765 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.765 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f67a89da-35cd-46e7-a082-b1a258c6b9c4")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0488")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 255.905 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8614e7c0-9607-49df-9eed-a61e948d55dd")
+		(property "Reference" "C465"
+			(at 259.715 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF 50V"
+			(at 259.715 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 256.8702 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.905 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 255.905 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f31c57a-df63-4812-b23b-ecf726529a97")
+		)
+		(pin "2"
+			(uuid "6ae3b255-a218-444a-b657-6b6c6a48629e")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C465")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 202.565 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "906be433-30fd-4616-99c6-3a9a95341909")
+		(property "Reference" "C460"
+			(at 202.565 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47p"
+			(at 202.565 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 206.375 82.8548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 202.565 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 202.565 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbfce17e-b7ad-47fb-b61b-d6402dae14d3")
+		)
+		(pin "1"
+			(uuid "33ae9a7a-eeb9-4bf4-a921-cc8e34609643")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C460")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 174.625 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "922c9372-3628-4aa4-a609-7122ae13240f")
+		(property "Reference" "C459"
+			(at 174.625 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.47uF 16V"
+			(at 174.625 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 178.435 167.9448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 174.625 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 174.625 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e3a31d-3559-4dc4-868f-b406f63fcb99")
+		)
+		(pin "2"
+			(uuid "854daf0f-3e76-4742-8cd2-acf9cbf18d3c")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C459")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.825 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96808193-eb30-4b10-9688-da95b6289894")
+		(property "Reference" "#PWR0484"
+			(at 250.825 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.825 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.825 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.825 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.825 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c51efc-d074-4ef2-9aaa-ba9145823435")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0484")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.685 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a5a665b-2237-4990-a027-699172ffe8f9")
+		(property "Reference" "#PWR0477"
+			(at 153.035 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 150.495 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.685 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.685 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7a77257-0fe9-41cf-82b1-f96bd36ea0f8")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0477")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 56.515 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc53360-0efa-4ace-bea7-bed34f3f4fc9")
+		(property "Reference" "R440"
+			(at 59.055 64.1349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K/X 1%"
+			(at 59.055 66.04 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 54.737 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.515 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 56.515 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec341e47-ce6b-4821-a07a-aaedbfb994ff")
+		)
+		(pin "1"
+			(uuid "8e1f7d15-61fb-46a3-855f-661990fc57b7")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "R440")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.665 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2896768-e4af-49e9-b660-1cabdc8b410a")
+		(property "Reference" "R446"
+			(at 240.665 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K 1%"
+			(at 240.665 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 240.665 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.665 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.665 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8ae27d0-c133-4977-bbcf-df9be52ee3ff")
+		)
+		(pin "2"
+			(uuid "4133b348-5e78-4541-8415-f3ebdb51ba7b")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "R446")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.035 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3cd2d81-3d23-4a35-8521-ad4434831f96")
+		(property "Reference" "#PWR0489"
+			(at 273.685 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.225 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.035 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.035 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.035 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "799c99f1-6dd5-40a0-ae2e-cc80d3dbdc22")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0489")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 56.515 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3d0a627-d8c7-4379-8a6b-2ea164b2a666")
+		(property "Reference" "#PWR0463"
+			(at 56.515 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 56.515 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.515 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 56.515 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d138736-e4b4-4844-8ede-c84ce9554606")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0463")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 318.135 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b26d8488-e7a3-40f9-a987-54d3ec2b5ab0")
+		(property "Reference" "C470"
+			(at 314.325 142.2401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF 50V"
+			(at 314.325 139.7001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 317.1698 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 318.135 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 318.135 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92722f2b-cb6d-4290-8bd5-ecd0d759f80e")
+		)
+		(pin "2"
+			(uuid "a3afba39-ae98-4de1-bc6c-9fc42051da4b")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C470")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 164.465 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2a9201e-9162-4709-ba81-994ae7d80180")
+		(property "Reference" "R443"
+			(at 167.005 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M 1%"
+			(at 167.005 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 162.687 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 164.465 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 164.465 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c642f3b-f3a5-4a24-9cea-0dbacad72899")
+		)
+		(pin "2"
+			(uuid "8fca795a-1026-4165-847b-0d351c52407e")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "R443")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.905 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba301b8b-0655-48ae-b02f-4540b224a4a6")
+		(property "Reference" "#PWR0485"
+			(at 255.905 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.905 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.905 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.905 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.905 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baf4384c-5eb5-45e7-969a-c90e6b959a6a")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0485")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.225 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be29e859-546a-4c32-8a2d-1a7b73791f57")
+		(property "Reference" "#PWR0487"
+			(at 276.225 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.225 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.225 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.225 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.225 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f368a627-8366-4226-a3d0-e2a74ea301d5")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0487")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.305 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be45c11e-e69c-471e-a94d-7d6e15d8ad6d")
+		(property "Reference" "C457"
+			(at 158.115 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 6.3V"
+			(at 149.225 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 155.2702 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.305 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.305 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "399c1201-a395-4cf0-a5a9-437b4e94361a")
+		)
+		(pin "2"
+			(uuid "53548c03-2ef2-4f77-9154-302784c1e4da")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C457")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.315 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c21a5555-a864-4c1c-b02d-e10edb86389a")
+		(property "Reference" "C456"
+			(at 111.125 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 6.3V"
+			(at 102.235 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 108.2802 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.315 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.315 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bf43cd2-710f-40ab-9255-0325a4ba9c9b")
+		)
+		(pin "1"
+			(uuid "be9183dd-2ca9-45fc-96eb-6447adbbfbf1")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C456")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.045 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c41f5420-bf2c-499e-ae6e-128107185a36")
+		(property "Reference" "C462"
+			(at 233.045 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF 25V"
+			(at 233.045 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 236.855 58.7248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.045 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.045 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "337b84d5-3daf-41b1-a4da-5111066e985b")
+		)
+		(pin "2"
+			(uuid "2195020d-e0ab-47de-a394-f5ad6d35d00b")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C462")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 206.375 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c84a58b0-ee1e-4c7a-bb37-5955aad9780f")
+		(property "Reference" "#PWR0482"
+			(at 212.725 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.185 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 206.375 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.375 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 206.375 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b96c4913-0d2a-4b24-a5cc-4136e54f0219")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0482")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.255 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9476de5-2dd6-4bd1-8ee6-d77c0e5249c0")
+		(property "Reference" "C468"
+			(at 262.255 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF 25V"
+			(at 262.255 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 266.065 124.7648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.255 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.255 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "115e81a2-5e4f-4bf4-8a64-a1094124b081")
+		)
+		(pin "2"
+			(uuid "39fc4391-2e26-4260-bb4e-a3590a531fa8")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C468")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.995 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbe927e4-740e-4367-b4e2-2cf71e155fc8")
+		(property "Reference" "C454"
+			(at 90.805 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF 16V"
+			(at 82.169 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 87.9602 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.995 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.995 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51d4a93e-1239-4a86-844a-8290cb79d353")
+		)
+		(pin "1"
+			(uuid "a148268f-16ed-4396-9c8a-9ddc74adfa41")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C454")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-02-19_15-12-31:PMBT3904_215")
+		(at 76.835 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df2bd815-077a-47df-924d-1b8e2e4cfe47")
+		(property "Reference" "Q408"
+			(at 76.835 80.01 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PMBT3904_215"
+			(at 76.835 77.47 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT23_TO-236AB_NEX"
+			(at 76.835 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PMBT3904_215"
+			(at 76.835 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.835 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e13ecf8d-bf00-415c-a151-b2ae2c54a026")
+		)
+		(pin "3"
+			(uuid "0bbd2c52-609d-412c-b7ab-ec7b2e663f85")
+		)
+		(pin "2"
+			(uuid "d040a5ad-a5af-4d0a-8629-83d7835211c0")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "Q408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.045 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e11abf34-e0e8-4153-97d2-76985d871316")
+		(property "Reference" "C461"
+			(at 233.045 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF 25V"
+			(at 233.045 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 236.855 47.2948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.045 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.045 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7129dd0-0e79-4b16-9201-72e6dc036e48")
+		)
+		(pin "2"
+			(uuid "a8b51ae8-89d2-43da-a4c3-a8f72737d200")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "C461")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.135 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e22cc592-7bd6-4432-93de-50f3aeefa606")
+		(property "Reference" "#PWR0490"
+			(at 318.135 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.135 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.135 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.135 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.135 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd31e654-bb42-467e-a12d-aa78d3674506")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0490")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADAU1761:ADAU1761BCPZ")
+		(at 140.335 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3a0c3ae-5c3c-4142-b984-e8d418f49b37")
+		(property "Reference" "U405"
+			(at 169.291 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ADAU1761BCPZ"
+			(at 138.557 95.504 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ADAU1761BCPZ:CP-32-4_ADI"
+			(at 95.885 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "ADAU1761BCPZ"
+			(at 95.885 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.885 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "1d3fd810-a3b2-4396-876a-6e1ad459502f")
+		)
+		(pin "12"
+			(uuid "14efe360-ab61-4b10-9573-83815570590e")
+		)
+		(pin "14"
+			(uuid "f46050c2-02f3-4f7c-bdfa-0e2724df1c8a")
+		)
+		(pin "15"
+			(uuid "acb07da5-f243-4890-a41d-78ef303ee652")
+		)
+		(pin "16"
+			(uuid "58d6ee5b-66e0-463c-b5ab-17f1828b3dd3")
+		)
+		(pin "17"
+			(uuid "8dd00036-4e82-4229-93f6-db8108be2d69")
+		)
+		(pin "18"
+			(uuid "578f4eb4-b800-4050-b939-01521712ba15")
+		)
+		(pin "19"
+			(uuid "868aa97f-99e3-43de-9005-60a823960bec")
+		)
+		(pin "2"
+			(uuid "b6a32207-6a67-4858-bd68-22b9e0bed438")
+		)
+		(pin "20"
+			(uuid "ccdd9afe-82ee-4315-8dc0-4f093b53f11d")
+		)
+		(pin "21"
+			(uuid "ce7927c5-746a-45bf-b614-2fc527a37211")
+		)
+		(pin "22"
+			(uuid "8042833f-2c6f-4974-bbca-0000b5d2099f")
+		)
+		(pin "23"
+			(uuid "3307d5e2-4ad0-4ad4-bc5e-a0d1cf65bab8")
+		)
+		(pin "24"
+			(uuid "63be663a-53ad-4a16-af60-f141f2e265ef")
+		)
+		(pin "25"
+			(uuid "b5485ad3-8ae8-4ea5-8a62-4b266f4e6d16")
+		)
+		(pin "26"
+			(uuid "df1ee1e2-92fe-45d6-8f63-9aec20991299")
+		)
+		(pin "27"
+			(uuid "f3dd0a97-19dc-4485-8d6d-c3a1cc7bc131")
+		)
+		(pin "28"
+			(uuid "114738e0-4fce-48a1-9cc1-cfb44aed0edc")
+		)
+		(pin "31"
+			(uuid "0c61e6e6-3931-4275-a8c9-4c83cd26d0a6")
+		)
+		(pin "32"
+			(uuid "668cebcb-3c01-4679-80f4-3550b1ad8197")
+		)
+		(pin "33"
+			(uuid "88c55f1f-375f-4bb2-bd35-589ab0a4f4a4")
+		)
+		(pin "4"
+			(uuid "a9efbf4c-029a-4c75-8f94-bcb0c6436050")
+		)
+		(pin "5"
+			(uuid "27380c92-764c-4720-8566-d943e3d0ee98")
+		)
+		(pin "6"
+			(uuid "61f5fca8-9e6c-4835-abee-defe101aedd7")
+		)
+		(pin "7"
+			(uuid "51c54749-ed8f-47c1-b4e6-1f8c2cbc4e03")
+		)
+		(pin "8"
+			(uuid "90aa1c93-f1d0-4054-aae8-8aac3d3c6bc1")
+		)
+		(pin "9"
+			(uuid "5658a324-58ae-413e-8492-03de59966dae")
+		)
+		(pin "29"
+			(uuid "200daa1f-b85f-42f9-9450-b75a7dbf4b40")
+		)
+		(pin "3"
+			(uuid "88dee96b-e474-43eb-825b-02968c8a9a00")
+		)
+		(pin "30"
+			(uuid "242f937b-d5f0-429a-b8bf-b5e43d4c145e")
+		)
+		(pin "1"
+			(uuid "57540020-1532-4a17-b1a7-b2ced3d28380")
+		)
+		(pin "10"
+			(uuid "b0551227-6400-4c87-afa0-457d764c226f")
+		)
+		(pin "13"
+			(uuid "d1cc0183-b635-4038-8826-380b2cbe3ab2")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "U405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 133.985 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e41197bb-c76e-4616-adff-ed30dc42b149")
+		(property "Reference" "#PWR0471"
+			(at 133.985 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC3V3"
+			(at 129.667 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.985 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.985 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 133.985 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b44ba06-5429-4f6e-ab3f-53b66cbb0c96")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0471")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 159.385 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea60b2d3-50ed-407e-8807-d40491a67f95")
+		(property "Reference" "#PWR0478"
+			(at 159.385 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 159.385 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 159.385 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2ea474e-168d-4b8e-86b4-bf0602ebe861")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0478")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.155 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef72f7dc-3b5a-4e8a-8658-36eac969bb12")
+		(property "Reference" "#PWR0467"
+			(at 97.155 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.155 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.155 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.155 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "facc1ce9-1e45-4caf-8cba-ad046661b41b")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "#PWR0467")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 328.295 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f079a32e-a6bf-4cdf-b499-1cee2517f351")
+		(property "Reference" "FB405"
+			(at 328.3458 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 328.3458 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 328.295 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.295 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 328.295 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "526bfa06-afcc-43fb-a6a6-75b5744d6bcb")
+		)
+		(pin "2"
+			(uuid "3d804641-402e-487a-87fe-61433ac68c1e")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "FB405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 266.065 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2ec2220-bcf9-4f9f-b931-bed653c924af")
+		(property "Reference" "FB404"
+			(at 266.0142 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 266.0142 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 266.065 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.065 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 266.065 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d4a084a-38a5-4a76-912e-9b607dabf63d")
+		)
+		(pin "2"
+			(uuid "4f571eba-5d69-41b3-bacd-11b88ba29d51")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "FB404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 247.015 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4df83cb-d3ff-451e-ae1e-5c9beef5084b")
+		(property "Reference" "FB403"
+			(at 246.9642 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 246.9642 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 247.015 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.015 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 247.015 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8573f9f9-eed8-425b-8aaa-16e73e563a79")
+		)
+		(pin "2"
+			(uuid "29abff1a-ad64-40ba-9bbd-d8b96ec8f6bd")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "FB403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 65.405 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe08bd65-2493-4665-919d-4b2b2de2d6ec")
+		(property "Reference" "R441"
+			(at 65.405 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K/X 1%"
+			(at 65.405 54.61 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 65.405 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 65.405 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 65.405 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0366fd44-4cca-4d5e-8407-8a85722d8a11")
+		)
+		(pin "1"
+			(uuid "333dfcce-f41e-4cbe-9a34-378c21b0327e")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/e5f74a46-1f71-4732-854b-8cbc15a3c19c"
+					(reference "R441")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

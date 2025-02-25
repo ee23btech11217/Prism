@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_638667"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-25-04:24:27)
+    (utime 2024-01-17-10:37:21)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "PMBT3904_215")
+)
+
+
+(pinAssign "ECS_638667"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-25-04:24:27)
+    (utime 2024-01-17-10:37:21)
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_638667")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PMBT3904_215")
+)
+
+
+(part "PMBT3904_215"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-25-04:24:27)
+    (utime 2024-01-17-10:37:21)
+    (packageRef "PMBT3904_215")
+    (pinAssignRef "ECS_638667")
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "PMBT3904 - 40 V, 200 mA NPN switching transistor@en-us")
+    (property "Mouser_Part_Number" "771-PMBT3904-T/R")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PMBT3904215?qs=LOCUfHb8d9tXximHEgx1nw%3D%3D")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "PMBT3904,215")
+    (property "Datasheet_Link" "https://assets.nexperia.com/documents/data-sheet/PMBT3904.pdf")
+    (property "compAreaTopHeight" 1.1)
+)
+
+

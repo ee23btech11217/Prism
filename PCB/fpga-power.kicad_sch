@@ -39005,7 +39005,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ae10eda-bafa-4451-acf6-58e6e0181190")
 		(property "Reference" "U603"
 			(at 439.42 442.595 0)
@@ -39034,7 +39033,7 @@
 			)
 		)
 		(property "Datasheet" "NC7WZ07P6X"
-			(at 419.1 452.755 0)
+			(at 422.91 444.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43042,10 +43041,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "49ded925-e485-4f50-bc07-e800b7aa56ad")
+			(uuid "49ded925-e485-4f50-bc07-e800b7aa56ae")
 		)
 		(pin "2"
-			(uuid "a9e7c190-d619-4189-bee5-7c1cdb5c3493")
+			(uuid "a9e7c190-d619-4189-bee5-7c1cdb5c3494")
 		)
 		(instances
 			(project "gameboy"
@@ -44914,10 +44913,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "49ded925-e485-4f50-bc07-e800b7aa56ad")
+			(uuid "49ded925-e485-4f50-bc07-e800b7aa56af")
 		)
 		(pin "2"
-			(uuid "a9e7c190-d619-4189-bee5-7c1cdb5c3493")
+			(uuid "a9e7c190-d619-4189-bee5-7c1cdb5c3495")
 		)
 		(instances
 			(project "gameboy"

@@ -1,0 +1,16 @@
+.NC7WZ07P6X :1 ;Over-Voltage Tolerant Inputs Facilitate 5V to 3V Translation ; Ultra-Small MicroPak Packages; Proprietay Noise/EMI Reduction Circuitry ; Ultra-High Speed: tPZL 2.3ns (Typical) ; Power Down High Iimpedance Inputs/Outputs ; High IOL Output Drive: +24mA at 3V VCC ; Broad VCC Operating Range: 1.65V to 5.5V
+SOT65P210X110-6N
+*STM IC
+*NGS
+*PLB 1="A1" 2="GND" 3="A2" 4="Y2" 5="VCC" 6="Y1"
+*MXP 6
+*DFN NC7WZ07P6X
+~!Mouser Part Number (512-NC7WZ07P6X)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/NC7WZ07P6X?qs=utFvTgNEmG4U5hUjGf3BdQ%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (NC7WZ07P6X)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/NC7WZ07-D.PDF)
+~!Height (1.1mm)
+~!3D_Model (NC7WZ07P6X)
+NC7WZ07P6X
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

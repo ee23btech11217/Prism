@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NC7WZ07P6X"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-09-14:07:38)
+    (mountForm default
+        (footprintRef "SOT65P210X110-6N")
+        (spec "System")
+    )
+)
