@@ -1,9 +1,0 @@
-Manufacturer=Alliance Memory
-PartNumber=MT41K512M16HA-125 :A
-PartCategory=Integrated Circuit
-PackageCategory=BGA
-PinCount=96
-Version=3.1
-Released=2019-12-06 09:09:04
-Downloaded=2025-02-15 10:30:13
-3D=Y

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP NC7WZ07P6X
-D Over-Voltage Tolerant Inputs Facilitate 5V to 3V Translation ; Ultra-Small MicroPak Packages; Proprietay Noise/EMI Reduction Circuitry ; Ultra-High Speed: tPZL 2.3ns (Typical) ; Power Down High Iimpedance Inputs/Outputs ; High IOL Output Drive: +24mA at 3V VCC ; Broad VCC Operating Range: 1.65V to 5.5V
-K
-F https://www.onsemi.com/pub/Collateral/NC7WZ07-D.PDF
-$ENDCMP
-#
-#End Doc Library
