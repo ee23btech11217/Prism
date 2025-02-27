@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MT41K512M16HA-125__A
-D DRAM 8G 1.35V 512Mx16 800MHz DDR3 0C-90C
-K
-F https://www.alliancememory.com/wp-content/uploads/pdf/micron/Micron_8Gb_DDR3_SDRAM_PartNo.MT41K512M16HA-107_125.pdf
-$ENDCMP
-#
-#End Doc Library

@@ -1,9 +1,0 @@
-Manufacturer=Same Sky
-PartNumber=SJ-43515TS-SMT-TR
-PartCategory=Connector
-PackageCategory=Other
-PinCount=5
-Version=4.3
-Released=2019-03-27 12:54:23
-Downloaded=2025-02-15 04:00:00
-3D=Y
