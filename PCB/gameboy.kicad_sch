@@ -1,0 +1,284 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bfbf29d7-ad29-43e7-b23f-5805508cd3f0")
+	(paper "A4")
+	(title_block
+		(title "Overall")
+		(company "IITH")
+		(comment 1 "Prajwal M")
+	)
+	(lib_symbols)
+	(sheet
+		(at 77.47 78.105)
+		(size 27.305 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ea0a37b-ec3f-4963-a70d-616cc957f267")
+		(property "Sheetname" "FPGA power pins"
+			(at 77.47 77.3934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-power.kicad_sch"
+			(at 77.47 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.745 77.47)
+		(size 25.4 18.415)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74998a75-eba1-4786-934f-be9e13beb16e")
+		(property "Sheetname" "Audio"
+			(at 118.745 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 118.745 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 102.235)
+		(size 28.575 18.415)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "873f49b0-de10-4969-a045-ab304594bc32")
+		(property "Sheetname" "SD card"
+			(at 162.56 101.5234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd.kicad_sch"
+			(at 162.56 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 132.08)
+		(size 74.93 19.685)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a40e8631-6af3-4d0f-b1b9-51a13e66bfc2")
+		(property "Sheetname" "Power Management"
+			(at 76.2 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_management.kicad_sch"
+			(at 76.2 152.3496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 78.105)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a84ec7d4-6741-415a-8319-4dd33acfde3c")
+		(property "Sheetname" "Peripherals"
+			(at 111.76 77.3934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 111.76 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 173.99 132.08)
+		(size 26.035 19.685)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd3950dc-fcdc-4c6c-b6ed-362340a95212")
+		(property "Sheetname" "DDR"
+			(at 173.99 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR.kicad_sch"
+			(at 173.99 152.3496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 74.93)
+		(size 27.305 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe87c0f4-2fd1-406e-b634-b7f61870ec18")
+		(property "Sheetname" "Audio System"
+			(at 161.29 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "prism-audio.kicad_sch"
+			(at 161.29 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
