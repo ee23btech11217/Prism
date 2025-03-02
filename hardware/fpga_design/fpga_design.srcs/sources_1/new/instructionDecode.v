@@ -27,11 +27,11 @@ module instructionDecode (
     assign dest = ins[3:0];
     assign is_fb = ins[13];
     
-    wire isNegative = flags[1] & ins[16] & ins[15];
-    wire isZero = flags[0] & ~ins[16] & ~ins[15];
-    wire isUC = ins[17] & ins[16] & ~ins[15];
+    // wire isNegative = ;
+    // wire isZero = ;
+    // wire isUC = ;
 
-    assign is_jmp = (isNegative | isZero | isUC) & jumpIns;
+    assign is_jmp = (flags[1] & ins[16] & ins[15] | flags[0] & ~ins[16] & ~ins[15] | ins[17] & ins[16] & ~ins[15]) & jumpIns;
     assign halt = (ins[17] & ins[16] & ins[15] & ins[14]);
     assign reg_sel_1 = ins[11:8];
     assign reg_sel_2 = ins[7:4];

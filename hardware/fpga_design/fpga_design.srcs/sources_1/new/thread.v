@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps
 
+
 module thread #(parameter THREAD_ID = 7'b0)
     (
         input clk,
@@ -18,6 +19,7 @@ module thread #(parameter THREAD_ID = 7'b0)
     // Ins Decode and pipelines
     reg [17:0] ins_pipeline;
     reg [17:0] instruction_reg;
+    reg halt_reg;
     wire [3:0] reg_sel_1;
     wire [3:0] reg_sel_2;
     wire [2:0] alu_sel;
@@ -28,6 +30,8 @@ module thread #(parameter THREAD_ID = 7'b0)
     wire is_fb;
     wire is_jmp;
     wire halt;
+
+
 
     wire neg_out, zero_out;  
 
@@ -70,7 +74,6 @@ module thread #(parameter THREAD_ID = 7'b0)
     registerFile#(.THREAD_ID ( THREAD_ID )) threadRegisterFile(
         .clk (clk),
         .rst (rst),
-        .halt (halt),
         .chunkID (chunkID),
         .raddr1 (reg_sel_1),
         .raddr2 (reg_sel_2),
@@ -105,7 +108,7 @@ module thread #(parameter THREAD_ID = 7'b0)
         .clk(clk),
         .rst(rst),
         .imm(imm),
-        .halt(halt),
+        .halt(halt_reg),
         .is_jmp(is_jmp),
         .prog_addrs(program_counter_addr)
     );
@@ -119,5 +122,10 @@ module thread #(parameter THREAD_ID = 7'b0)
         .wr_data (wdata)
     );
 
-
+    always @ (posedge halt or posedge rst) begin : haltTrigger
+        if (rst) begin :haltRst
+            halt_reg <= 1'b0;
+        end
+        else halt_reg <= 1'b1;
+    end
 endmodule

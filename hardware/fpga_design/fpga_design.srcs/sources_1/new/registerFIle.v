@@ -5,7 +5,6 @@ module registerFile
 (
     input wire clk,
     input wire rst,
-    input wire halt,
     input wire [1:0] chunkID,
     input wire [3:0] raddr1,
     input wire [3:0] raddr2,
@@ -28,7 +27,7 @@ module registerFile
                 r[waddr] <= wdata;
             end
             else if (waddr == 4'd14) begin : writeMetaRegisterFile
-                r[14] <= {22'b0, halt, chunkID, THREAD_ID};
+                r[14] <= {23'b0, chunkID, THREAD_ID};
             end
         end
     end

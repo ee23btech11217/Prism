@@ -15,13 +15,12 @@ module alu(
     reg is_neg;
     reg is_zero;
     reg [31:0] temp;
-    reg carry;
+    reg ceff; 
     wire [31:0] shift_res;
     
     assign n = is_neg;
     assign ze = is_zero;
     assign alu_res = temp;
-    assign carry_out = carry;
 
     barrelShifter alu_shift(
                     .d_in(op1),
@@ -31,16 +30,17 @@ module alu(
 
     always @(*) 
     begin :aluSelBlock
-        is_neg = temp[31];
-        is_zero = ~|temp;
+        ceff <= (~alu_sel[2] & alu_sel[1] & alu_sel[0]);
+        is_neg <= temp[31];
+        is_zero <= ~|temp;
         case (alu_sel)
             3'b000: 
             begin : addSelectBlock
-                {carry, temp} = op1 + op2;
+                temp = op1 + op2 + ceff;
             end
             3'b001: 
             begin : subSelectBlock
-                {carry, temp} <= op2 - op1;
+                temp <= op2 - op1;
             end 
             3'b100: 
             begin : shiftSelectBlock

@@ -31,8 +31,15 @@ reg [23:0] file_data;
 reg [17:0] instruction_mem [0:2047]; // Instruction memory array
 
 integer i;
+integer idx;
+
 
 initial begin
+  $dumpfile("thread_tb.vcd");
+  $dumpvars(0, thread_tb);
+  for (idx = 0; idx < 15; idx = idx + 1)
+    $dumpvars(0,thread_tb.uut.threadRegisterFile.r[idx]);
+
 // Initialize clock and reset
  clk = 0;
  rst = 1;
@@ -42,7 +49,7 @@ initial begin
  chunkID = 2'b0;
 
 // Open the file for reading
- file = $fopen("loops.bin", "rb");
+ file = $fopen("asm_test/a.out", "rb");
 if (file == 0) begin
 $display("Error: Could not open file");
 $finish;
@@ -73,9 +80,6 @@ always @(posedge clk) begin
   instruction = instruction_mem[prog_mem_addr];
 end
 
-// Dump waveform
-initial begin
-$dumpfile("thread_tb.vcd");
-$dumpvars(0, thread_tb);
-end
+
+
 endmodule
