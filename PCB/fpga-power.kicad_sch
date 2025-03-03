@@ -18643,12 +18643,6 @@
 		(uuid "294f7843-e624-44d6-87e2-0844b56e0d88")
 	)
 	(junction
-		(at 107.315 188.595)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b1e8ccf-355b-40bb-a596-155518ff5961")
-	)
-	(junction
 		(at 39.37 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18731,12 +18725,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4080c63b-77b4-4d96-877d-4d82608ce3eb")
-	)
-	(junction
-		(at 220.98 76.835)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4084526a-9af6-4aee-bd7a-07af876d460b")
 	)
 	(junction
 		(at 220.98 76.835)
@@ -18851,12 +18839,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "571a4ee5-bec1-49c6-a4e0-ce514ce94201")
-	)
-	(junction
-		(at 101.6 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b98fc73-760b-4a7e-82f4-5f4da7b55ba5")
 	)
 	(junction
 		(at 39.37 57.15)
@@ -19321,12 +19303,6 @@
 		(uuid "ae5b6cb5-eab9-4499-abe0-4cf0f2111c0f")
 	)
 	(junction
-		(at 264.795 41.275)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae5b6cb5-eab9-4499-abe0-4cf0f2111c0f")
-	)
-	(junction
 		(at 93.345 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19423,12 +19399,6 @@
 		(uuid "c4bc9a61-55c0-4320-8ce1-09fbee51bd7f")
 	)
 	(junction
-		(at 39.37 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c53793a2-74e9-4363-a18d-54b3cd234e9c")
-	)
-	(junction
 		(at 48.895 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19499,12 +19469,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2b3f637-ade3-400d-9d2b-d0c3882d6b49")
-	)
-	(junction
-		(at 154.94 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2ed49aa-0665-4979-a111-b3f0146b43cd")
 	)
 	(junction
 		(at 154.94 139.7)
@@ -20320,16 +20284,6 @@
 	)
 	(wire
 		(pts
-			(xy 490.855 40.64) (xy 490.855 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f642a4-b1f5-4ecf-9c66-1f9aa065e84d")
-	)
-	(wire
-		(pts
 			(xy 115.57 66.04) (xy 121.92 66.04)
 		)
 		(stroke
@@ -20337,16 +20291,6 @@
 			(type default)
 		)
 		(uuid "043939c8-5002-46b0-af42-7a69b2a32dde")
-	)
-	(wire
-		(pts
-			(xy 154.94 91.44) (xy 154.94 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05290c3f-fed7-4c0c-89bb-a986167b7155")
 	)
 	(wire
 		(pts
@@ -20820,7 +20764,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 104.14) (xy 154.94 109.22)
+			(xy 154.94 104.14) (xy 154.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -20897,6 +20841,16 @@
 			(type default)
 		)
 		(uuid "18a91e49-a8f3-4127-88db-d35e58610310")
+	)
+	(wire
+		(pts
+			(xy 154.94 48.26) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d56c3f-97b5-4b7f-9424-01180c478207")
 	)
 	(wire
 		(pts
@@ -21280,7 +21234,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 154.94 81.28)
+			(xy 154.94 78.74) (xy 154.94 88.9)
 		)
 		(stroke
 			(width 0)
@@ -21430,16 +21384,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 76.835) (xy 222.885 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328d6e0b-37f0-4953-9b9e-7193400fe059")
-	)
-	(wire
-		(pts
 			(xy 109.22 45.72) (xy 109.22 48.26)
 		)
 		(stroke
@@ -21447,16 +21391,6 @@
 			(type default)
 		)
 		(uuid "33b7e29d-6105-4c42-aae4-c64f47a244d0")
-	)
-	(wire
-		(pts
-			(xy 154.94 50.8) (xy 154.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34da9279-ad54-4270-b730-fe9d50b0be74")
 	)
 	(wire
 		(pts
@@ -21540,7 +21474,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 188.595) (xy 107.315 188.595)
+			(xy 100.965 188.595) (xy 113.665 188.595)
 		)
 		(stroke
 			(width 0)
@@ -21890,7 +21824,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 36.83) (xy 146.05 36.83)
+			(xy 138.43 36.83) (xy 142.24 36.83)
 		)
 		(stroke
 			(width 0)
@@ -22400,7 +22334,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 119.38) (xy 154.94 127)
+			(xy 154.94 119.38) (xy 154.94 124.46)
 		)
 		(stroke
 			(width 0)
@@ -22717,6 +22651,16 @@
 			(type default)
 		)
 		(uuid "643d7816-3061-44fa-b9a6-593dea922d69")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6466ba50-ffce-47c4-865d-d3131ec59236")
 	)
 	(wire
 		(pts
@@ -23130,16 +23074,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738c193e-8606-4fcf-bf53-e652c6e7cc3d")
-	)
-	(wire
-		(pts
 			(xy 39.37 133.35) (xy 39.37 135.89)
 		)
 		(stroke
@@ -23347,6 +23281,16 @@
 			(type default)
 		)
 		(uuid "7a40d11b-4378-402e-9ff9-f6ab6a4c013c")
+	)
+	(wire
+		(pts
+			(xy 154.94 124.46) (xy 154.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac401f5-9e2f-4a97-952e-021b6efe44cd")
 	)
 	(bus
 		(pts
@@ -23560,16 +23504,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 154.94 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82dfb44b-8b99-495e-9298-e6428994ef54")
-	)
-	(wire
-		(pts
 			(xy 363.855 113.665) (xy 363.855 116.205)
 		)
 		(stroke
@@ -23750,6 +23684,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 36.83) (xy 146.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8969204c-e727-4ed9-89b8-472d09b5a342")
+	)
+	(wire
+		(pts
 			(xy 635 367.665) (xy 642.62 367.665)
 		)
 		(stroke
@@ -23910,6 +23854,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 139.7) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe7229b-2c4c-4d18-bff4-fb7a5774b527")
+	)
+	(wire
+		(pts
 			(xy 39.37 143.51) (xy 39.37 146.05)
 		)
 		(stroke
@@ -24010,7 +23964,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 132.08) (xy 154.94 142.24)
+			(xy 154.94 132.08) (xy 154.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -24200,23 +24154,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 128.27) (xy 39.37 130.81)
+			(xy 39.37 125.73) (xy 39.37 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e6df7e4-d9f2-45e8-a740-2766239e2b66")
-	)
-	(wire
-		(pts
-			(xy 39.37 125.73) (xy 39.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f22f689-7c37-4b67-ace1-3fb53bbd8cab")
 	)
 	(wire
 		(pts
@@ -24270,6 +24214,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 91.44) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f2ff5f-05ae-4286-a68a-28b78cc97178")
+	)
+	(wire
+		(pts
+			(xy 154.94 137.16) (xy 154.94 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21ca164-8c70-4759-96c0-bdaabec502af")
+	)
+	(wire
+		(pts
 			(xy 518.16 385.445) (xy 518.16 389.255)
 		)
 		(stroke
@@ -24320,6 +24284,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 106.68) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a63315-c898-4e7e-94cc-00fd4a39804f")
+	)
+	(wire
+		(pts
 			(xy 468.63 473.075) (xy 472.44 473.075)
 		)
 		(stroke
@@ -24347,16 +24321,6 @@
 			(type default)
 		)
 		(uuid "a6630be2-2a1a-4efc-b736-3ef126a79b61")
-	)
-	(wire
-		(pts
-			(xy 154.94 45.72) (xy 154.94 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d7b6c9-f822-4f77-a44c-d32fe32f43c9")
 	)
 	(wire
 		(pts
@@ -24440,7 +24404,7 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 396.875) (xy 518.16 396.875)
+			(xy 504.19 396.875) (xy 510.54 396.875)
 		)
 		(stroke
 			(width 0)
@@ -25308,6 +25272,16 @@
 		)
 		(uuid "c6f035ab-5173-4184-8703-c2bcf43cc23f")
 	)
+	(wire
+		(pts
+			(xy 154.94 134.62) (xy 154.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c799abc1-3c19-4f07-8942-2707b949e93a")
+	)
 	(bus
 		(pts
 			(xy 360.68 216.535) (xy 360.68 217.805)
@@ -25336,17 +25310,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cac59e83-d8e4-4838-a951-3d05739ba656")
-	)
-	(wire
-		(pts
-			(xy 114.3 144.78) (xy 121.92 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb1b2361-7cb5-4c66-b8c7-cfb413ea6ba2")
+		(uuid "cac59e83-d8e4-4838-a951-3d05739ba657")
 	)
 	(wire
 		(pts
@@ -25367,16 +25331,6 @@
 			(type default)
 		)
 		(uuid "cb4fa102-a6c6-4c6f-9546-b1835463a910")
-	)
-	(wire
-		(pts
-			(xy 154.94 106.68) (xy 154.94 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbbf3c36-7ef0-4598-8c5a-dd36436ba436")
 	)
 	(wire
 		(pts
@@ -25870,16 +25824,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 154.94 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd633ecd-4173-4c46-a462-b4e3a15371df")
-	)
-	(wire
-		(pts
 			(xy 154.94 45.72) (xy 154.94 48.26)
 		)
 		(stroke
@@ -26290,16 +26234,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.315 188.595) (xy 113.665 188.595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef84f6be-1b86-48a7-8b73-42f5f48ddc6f")
-	)
-	(wire
-		(pts
 			(xy 552.45 346.075) (xy 546.1 346.075)
 		)
 		(stroke
@@ -26430,16 +26364,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.935 191.135) (xy 251.46 191.135)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56e4043-e90e-41fe-a12c-dd98e94bf3ee")
-	)
-	(wire
-		(pts
 			(xy 154.94 33.02) (xy 154.94 35.56)
 		)
 		(stroke
@@ -26537,16 +26461,6 @@
 			(type default)
 		)
 		(uuid "f98f48e4-53b2-4d53-9f5a-3fc4671653e8")
-	)
-	(wire
-		(pts
-			(xy 240.665 180.975) (xy 251.46 180.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ed2626-154d-4106-817e-bd00e5e42dfd")
 	)
 	(wire
 		(pts
@@ -29780,7 +29694,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "#PWR0619")
 					(unit 1)
@@ -31451,7 +31365,7 @@
 			(uuid "9476889f-1100-439b-9d3c-6187161eb2ae")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "LED601")
 					(unit 1)
@@ -32986,7 +32900,7 @@
 			(uuid "6dd1b79c-4d05-4ecb-85c4-708a5fb10925")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "U601")
 					(unit 5)
@@ -34665,7 +34579,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C636")
 					(unit 1)
@@ -35662,7 +35576,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C639")
 					(unit 1)
@@ -36149,7 +36063,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C629")
 					(unit 1)
@@ -36354,7 +36268,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "#PWR0618")
 					(unit 1)
@@ -36429,7 +36343,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C619")
 					(unit 1)
@@ -37906,7 +37820,7 @@
 					(unit 7)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "U601")
 					(unit 7)
@@ -37981,7 +37895,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C630")
 					(unit 1)
@@ -38396,7 +38310,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C640")
 					(unit 1)
@@ -38471,7 +38385,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C620")
 					(unit 1)
@@ -38546,7 +38460,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C633")
 					(unit 1)
@@ -39178,7 +39092,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C624")
 					(unit 1)
@@ -39253,7 +39167,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C628")
 					(unit 1)
@@ -39738,7 +39652,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C632")
 					(unit 1)
@@ -41716,7 +41630,7 @@
 			(uuid "32bd32b8-9957-4e7d-a472-f8393ebc307f")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "Y602")
 					(unit 1)
@@ -42539,7 +42453,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C641")
 					(unit 1)
@@ -42804,10 +42718,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "49ded925-e485-4f50-bc07-e800b7aa56ad")
+			(uuid "49ded925-e485-4f50-bc07-e800b7aa56ae")
 		)
 		(pin "2"
-			(uuid "a9e7c190-d619-4189-bee5-7c1cdb5c3493")
+			(uuid "a9e7c190-d619-4189-bee5-7c1cdb5c3494")
 		)
 		(instances
 			(project "gameboy"
@@ -44279,7 +44193,7 @@
 			(uuid "6dd1b79c-4d05-4ecb-85c4-708a5fb10928")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "U601")
 					(unit 8)
@@ -44676,10 +44590,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "49ded925-e485-4f50-bc07-e800b7aa56ad")
+			(uuid "49ded925-e485-4f50-bc07-e800b7aa56af")
 		)
 		(pin "2"
-			(uuid "a9e7c190-d619-4189-bee5-7c1cdb5c3493")
+			(uuid "a9e7c190-d619-4189-bee5-7c1cdb5c3495")
 		)
 		(instances
 			(project "gameboy"
@@ -44757,7 +44671,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C643")
 					(unit 1)
@@ -44970,7 +44884,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C625")
 					(unit 1)
@@ -45708,7 +45622,7 @@
 			(uuid "3c9a9759-2f79-4a3f-9196-0e7943d7958b")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "#PWR0615")
 					(unit 1)
@@ -47654,7 +47568,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C637")
 					(unit 1)
@@ -47797,7 +47711,7 @@
 			(uuid "a9e86c0c-6dca-4e6e-b850-e0384f62177a")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "J601")
 					(unit 1)
@@ -49069,7 +48983,7 @@
 					(unit 6)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "U601")
 					(unit 6)
@@ -49615,7 +49529,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "FB601")
 					(unit 1)
@@ -50089,7 +50003,7 @@
 			(uuid "8044009d-96dd-4ffd-bfaf-8b6b8fb4762b")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "#PWR0646")
 					(unit 1)
@@ -50159,7 +50073,7 @@
 			(uuid "0d5fb87d-d9bb-41e7-9d0c-331118feda83")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "J602")
 					(unit 1)
@@ -50365,7 +50279,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "#PWR0604")
 					(unit 1)
@@ -50509,7 +50423,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C644")
 					(unit 1)
@@ -51056,7 +50970,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "#PWR0617")
 					(unit 1)
@@ -51131,7 +51045,7 @@
 					(unit 1)
 				)
 			)
-			(project "power"
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "C634")
 					(unit 1)
@@ -51941,7 +51855,7 @@
 			(uuid "d302ba8b-d813-4dd0-bf8f-77e5a33b495a")
 		)
 		(instances
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "#PWR0650")
 					(unit 1)
@@ -52281,7 +52195,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/2ea0a37b-ec3f-4963-a70d-616cc957f267"
 					(reference "#PWR0626")
 					(unit 1)

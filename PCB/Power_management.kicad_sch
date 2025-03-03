@@ -4960,6 +4960,12 @@
 		(uuid "b3bb9f80-79a1-4fa0-9afe-cdb5aba4b0fa")
 	)
 	(junction
+		(at 306.07 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4b60460-8c71-488b-9d5c-c43f8f59a84a")
+	)
+	(junction
 		(at 466.09 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5292,6 +5298,16 @@
 			(type default)
 		)
 		(uuid "09af1539-4704-48f3-9ded-8d636f075f28")
+	)
+	(wire
+		(pts
+			(xy 306.07 186.69) (xy 306.705 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd871b7-0adc-48dd-81f7-6a6c8a6b3b34")
 	)
 	(wire
 		(pts
@@ -6065,7 +6081,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 186.69) (xy 306.705 186.69)
+			(xy 300.99 186.69) (xy 306.07 186.69)
 		)
 		(stroke
 			(width 0)
@@ -10403,7 +10419,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 306.705 189.23 0)
+		(at 306.07 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10411,7 +10427,7 @@
 		(dnp no)
 		(uuid "3f4e5e75-bd12-41bb-9903-c949a0310a44")
 		(property "Reference" "C441"
-			(at 309.88 189.2362 0)
+			(at 309.245 189.2362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10437,7 @@
 			)
 		)
 		(property "Value" "22uF 25V 0805"
-			(at 309.88 190.5062 0)
+			(at 309.245 190.5062 0)
 			(effects
 				(font
 					(size 0.254 0.254)
@@ -10430,7 +10446,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 306.705 189.23 0)
+			(at 306.07 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +10455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.705 189.23 0)
+			(at 306.07 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +10464,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 306.705 189.23 0)
+			(at 306.07 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17356,6 +17372,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 300.99 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baa39c61-b5e6-451a-96c1-321b1119fc50")
+		(property "Reference" "#PWR01"
+			(at 300.99 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 300.99 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 300.99 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79bf16bb-4088-4780-ace3-08e52c664e49")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/a40e8631-6af3-4d0f-b1b9-51a13e66bfc2"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002E")
 		(at 256.54 220.345 0)
 		(unit 1)
@@ -17638,6 +17720,72 @@
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/a40e8631-6af3-4d0f-b1b9-51a13e66bfc2"
 					(reference "L402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 306.07 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf60561b-c3fe-478d-a68d-33edd9a404eb")
+		(property "Reference" "#PWR02"
+			(at 306.07 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e911ae4-5fd5-4523-943b-241158c2e507")
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/a40e8631-6af3-4d0f-b1b9-51a13e66bfc2"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
