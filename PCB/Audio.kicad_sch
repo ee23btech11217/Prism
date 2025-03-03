@@ -12122,6 +12122,10 @@
 		(uuid "4f065818-268c-413e-a5b7-be076a24627d")
 	)
 	(no_connect
+		(at 50.8 74.93)
+		(uuid "54f47523-edbb-46f7-97a1-7812cda302cf")
+	)
+	(no_connect
 		(at 50.8 49.53)
 		(uuid "5616b9e9-322a-4edd-a53c-7d4b0abd1ab6")
 	)
@@ -13912,26 +13916,6 @@
 		(uuid "2604cd5f-5b10-4f77-be67-4d5e429e0c11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.8 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IR_RX"
-		(shape input)
-		(at 50.8 74.93 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "3023f9f9-d4b6-4b6f-bbaa-8b7c90970d20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
