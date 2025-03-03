@@ -11931,6 +11931,10 @@
 		(uuid "51afd4f3-b9e0-40d4-8b45-a056c1cd55ed")
 	)
 	(no_connect
+		(at 163.83 130.81)
+		(uuid "58d87502-375c-4d91-8651-0425f3811bc1")
+	)
+	(no_connect
 		(at 92.71 130.175)
 		(uuid "5c0e44c3-9d43-4456-9f2c-9e403a67bc4f")
 	)
@@ -11951,6 +11955,10 @@
 		(uuid "8db5d75a-a4b2-4018-9dc4-e4ad7ccbe02e")
 	)
 	(no_connect
+		(at 163.83 133.35)
+		(uuid "9471c7a3-0085-4d5f-bd6f-757a7a3bc579")
+	)
+	(no_connect
 		(at 163.83 151.13)
 		(uuid "955de8aa-ff20-4bed-a40f-bbbe54de46c8")
 	)
@@ -11967,8 +11975,16 @@
 		(uuid "c4a126a3-45af-4e3e-a019-525039c838b6")
 	)
 	(no_connect
+		(at 163.83 128.27)
+		(uuid "cbbd2718-e9ef-44a6-87a8-32a0174f9afa")
+	)
+	(no_connect
 		(at 163.83 44.45)
 		(uuid "cfe32285-0fcf-40e4-b4ef-bd2ba2f447c2")
+	)
+	(no_connect
+		(at 163.83 125.73)
+		(uuid "eab86f7b-ca8f-4629-aaf4-d8eaddf23aae")
 	)
 	(no_connect
 		(at 163.83 148.59)
@@ -12498,16 +12514,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 125.73) (xy 163.83 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c3415c9-979d-4a3b-a1c8-dc9024227d45")
-	)
-	(wire
-		(pts
 			(xy 85.725 74.295) (xy 92.71 74.295)
 		)
 		(stroke
@@ -12598,16 +12604,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 167.005) (xy 85.09 167.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "230c2c86-9c7d-4046-9364-f622c1238ad4")
-	)
-	(wire
-		(pts
 			(xy 73.025 174.625) (xy 85.09 174.625)
 		)
 		(stroke
@@ -12625,16 +12621,6 @@
 			(type default)
 		)
 		(uuid "272f6f1c-97d8-4e2f-a48f-2d560757c716")
-	)
-	(wire
-		(pts
-			(xy 151.765 133.35) (xy 163.83 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2973f4a1-eb86-4b11-b659-2d7fe5ddd052")
 	)
 	(wire
 		(pts
@@ -12705,6 +12691,16 @@
 			(type default)
 		)
 		(uuid "31be2251-8cec-42ba-abc3-134be612e954")
+	)
+	(bus
+		(pts
+			(xy 153.035 57.15) (xy 153.035 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321451cb-d3dc-417f-b1dd-eb079dacdb4e")
 	)
 	(wire
 		(pts
@@ -12926,16 +12922,6 @@
 		)
 		(uuid "4dd70522-7553-4d72-9f68-70455ecd841b")
 	)
-	(wire
-		(pts
-			(xy 151.765 130.81) (xy 163.83 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1bbe1e-ecde-43b3-8956-d4906454958c")
-	)
 	(bus
 		(pts
 			(xy 83.185 69.215) (xy 83.185 70.485)
@@ -13076,16 +13062,6 @@
 		)
 		(uuid "5e93f02c-37b1-47ca-ba2c-79dbc09c3fb8")
 	)
-	(bus
-		(pts
-			(xy 153.035 54.61) (xy 153.035 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6113875a-76a2-4a99-af41-d61dcb0a0c34")
-	)
 	(wire
 		(pts
 			(xy 155.575 102.87) (xy 163.83 102.87)
@@ -13195,6 +13171,16 @@
 			(type default)
 		)
 		(uuid "6bda228a-e6f5-4698-a506-5a906849f2dd")
+	)
+	(wire
+		(pts
+			(xy 73.025 167.005) (xy 85.09 167.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6def55e7-d425-40fa-bc0d-65517713c42c")
 	)
 	(bus
 		(pts
@@ -13698,7 +13684,7 @@
 	)
 	(bus
 		(pts
-			(xy 153.035 57.15) (xy 153.035 59.69)
+			(xy 153.035 54.61) (xy 153.035 57.15)
 		)
 		(stroke
 			(width 0)
@@ -13918,7 +13904,7 @@
 	)
 	(bus
 		(pts
-			(xy 153.035 74.93) (xy 153.035 77.47)
+			(xy 153.035 72.39) (xy 153.035 74.93)
 		)
 		(stroke
 			(width 0)
@@ -14106,6 +14092,16 @@
 		)
 		(uuid "eb2eb846-4b7a-44ad-8bdd-010f76e719ab")
 	)
+	(bus
+		(pts
+			(xy 153.035 74.93) (xy 153.035 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec58bcff-2649-4aef-9455-f21c79dd5923")
+	)
 	(wire
 		(pts
 			(xy 85.725 99.695) (xy 92.71 99.695)
@@ -14198,16 +14194,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.765 128.27) (xy 163.83 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f489bb99-5842-4cc1-b256-1e8e71319152")
-	)
-	(wire
-		(pts
 			(xy 189.23 176.53) (xy 189.23 179.07)
 		)
 		(stroke
@@ -14275,16 +14261,6 @@
 			(type default)
 		)
 		(uuid "fd622c2c-d698-447c-b58b-8fa0702439ef")
-	)
-	(bus
-		(pts
-			(xy 153.035 72.39) (xy 153.035 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb3c2e4-1bbb-49c3-8125-7476b22db311")
 	)
 	(text "JOYSTICK\n"
 		(exclude_from_sim no)
@@ -14518,17 +14494,6 @@
 		)
 		(uuid "4f37fff8-477d-4e34-8ae8-22fd2a667f57")
 	)
-	(label "JOYSCK"
-		(at 73.025 174.625 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50e2b196-b37f-4615-8758-a239d094a600")
-	)
 	(label "LCDGREEN5"
 		(at 163.83 82.55 0)
 		(fields_autoplaced yes)
@@ -14584,17 +14549,6 @@
 		)
 		(uuid "55fdbc12-2c9d-423f-a451-6a12b3b2b887")
 	)
-	(label "JOYMISO"
-		(at 151.765 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "597146cb-70a6-4d13-a388-55191e141de3")
-	)
 	(label "LCDBLUE1"
 		(at 92.71 97.155 0)
 		(fields_autoplaced yes)
@@ -14616,17 +14570,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f828196-0f22-42ab-8032-59d0f2c73369")
-	)
-	(label "JOYSCK"
-		(at 151.765 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c15088c-0758-41f3-beb1-110160a6f34c")
 	)
 	(label "LCDRED3"
 		(at 92.71 61.595 0)
@@ -14693,17 +14636,6 @@
 			(justify left bottom)
 		)
 		(uuid "7c648dd6-98c8-4851-871d-d57f113618b5")
-	)
-	(label "JOYMOSI"
-		(at 151.765 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80a925df-9b1e-4e82-be8a-6846a380262c")
 	)
 	(label "LCDGREEN0"
 		(at 163.83 69.85 0)
@@ -14782,17 +14714,6 @@
 		)
 		(uuid "965cb3ab-1ad1-4fff-8c91-43876206aa9f")
 	)
-	(label "JOYCS"
-		(at 73.025 167.005 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a5aefe6-d082-4788-bde1-913ec36766ec")
-	)
 	(label "LCDGREEN2"
 		(at 163.83 74.93 0)
 		(fields_autoplaced yes)
@@ -14803,17 +14724,6 @@
 			(justify left bottom)
 		)
 		(uuid "9b57ff60-f6fa-4244-909a-541718e62d4d")
-	)
-	(label "JOYMOSI"
-		(at 73.025 169.545 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f95fbc5-aacb-477e-8803-74e4b9118824")
 	)
 	(label "LCDBLUE6"
 		(at 163.83 105.41 0)
@@ -14936,17 +14846,6 @@
 		)
 		(uuid "c55d4f94-c8a7-4837-9013-354dc83741dc")
 	)
-	(label "JOYMISO"
-		(at 73.025 172.085 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd9c3e7c-a7f7-4bfc-92b8-5e96f0d7f655")
-	)
 	(label "LCDDHSYNC"
 		(at 142.875 115.57 0)
 		(fields_autoplaced yes)
@@ -15012,17 +14911,6 @@
 			(justify left bottom)
 		)
 		(uuid "edca2036-d206-4134-9f3f-8c124d810559")
-	)
-	(label "JOYCS"
-		(at 151.765 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef575c64-2689-46b5-8971-d8c58d3389f9")
 	)
 	(label "LCDRED6"
 		(at 163.83 64.77 0)
@@ -15112,6 +15000,28 @@
 		)
 		(uuid "fdf48bdd-0661-48af-b612-51b7d7afc3d9")
 	)
+	(global_label "JOYCS"
+		(shape input)
+		(at 73.025 167.005 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "006c84f2-23a4-4264-a5d1-1d95686a7fd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.8278 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCDGREEN[0..7]"
 		(shape input)
 		(at 78.105 71.755 180)
@@ -15147,6 +15057,28 @@
 		(uuid "23fc6a35-241a-4bb7-9c04-5699d7aec0e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.0449 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JOYSCK"
+		(shape input)
+		(at 73.025 174.625 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "493415ff-1325-4f7d-ae88-ef042e95e3e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5578 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15222,6 +15154,28 @@
 			)
 		)
 	)
+	(global_label "JOYMOSI"
+		(shape input)
+		(at 73.025 169.545 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97211ba1-d13d-467b-9dda-4bd7e34a7507")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.7111 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCDBLUE[0..7]"
 		(shape input)
 		(at 78.105 92.075 180)
@@ -15282,6 +15236,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JOYMISO"
+		(shape input)
+		(at 73.025 172.085 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d328e1e4-bce7-42fb-af92-aedf45f7e36e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.7111 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20080,7 +20056,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 43.18 270)
+		(at 254.635 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20088,7 +20064,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f4cf")
 		(property "Reference" "#PWR0287"
-			(at 281.94 43.18 0)
+			(at 248.285 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20097,7 +20073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 43.18 0)
+			(at 250.825 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20105,7 +20081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 43.18 0)
+			(at 254.635 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20113,7 +20089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 43.18 0)
+			(at 254.635 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20121,7 +20097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 43.18 0)
+			(at 254.635 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20143,7 +20119,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 45.72 270)
+		(at 254.635 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20151,7 +20127,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f4d9")
 		(property "Reference" "#PWR0288"
-			(at 281.94 45.72 0)
+			(at 248.285 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20160,7 +20136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 45.72 0)
+			(at 250.825 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20168,7 +20144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 45.72 0)
+			(at 254.635 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20176,7 +20152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 45.72 0)
+			(at 254.635 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20184,7 +20160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 45.72 0)
+			(at 254.635 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20206,7 +20182,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 48.26 270)
+		(at 254.635 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20214,7 +20190,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f4e3")
 		(property "Reference" "#PWR0289"
-			(at 281.94 48.26 0)
+			(at 248.285 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20223,7 +20199,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 48.26 0)
+			(at 250.825 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20231,7 +20207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 48.26 0)
+			(at 254.635 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20239,7 +20215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 48.26 0)
+			(at 254.635 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20247,7 +20223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 48.26 0)
+			(at 254.635 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20269,7 +20245,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 50.8 270)
+		(at 254.635 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20277,7 +20253,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f4ed")
 		(property "Reference" "#PWR0290"
-			(at 281.94 50.8 0)
+			(at 248.285 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20286,7 +20262,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 50.8 0)
+			(at 250.825 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20294,7 +20270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 50.8 0)
+			(at 254.635 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20302,7 +20278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 50.8 0)
+			(at 254.635 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20310,7 +20286,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 50.8 0)
+			(at 254.635 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20332,7 +20308,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 53.34 270)
+		(at 254.635 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20340,7 +20316,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f4f7")
 		(property "Reference" "#PWR0291"
-			(at 281.94 53.34 0)
+			(at 248.285 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20349,7 +20325,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 53.34 0)
+			(at 250.825 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20357,7 +20333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 53.34 0)
+			(at 254.635 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20365,7 +20341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 53.34 0)
+			(at 254.635 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20373,7 +20349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 53.34 0)
+			(at 254.635 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20395,7 +20371,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 55.88 270)
+		(at 254.635 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20403,7 +20379,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f501")
 		(property "Reference" "#PWR0292"
-			(at 281.94 55.88 0)
+			(at 248.285 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20412,7 +20388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 55.88 0)
+			(at 250.825 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20420,7 +20396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 55.88 0)
+			(at 254.635 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20428,7 +20404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 55.88 0)
+			(at 254.635 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20436,7 +20412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 55.88 0)
+			(at 254.635 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20458,7 +20434,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 58.42 270)
+		(at 254.635 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20466,7 +20442,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f50b")
 		(property "Reference" "#PWR0293"
-			(at 281.94 58.42 0)
+			(at 248.285 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20475,7 +20451,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 58.42 0)
+			(at 250.825 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20483,7 +20459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 58.42 0)
+			(at 254.635 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20491,7 +20467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 58.42 0)
+			(at 254.635 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20499,7 +20475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 58.42 0)
+			(at 254.635 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20521,7 +20497,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 60.96 270)
+		(at 254.635 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20529,7 +20505,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f515")
 		(property "Reference" "#PWR0294"
-			(at 281.94 60.96 0)
+			(at 248.285 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20538,7 +20514,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 60.96 0)
+			(at 250.825 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20546,7 +20522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 60.96 0)
+			(at 254.635 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20554,7 +20530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 60.96 0)
+			(at 254.635 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20562,7 +20538,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 60.96 0)
+			(at 254.635 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20584,7 +20560,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 63.5 270)
+		(at 254.635 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20592,7 +20568,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f51f")
 		(property "Reference" "#PWR0295"
-			(at 281.94 63.5 0)
+			(at 248.285 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20601,7 +20577,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 63.5 0)
+			(at 250.825 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20609,7 +20585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 63.5 0)
+			(at 254.635 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +20593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 63.5 0)
+			(at 254.635 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20625,7 +20601,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 63.5 0)
+			(at 254.635 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20647,7 +20623,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 66.04 270)
+		(at 254.635 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20655,7 +20631,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f529")
 		(property "Reference" "#PWR0296"
-			(at 281.94 66.04 0)
+			(at 248.285 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20664,7 +20640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 66.04 0)
+			(at 250.825 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +20648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 66.04 0)
+			(at 254.635 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20680,7 +20656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 66.04 0)
+			(at 254.635 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20688,7 +20664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 66.04 0)
+			(at 254.635 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20710,7 +20686,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 68.58 270)
+		(at 254.635 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20718,7 +20694,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f533")
 		(property "Reference" "#PWR0297"
-			(at 281.94 68.58 0)
+			(at 248.285 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20727,7 +20703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 68.58 0)
+			(at 250.825 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20735,7 +20711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 68.58 0)
+			(at 254.635 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20743,7 +20719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 68.58 0)
+			(at 254.635 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20751,7 +20727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 68.58 0)
+			(at 254.635 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20773,7 +20749,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 71.12 270)
+		(at 254.635 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20781,7 +20757,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f53d")
 		(property "Reference" "#PWR0298"
-			(at 281.94 71.12 0)
+			(at 248.285 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20790,7 +20766,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 71.12 0)
+			(at 250.825 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20798,7 +20774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 71.12 0)
+			(at 254.635 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20806,7 +20782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 71.12 0)
+			(at 254.635 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20814,7 +20790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 71.12 0)
+			(at 254.635 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20836,7 +20812,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 73.66 270)
+		(at 254.635 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20844,7 +20820,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f547")
 		(property "Reference" "#PWR0299"
-			(at 281.94 73.66 0)
+			(at 248.285 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20853,7 +20829,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 73.66 0)
+			(at 250.825 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20861,7 +20837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 73.66 0)
+			(at 254.635 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20869,7 +20845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 73.66 0)
+			(at 254.635 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20877,7 +20853,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 73.66 0)
+			(at 254.635 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20899,7 +20875,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 76.2 270)
+		(at 254.635 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20907,7 +20883,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f551")
 		(property "Reference" "#PWR0300"
-			(at 281.94 76.2 0)
+			(at 248.285 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20916,7 +20892,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 76.2 0)
+			(at 250.825 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20924,7 +20900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 76.2 0)
+			(at 254.635 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20932,7 +20908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 76.2 0)
+			(at 254.635 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20940,7 +20916,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 76.2 0)
+			(at 254.635 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20962,7 +20938,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 78.74 270)
+		(at 254.635 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20970,7 +20946,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f55b")
 		(property "Reference" "#PWR0301"
-			(at 281.94 78.74 0)
+			(at 248.285 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20979,7 +20955,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 78.74 0)
+			(at 250.825 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20987,7 +20963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 78.74 0)
+			(at 254.635 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20995,7 +20971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 78.74 0)
+			(at 254.635 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21003,7 +20979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 78.74 0)
+			(at 254.635 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21025,7 +21001,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 81.28 270)
+		(at 254.635 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21033,7 +21009,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f565")
 		(property "Reference" "#PWR0302"
-			(at 281.94 81.28 0)
+			(at 248.285 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21042,7 +21018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 81.28 0)
+			(at 250.825 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21050,7 +21026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 81.28 0)
+			(at 254.635 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21058,7 +21034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 81.28 0)
+			(at 254.635 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21066,7 +21042,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 81.28 0)
+			(at 254.635 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21088,7 +21064,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 83.82 270)
+		(at 254.635 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21096,7 +21072,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f56f")
 		(property "Reference" "#PWR0303"
-			(at 281.94 83.82 0)
+			(at 248.285 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21105,7 +21081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 83.82 0)
+			(at 250.825 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21113,7 +21089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 83.82 0)
+			(at 254.635 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21121,7 +21097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 83.82 0)
+			(at 254.635 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21129,7 +21105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 83.82 0)
+			(at 254.635 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21151,7 +21127,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 86.36 270)
+		(at 254.635 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21159,7 +21135,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f579")
 		(property "Reference" "#PWR0304"
-			(at 281.94 86.36 0)
+			(at 248.285 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21168,7 +21144,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 86.36 0)
+			(at 250.825 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21176,7 +21152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 86.36 0)
+			(at 254.635 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21184,7 +21160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 86.36 0)
+			(at 254.635 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21192,7 +21168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 86.36 0)
+			(at 254.635 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21214,7 +21190,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 88.9 270)
+		(at 254.635 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21222,7 +21198,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f583")
 		(property "Reference" "#PWR0305"
-			(at 281.94 88.9 0)
+			(at 248.285 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21231,7 +21207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 88.9 0)
+			(at 250.825 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21239,7 +21215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 88.9 0)
+			(at 254.635 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21247,7 +21223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 88.9 0)
+			(at 254.635 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21255,7 +21231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 88.9 0)
+			(at 254.635 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21277,7 +21253,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 91.44 270)
+		(at 254.635 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21285,7 +21261,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f58d")
 		(property "Reference" "#PWR0306"
-			(at 281.94 91.44 0)
+			(at 248.285 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21294,7 +21270,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 91.44 0)
+			(at 250.825 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21302,7 +21278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 91.44 0)
+			(at 254.635 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21310,7 +21286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 91.44 0)
+			(at 254.635 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21318,7 +21294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 91.44 0)
+			(at 254.635 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21340,7 +21316,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 93.98 270)
+		(at 254.635 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21348,7 +21324,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f597")
 		(property "Reference" "#PWR0307"
-			(at 281.94 93.98 0)
+			(at 248.285 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21357,7 +21333,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 93.98 0)
+			(at 250.825 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21365,7 +21341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 93.98 0)
+			(at 254.635 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21373,7 +21349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 93.98 0)
+			(at 254.635 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21381,7 +21357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 93.98 0)
+			(at 254.635 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21403,7 +21379,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 96.52 270)
+		(at 254.635 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21411,7 +21387,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5a1")
 		(property "Reference" "#PWR0308"
-			(at 281.94 96.52 0)
+			(at 248.285 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21420,7 +21396,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 96.52 0)
+			(at 250.825 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21428,7 +21404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 96.52 0)
+			(at 254.635 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21436,7 +21412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 96.52 0)
+			(at 254.635 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21444,7 +21420,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 96.52 0)
+			(at 254.635 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21466,7 +21442,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 99.06 270)
+		(at 254.635 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21474,7 +21450,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5ab")
 		(property "Reference" "#PWR0309"
-			(at 281.94 99.06 0)
+			(at 248.285 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21483,7 +21459,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 99.06 0)
+			(at 250.825 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21491,7 +21467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 99.06 0)
+			(at 254.635 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21499,7 +21475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 99.06 0)
+			(at 254.635 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21507,7 +21483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 99.06 0)
+			(at 254.635 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21529,7 +21505,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 101.6 270)
+		(at 254.635 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21537,7 +21513,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5b5")
 		(property "Reference" "#PWR0310"
-			(at 281.94 101.6 0)
+			(at 248.285 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21546,7 +21522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 101.6 0)
+			(at 250.825 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21554,7 +21530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 101.6 0)
+			(at 254.635 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21562,7 +21538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 101.6 0)
+			(at 254.635 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21570,7 +21546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 101.6 0)
+			(at 254.635 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21592,7 +21568,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 104.14 270)
+		(at 254.635 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21600,7 +21576,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5bf")
 		(property "Reference" "#PWR0311"
-			(at 281.94 104.14 0)
+			(at 248.285 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21609,7 +21585,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 104.14 0)
+			(at 250.825 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21617,7 +21593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 104.14 0)
+			(at 254.635 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21625,7 +21601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 104.14 0)
+			(at 254.635 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21633,7 +21609,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 104.14 0)
+			(at 254.635 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21655,7 +21631,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 106.68 270)
+		(at 254.635 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21663,7 +21639,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5c9")
 		(property "Reference" "#PWR0312"
-			(at 281.94 106.68 0)
+			(at 248.285 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21672,7 +21648,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 106.68 0)
+			(at 250.825 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21680,7 +21656,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 106.68 0)
+			(at 254.635 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21688,7 +21664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 106.68 0)
+			(at 254.635 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,7 +21672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 106.68 0)
+			(at 254.635 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21718,7 +21694,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 109.22 270)
+		(at 254.635 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21726,7 +21702,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5d3")
 		(property "Reference" "#PWR0313"
-			(at 281.94 109.22 0)
+			(at 248.285 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21735,7 +21711,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 109.22 0)
+			(at 250.825 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21743,7 +21719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 109.22 0)
+			(at 254.635 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21751,7 +21727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 109.22 0)
+			(at 254.635 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21759,7 +21735,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 109.22 0)
+			(at 254.635 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21781,7 +21757,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 111.76 270)
+		(at 254.635 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21789,7 +21765,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5dd")
 		(property "Reference" "#PWR0314"
-			(at 281.94 111.76 0)
+			(at 248.285 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21798,7 +21774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 111.76 0)
+			(at 250.825 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21806,7 +21782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 111.76 0)
+			(at 254.635 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21814,7 +21790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 111.76 0)
+			(at 254.635 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21822,7 +21798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 111.76 0)
+			(at 254.635 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21844,7 +21820,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 114.3 270)
+		(at 254.635 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21852,7 +21828,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5e7")
 		(property "Reference" "#PWR0315"
-			(at 281.94 114.3 0)
+			(at 248.285 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21861,7 +21837,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 114.3 0)
+			(at 250.825 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21869,7 +21845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 114.3 0)
+			(at 254.635 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21877,7 +21853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 114.3 0)
+			(at 254.635 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21885,7 +21861,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 114.3 0)
+			(at 254.635 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21907,7 +21883,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 116.84 270)
+		(at 254.635 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21915,7 +21891,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5f1")
 		(property "Reference" "#PWR0316"
-			(at 281.94 116.84 0)
+			(at 248.285 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21924,7 +21900,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 116.84 0)
+			(at 250.825 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21932,7 +21908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 116.84 0)
+			(at 254.635 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21940,7 +21916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 116.84 0)
+			(at 254.635 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21948,7 +21924,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 116.84 0)
+			(at 254.635 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21970,7 +21946,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 119.38 270)
+		(at 254.635 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21978,7 +21954,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f5fb")
 		(property "Reference" "#PWR0317"
-			(at 281.94 119.38 0)
+			(at 248.285 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21987,7 +21963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 119.38 0)
+			(at 250.825 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21995,7 +21971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 119.38 0)
+			(at 254.635 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22003,7 +21979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 119.38 0)
+			(at 254.635 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22011,7 +21987,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 119.38 0)
+			(at 254.635 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22033,7 +22009,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 121.92 270)
+		(at 254.635 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22041,7 +22017,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f605")
 		(property "Reference" "#PWR0318"
-			(at 281.94 121.92 0)
+			(at 248.285 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22050,7 +22026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 121.92 0)
+			(at 250.825 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22058,7 +22034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 121.92 0)
+			(at 254.635 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22066,7 +22042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 121.92 0)
+			(at 254.635 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22074,7 +22050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 121.92 0)
+			(at 254.635 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22096,7 +22072,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 124.46 270)
+		(at 254.635 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22104,7 +22080,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f60f")
 		(property "Reference" "#PWR0319"
-			(at 281.94 124.46 0)
+			(at 248.285 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22113,7 +22089,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 124.46 0)
+			(at 250.825 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22121,7 +22097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 124.46 0)
+			(at 254.635 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22129,7 +22105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 124.46 0)
+			(at 254.635 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22137,7 +22113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 124.46 0)
+			(at 254.635 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22159,7 +22135,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 127 270)
+		(at 254.635 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22167,7 +22143,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f619")
 		(property "Reference" "#PWR0320"
-			(at 281.94 127 0)
+			(at 248.285 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22176,7 +22152,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 127 0)
+			(at 250.825 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22184,7 +22160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 127 0)
+			(at 254.635 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22192,7 +22168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 127 0)
+			(at 254.635 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22200,7 +22176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 127 0)
+			(at 254.635 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22222,7 +22198,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 129.54 270)
+		(at 254.635 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22230,7 +22206,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f623")
 		(property "Reference" "#PWR0321"
-			(at 281.94 129.54 0)
+			(at 248.285 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22239,7 +22215,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 129.54 0)
+			(at 250.825 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22247,7 +22223,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 129.54 0)
+			(at 254.635 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22255,7 +22231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 129.54 0)
+			(at 254.635 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22263,7 +22239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 129.54 0)
+			(at 254.635 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22285,7 +22261,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 132.08 270)
+		(at 254.635 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22293,7 +22269,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f62d")
 		(property "Reference" "#PWR0322"
-			(at 281.94 132.08 0)
+			(at 248.285 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22302,7 +22278,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 132.08 0)
+			(at 250.825 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22310,7 +22286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 132.08 0)
+			(at 254.635 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22318,7 +22294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 132.08 0)
+			(at 254.635 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22326,7 +22302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 132.08 0)
+			(at 254.635 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22348,7 +22324,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 134.62 270)
+		(at 254.635 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22356,7 +22332,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f637")
 		(property "Reference" "#PWR0323"
-			(at 281.94 134.62 0)
+			(at 248.285 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22365,7 +22341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 134.62 0)
+			(at 250.825 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22373,7 +22349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 134.62 0)
+			(at 254.635 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22381,7 +22357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 134.62 0)
+			(at 254.635 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22389,7 +22365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 134.62 0)
+			(at 254.635 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22411,7 +22387,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 137.16 270)
+		(at 254.635 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22419,7 +22395,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f641")
 		(property "Reference" "#PWR0324"
-			(at 281.94 137.16 0)
+			(at 248.285 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22428,7 +22404,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 137.16 0)
+			(at 250.825 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22436,7 +22412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 137.16 0)
+			(at 254.635 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22444,7 +22420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 137.16 0)
+			(at 254.635 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22452,7 +22428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 137.16 0)
+			(at 254.635 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22474,7 +22450,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 139.7 270)
+		(at 254.635 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22482,7 +22458,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f64b")
 		(property "Reference" "#PWR0325"
-			(at 281.94 139.7 0)
+			(at 248.285 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22491,7 +22467,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 139.7 0)
+			(at 250.825 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22499,7 +22475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 139.7 0)
+			(at 254.635 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22507,7 +22483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 139.7 0)
+			(at 254.635 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22515,7 +22491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 139.7 0)
+			(at 254.635 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22537,7 +22513,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 142.24 270)
+		(at 254.635 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22545,7 +22521,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f655")
 		(property "Reference" "#PWR0326"
-			(at 281.94 142.24 0)
+			(at 248.285 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,7 +22530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 142.24 0)
+			(at 250.825 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22562,7 +22538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 142.24 0)
+			(at 254.635 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22570,7 +22546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 142.24 0)
+			(at 254.635 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22578,7 +22554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 142.24 0)
+			(at 254.635 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22600,7 +22576,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 144.78 270)
+		(at 254.635 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22608,7 +22584,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f65f")
 		(property "Reference" "#PWR0327"
-			(at 281.94 144.78 0)
+			(at 248.285 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22617,7 +22593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 144.78 0)
+			(at 250.825 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22625,7 +22601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 144.78 0)
+			(at 254.635 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22633,7 +22609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 144.78 0)
+			(at 254.635 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22641,7 +22617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 144.78 0)
+			(at 254.635 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22663,7 +22639,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 147.32 270)
+		(at 254.635 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22671,7 +22647,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f669")
 		(property "Reference" "#PWR0328"
-			(at 281.94 147.32 0)
+			(at 248.285 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22680,7 +22656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 147.32 0)
+			(at 250.825 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22688,7 +22664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 147.32 0)
+			(at 254.635 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22696,7 +22672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 147.32 0)
+			(at 254.635 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22704,7 +22680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 147.32 0)
+			(at 254.635 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22726,7 +22702,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 149.86 270)
+		(at 254.635 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22734,7 +22710,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f673")
 		(property "Reference" "#PWR0329"
-			(at 281.94 149.86 0)
+			(at 248.285 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22743,7 +22719,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 149.86 0)
+			(at 250.825 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22751,7 +22727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 149.86 0)
+			(at 254.635 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22759,7 +22735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 149.86 0)
+			(at 254.635 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22767,7 +22743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 149.86 0)
+			(at 254.635 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22789,7 +22765,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 152.4 270)
+		(at 254.635 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22797,7 +22773,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f67d")
 		(property "Reference" "#PWR0330"
-			(at 281.94 152.4 0)
+			(at 248.285 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22806,7 +22782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 152.4 0)
+			(at 250.825 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22814,7 +22790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 152.4 0)
+			(at 254.635 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22822,7 +22798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 152.4 0)
+			(at 254.635 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22830,7 +22806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 152.4 0)
+			(at 254.635 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22852,7 +22828,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 154.94 270)
+		(at 254.635 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22860,7 +22836,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f687")
 		(property "Reference" "#PWR0331"
-			(at 281.94 154.94 0)
+			(at 248.285 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22869,7 +22845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 154.94 0)
+			(at 250.825 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22877,7 +22853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 154.94 0)
+			(at 254.635 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22885,7 +22861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 154.94 0)
+			(at 254.635 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22893,7 +22869,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 154.94 0)
+			(at 254.635 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22915,7 +22891,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 157.48 270)
+		(at 254.635 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22923,7 +22899,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f691")
 		(property "Reference" "#PWR0332"
-			(at 281.94 157.48 0)
+			(at 248.285 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22932,7 +22908,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 157.48 0)
+			(at 250.825 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22940,7 +22916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 157.48 0)
+			(at 254.635 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22948,7 +22924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 157.48 0)
+			(at 254.635 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22956,7 +22932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 157.48 0)
+			(at 254.635 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22978,7 +22954,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 160.02 270)
+		(at 254.635 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22986,7 +22962,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f69b")
 		(property "Reference" "#PWR0333"
-			(at 281.94 160.02 0)
+			(at 248.285 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22995,7 +22971,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 160.02 0)
+			(at 250.825 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23003,7 +22979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 160.02 0)
+			(at 254.635 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23011,7 +22987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 160.02 0)
+			(at 254.635 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23019,7 +22995,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 160.02 0)
+			(at 254.635 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23041,7 +23017,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 162.56 270)
+		(at 254.635 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23049,7 +23025,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f6a5")
 		(property "Reference" "#PWR0334"
-			(at 281.94 162.56 0)
+			(at 248.285 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23058,7 +23034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 162.56 0)
+			(at 250.825 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23066,7 +23042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 162.56 0)
+			(at 254.635 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23074,7 +23050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 162.56 0)
+			(at 254.635 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23082,7 +23058,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 162.56 0)
+			(at 254.635 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23104,7 +23080,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 165.1 270)
+		(at 254.635 166.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23112,7 +23088,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f6af")
 		(property "Reference" "#PWR0335"
-			(at 281.94 165.1 0)
+			(at 248.285 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23121,7 +23097,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 165.1 0)
+			(at 250.825 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23129,7 +23105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 165.1 0)
+			(at 254.635 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23137,7 +23113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 165.1 0)
+			(at 254.635 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23145,7 +23121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 165.1 0)
+			(at 254.635 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23167,7 +23143,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 167.64 270)
+		(at 254.635 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23175,7 +23151,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f6b9")
 		(property "Reference" "#PWR0336"
-			(at 281.94 167.64 0)
+			(at 248.285 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23184,7 +23160,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 167.64 0)
+			(at 250.825 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23192,7 +23168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 167.64 0)
+			(at 254.635 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23200,7 +23176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 167.64 0)
+			(at 254.635 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23208,7 +23184,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 167.64 0)
+			(at 254.635 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23230,7 +23206,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:GND-power")
-		(at 288.29 170.18 270)
+		(at 254.635 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23238,7 +23214,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09f6c3")
 		(property "Reference" "#PWR0337"
-			(at 281.94 170.18 0)
+			(at 248.285 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23247,7 +23223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.48 170.18 0)
+			(at 250.825 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23255,7 +23231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 170.18 0)
+			(at 254.635 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23263,7 +23239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 170.18 0)
+			(at 254.635 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23271,7 +23247,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 170.18 0)
+			(at 254.635 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24104,7 +24080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
 			(at 90.17 172.085 0)
 			(effects
 				(font
@@ -27663,7 +27639,7 @@
 	)
 	(symbol
 		(lib_id "xilinx7:xc7z020clg484")
-		(at 288.29 43.18 0)
+		(at 254.635 44.45 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27672,7 +27648,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5dac2b7-76af-4d10-b6f1-d655aeba3285")
 		(property "Reference" "U20"
-			(at 327.66 105.4099 0)
+			(at 294.005 106.6799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27681,7 +27657,7 @@
 			)
 		)
 		(property "Value" "xc7z020clg484"
-			(at 327.66 107.9499 0)
+			(at 294.005 109.2199 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -27690,7 +27666,7 @@
 			)
 		)
 		(property "Footprint" "DFTcustom:BGA-484_19.0x19.0mm_Layout22x22_P0.80mm_dia0.40mm"
-			(at 288.29 43.18 0)
+			(at 254.635 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27699,7 +27675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 43.18 0)
+			(at 254.635 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27708,7 +27684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 43.18 0)
+			(at 254.635 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
