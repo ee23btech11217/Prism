@@ -10215,7 +10215,7 @@
 			(uuid "deed2ef1-85f9-4731-a371-322dafad2728")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
 					(reference "R33")
 					(unit 1)
@@ -10398,7 +10398,7 @@
 			(uuid "38ef550b-fc70-4695-8b84-5a8031ea64ff")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "C?")
 					(unit 1)
@@ -10516,7 +10516,7 @@
 			(uuid "49334a96-ba9e-4335-a8e8-b88dc66c1f1b")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "C?")
 					(unit 1)
@@ -10634,7 +10634,7 @@
 			(uuid "974aec1d-1b05-49dd-9fc5-3105dcf89fda")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "C?")
 					(unit 1)
@@ -10704,7 +10704,7 @@
 			(uuid "a1a10299-8536-4729-a7b4-410b863b5d80")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "#PWR?")
 					(unit 1)
@@ -10820,7 +10820,7 @@
 			(uuid "a7b61440-7d89-4fad-b386-df9777b12b35")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "R?")
 					(unit 1)
@@ -12340,7 +12340,7 @@
 			(uuid "6afac2c4-419c-4475-8c64-c09e1437468a")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
 					(reference "U20")
 					(unit 7)
