@@ -24085,88 +24085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Female")
-		(at 90.17 172.085 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "437bf540-b9c5-4c0f-965c-ddf248a3d624")
-		(property "Reference" "J702"
-			(at 91.44 172.0849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06_Female"
-			(at 91.44 174.6249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
-			(at 90.17 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "71f0ff42-753e-44c5-ae21-4fdd5ef00586")
-		)
-		(pin "3"
-			(uuid "9fe5dd2d-47f3-4d08-96ee-ee63a2d211ea")
-		)
-		(pin "6"
-			(uuid "f8b7ce54-d78d-442f-a553-1ff0a96ee429")
-		)
-		(pin "1"
-			(uuid "8de00af9-b74b-4daf-97fe-2dba5b487d3d")
-		)
-		(pin "2"
-			(uuid "1da28c57-78e8-4888-8086-fe2e6dc64b30")
-		)
-		(pin "5"
-			(uuid "c018803a-5af6-4961-a8e4-186f252e0368")
-		)
-		(instances
-			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "J702")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 51.435 56.515 0)
 		(unit 1)
@@ -29247,6 +29165,88 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
 					(reference "L701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Female")
+		(at 90.17 174.625 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dade6795-450e-45ba-bce6-c473eb2d8930")
+		(property "Reference" "J702"
+			(at 91.44 174.6251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Female"
+			(at 91.44 172.0851 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal"
+			(at 90.17 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c5d58c0e-d3e2-404c-acba-36351c05de9b")
+		)
+		(pin "3"
+			(uuid "ac74c0de-a3fc-4520-ac24-6f504d260526")
+		)
+		(pin "6"
+			(uuid "6ea158c5-c3bb-4a12-ba3b-880b0a0c2f66")
+		)
+		(pin "1"
+			(uuid "399bfcf4-b861-4e4c-a37d-93262f35bac4")
+		)
+		(pin "2"
+			(uuid "7edb0729-fa0b-4f0a-ae83-a0c805abbf64")
+		)
+		(pin "5"
+			(uuid "b6c6fc43-425a-4bf1-b5e5-a025d8acf363")
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
+					(reference "J702")
 					(unit 1)
 				)
 			)

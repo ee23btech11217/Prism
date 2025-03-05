@@ -1,0 +1,1393 @@
+ERC report (2025-03-06T01:15:03+0530, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /Sensors/
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5675.00 mils, 3900.00 mils): Horizontal Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5675.00 mils, 4100.00 mils): Horizontal Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5675.00 mils, 4000.00 mils): Horizontal Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6675.00 mils, 3550.00 mils): Symbol #PWR0350 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6675.00 mils, 3350.00 mils): Symbol C107 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6675.00 mils, 3350.00 mils): Symbol #PWR0349 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6325.00 mils, 3500.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6325.00 mils, 3550.00 mils): Horizontal Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6375.00 mils, 3550.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6275.00 mils, 4800.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6375.00 mils, 4800.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6375.00 mils, 4850.00 mils): Horizontal Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6325.00 mils, 3500.00 mils): Symbol #PWR0346 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6325.00 mils, 4900.00 mils): Symbol #PWR0348 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6275.00 mils, 4850.00 mils): Horizontal Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6325.00 mils, 4850.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5525.00 mils, 4600.00 mils): Symbol #PWR0351 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5525.00 mils, 4500.00 mils): Vertical Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5675.00 mils, 4500.00 mils): Horizontal Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6275.00 mils, 3550.00 mils): Horizontal Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5575.00 mils, 3900.00 mils): Vertical Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5575.00 mils, 4000.00 mils): Vertical Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5475.00 mils, 4000.00 mils): Symbol #PWR0347 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5575.00 mils, 4000.00 mils): Horizontal Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5675.00 mils, 3900.00 mils): Symbol U23 Pin 1 [SDO/SA0, Bidirectional, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6275.00 mils, 3600.00 mils): Vertical Wire, length 50.00 mils
+
+***** Sheet /USB/
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4175.00 mils, 6700.00 mils): Horizontal Wire, length 250.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4175.00 mils, 6650.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4425.00 mils, 6750.00 mils): Symbol #PWR0102 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4425.00 mils, 6700.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4425.00 mils, 6700.00 mils): Horizontal Wire, length 250.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4425.00 mils, 6450.00 mils): Symbol C66 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4425.00 mils, 6450.00 mils): Horizontal Wire, length 250.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4425.00 mils, 6350.00 mils): Vertical Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4175.00 mils, 6450.00 mils): Symbol C65 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4175.00 mils, 6450.00 mils): Horizontal Wire, length 250.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4175.00 mils, 6450.00 mils): Symbol #PWR0101 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4675.00 mils, 6700.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4425.00 mils, 6700.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4675.00 mils, 6450.00 mils): Symbol C67 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4625.00 mils, 6350.00 mils): Horizontal Wire, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4925.00 mils, 6450.00 mils): Horizontal Wire, length 250.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4925.00 mils, 6350.00 mils): Symbol R33 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4925.00 mils, 5350.00 mils): Symbol U20 Pin B9 [PS_MIO45_501, Bidirectional, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4925.00 mils, 2450.00 mils): Symbol R26 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4925.00 mils, 3050.00 mils): Symbol R301 Pin 1 [Passive, Line]
+
+***** Sheet /Power/
+[lib_symbol_issues]: Symbol 'LM3880' has been modified in library 'Power_Supervisor'
+    ; warning
+    @(1500.00 mils, 5950.00 mils): Symbol U1 [LM3880]
+[lib_symbol_issues]: Symbol 'LM3880' has been modified in library 'Power_Supervisor'
+    ; warning
+    @(1500.00 mils, 6950.00 mils): Symbol U2 [LM3880]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2050.00 mils, 4550.00 mils): Global Label '1v35PG'
+
+***** Sheet /DDR3/
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(10150.00 mils, 2950.00 mils): Global Label 'DDR3_DM2'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(10150.00 mils, 3050.00 mils): Global Label 'DDR3_DM3'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(10150.00 mils, 6950.00 mils): Global Label 'DDR3_DQS2_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(10150.00 mils, 7050.00 mils): Global Label 'DDR3_DQS3_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(10150.00 mils, 6550.00 mils): Global Label 'DDR3_DQS2_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(10150.00 mils, 6650.00 mils): Global Label 'DDR3_DQS3_N'
+
+***** Sheet /Storage/
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(8150.00 mils, 4050.00 mils): Global Label 'RF2_IRQ'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2625.00 mils, 7025.00 mils): Symbol #PWR0604 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2625.00 mils, 7325.00 mils): Symbol #PWR0605 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2625.00 mils, 6525.00 mils): Symbol J601 Pin 1 [DAT2, Bidirectional, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2625.00 mils, 6825.00 mils): Symbol #PWR0603 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2475.00 mils, 7725.00 mils): Symbol #PWR0602 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2625.00 mils, 7425.00 mils): Horizontal Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2475.00 mils, 7425.00 mils): Horizontal Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2475.00 mils, 7525.00 mils): Vertical Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2475.00 mils, 7725.00 mils): Symbol R601 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4375.00 mils, 7575.00 mils): Symbol #PWR0606 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4375.00 mils, 7425.00 mils): Vertical Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(4325.00 mils, 7425.00 mils): Horizontal Wire, length 50.00 mils
+
+***** Sheet /Peripherals/
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5975.00 mils, 5350.00 mils): Horizontal Wire, length 475.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3650.00 mils, 5825.00 mils): Symbol #PWR0710 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3650.00 mils, 5225.00 mils): Symbol #PWR0711 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2875.00 mils, 6975.00 mils): Symbol #PWR0721 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3350.00 mils, 6775.00 mils): Symbol J702 Pin 4 [Pin_4, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2875.00 mils, 6975.00 mils): Horizontal Wire, length 475.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2875.00 mils, 6775.00 mils): Horizontal Wire, length 475.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2875.00 mils, 6875.00 mils): Horizontal Wire, length 475.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2875.00 mils, 6575.00 mils): Horizontal Wire, length 475.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2875.00 mils, 6675.00 mils): Horizontal Wire, length 475.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 4150.00 mils): Vertical Bus, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 4050.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5225.00 mils, 5150.00 mils): Horizontal Wire, length 1225.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 4250.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5625.00 mils, 4750.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3950.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 4050.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 4150.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3950.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5625.00 mils, 4650.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5625.00 mils, 4350.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5625.00 mils, 4550.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5625.00 mils, 4450.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3650.00 mils, 3725.00 mils): Symbol J701 Pin 21 [21, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 4025.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 4125.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 4125.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 4025.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3725.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3825.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3925.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3925.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3825.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 4225.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 4225.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 4325.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 4325.00 mils): Vertical Bus, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 4425.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3750.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3650.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3850.00 mils): Horizontal Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5825.00 mils, 3450.00 mils): Horizontal Bus, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5675.00 mils, 3800.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5675.00 mils, 3850.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3650.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3550.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3550.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3750.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3850.00 mils): Horizontal Wire, length 350.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3850.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3350.00 mils): Vertical Bus, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3450.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3450.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3350.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2425.00 mils, 1825.00 mils): Horizontal Wire, length 1225.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2425.00 mils, 1825.00 mils): Horizontal Wire, length 300.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2025.00 mils, 2325.00 mils): Symbol R702 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2025.00 mils, 2625.00 mils): Symbol #PWR0701 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2025.00 mils, 2625.00 mils): Symbol R701 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2025.00 mils, 2325.00 mils): Vertical Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2125.00 mils, 1825.00 mils): Symbol D701 Pin 1 [K, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2125.00 mils, 1825.00 mils): Vertical Wire, length 300.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2125.00 mils, 2125.00 mils): Horizontal Wire, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2425.00 mils, 2250.00 mils): Vertical Wire, length 425.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2425.00 mils, 2250.00 mils): Symbol C702 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2425.00 mils, 2450.00 mils): Symbol #PWR0704 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1175.00 mils, 7525.00 mils): Symbol R77 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1175.00 mils, 7525.00 mils): Horizontal Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 7125.00 mils): Vertical Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 7125.00 mils): Symbol D4 Pin 1 [K, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 6475.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 6675.00 mils): Vertical Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 6475.00 mils): Symbol R78 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 6425.00 mils): Symbol #PWR0168 Hidden pin 1 [+5V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(175.00 mils, 4850.00 mils): Symbol #PWR0712 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(175.00 mils, 4850.00 mils): Horizontal Wire, length 375.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(175.00 mils, 5450.00 mils): Horizontal Wire, length 375.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(175.00 mils, 5450.00 mils): Symbol #PWR0714 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1225.00 mils, 7525.00 mils): Symbol Q8 Pin 1 [G, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 7725.00 mils): Symbol #PWR0169 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 7675.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(900.00 mils, 2275.00 mils): Symbol #PWR0705 Hidden pin 1 [+5V, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(900.00 mils, 2275.00 mils): Symbol C701 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(900.00 mils, 2475.00 mils): Symbol #PWR0703 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1275.00 mils, 1825.00 mils): Symbol L701 Pin 1 [1, Input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1225.00 mils, 1825.00 mils): Horizontal Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1225.00 mils, 2275.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1825.00 mils, 2425.00 mils): Horizontal Wire, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1225.00 mils, 2225.00 mils): Vertical Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1225.00 mils, 2225.00 mils): Vertical Wire, length 400.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1225.00 mils, 2425.00 mils): Vertical Wire, length 350.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 2625.00 mils): Symbol #PWR0702 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1525.00 mils, 2625.00 mils): Symbol U701 Pin 2 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1775.00 mils, 1825.00 mils): Horizontal Wire, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1825.00 mils, 1825.00 mils): Vertical Wire, length 400.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2875.00 mils, 7075.00 mils): Symbol #PWR0720 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2875.00 mils, 7075.00 mils): Horizontal Wire, length 475.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2825.00 mils, 4625.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2825.00 mils, 4725.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1700.00 mils, 5450.00 mils): Horizontal Wire, length 375.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1700.00 mils, 4850.00 mils): Horizontal Wire, length 375.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2825.00 mils, 4825.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2825.00 mils, 4925.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(2825.00 mils, 5025.00 mils): Horizontal Wire, length 825.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1325.00 mils, 4225.00 mils): Horizontal Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1125.00 mils, 4225.00 mils): Horizontal Wire, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1325.00 mils, 4225.00 mils): Symbol R708 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(150.00 mils, 3625.00 mils): Symbol #PWR0716 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(150.00 mils, 4225.00 mils): Symbol #PWR0717 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(150.00 mils, 3625.00 mils): Horizontal Wire, length 375.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(150.00 mils, 4225.00 mils): Horizontal Wire, length 375.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1125.00 mils, 4225.00 mils): Symbol SW704 Pin 2 [2, Passive, Inverted]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1325.00 mils, 4425.00 mils): Symbol #PWR0719 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1125.00 mils, 3625.00 mils): Symbol SW703 Pin 2 [2, Passive, Inverted]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1125.00 mils, 3625.00 mils): Horizontal Wire, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1325.00 mils, 3825.00 mils): Symbol #PWR0718 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1675.00 mils, 4225.00 mils): Symbol R710 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1675.00 mils, 4225.00 mils): Horizontal Wire, length 375.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1675.00 mils, 3625.00 mils): Symbol R709 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1325.00 mils, 3625.00 mils): Symbol R707 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1675.00 mils, 3625.00 mils): Horizontal Wire, length 375.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1325.00 mils, 3625.00 mils): Horizontal Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 6050.00 mils): Symbol #PWR0330 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 6150.00 mils): Symbol #PWR0331 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 6250.00 mils): Symbol #PWR0332 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 6350.00 mils): Symbol #PWR0333 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4450.00 mils): Symbol #PWR0314 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4350.00 mils): Symbol #PWR0313 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4850.00 mils): Symbol #PWR0318 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4750.00 mils): Symbol #PWR0317 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5250.00 mils): Symbol #PWR0322 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5350.00 mils): Symbol #PWR0323 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4950.00 mils): Symbol #PWR0319 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5050.00 mils): Symbol #PWR0320 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5150.00 mils): Symbol #PWR0321 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4550.00 mils): Symbol #PWR0315 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4650.00 mils): Symbol #PWR0316 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4650.00 mils): Symbol U20 Pin D20 [IO_L14P_T2_AD4P_SRCC_35, Bidirectional, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 1750.00 mils): Symbol #PWR0287 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 1850.00 mils): Symbol #PWR0288 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 1950.00 mils): Symbol #PWR0289 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2450.00 mils): Symbol #PWR0294 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2650.00 mils): Symbol #PWR0296 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2550.00 mils): Symbol #PWR0295 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2750.00 mils): Symbol #PWR0297 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3150.00 mils): Symbol #PWR0301 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3050.00 mils): Symbol #PWR0300 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2350.00 mils): Symbol #PWR0293 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2050.00 mils): Symbol #PWR0290 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2150.00 mils): Symbol #PWR0291 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2250.00 mils): Symbol #PWR0292 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2950.00 mils): Symbol #PWR0299 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 2850.00 mils): Symbol #PWR0298 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4150.00 mils): Symbol #PWR0311 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4050.00 mils): Symbol #PWR0310 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 4250.00 mils): Symbol #PWR0312 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3950.00 mils): Symbol #PWR0309 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3650.00 mils): Symbol #PWR0306 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3750.00 mils): Symbol #PWR0307 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3850.00 mils): Symbol #PWR0308 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3550.00 mils): Symbol #PWR0305 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3450.00 mils): Symbol #PWR0304 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3350.00 mils): Symbol #PWR0303 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 3250.00 mils): Symbol #PWR0302 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5650.00 mils): Symbol #PWR0326 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5450.00 mils): Symbol #PWR0324 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5550.00 mils): Symbol #PWR0325 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 6650.00 mils): Symbol #PWR0336 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 6750.00 mils): Symbol #PWR0337 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 6550.00 mils): Symbol #PWR0335 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 6450.00 mils): Symbol #PWR0334 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5850.00 mils): Symbol #PWR0328 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5750.00 mils): Symbol #PWR0327 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(10025.00 mils, 5950.00 mils): Symbol #PWR0329 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3050.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3050.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3150.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3150.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2950.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2850.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2950.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 3250.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 3250.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2750.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2650.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2850.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2750.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2650.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2550.00 mils): Vertical Bus, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5825.00 mils, 2650.00 mils): Horizontal Bus, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2450.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2250.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5225.00 mils, 2425.00 mils): Vertical Wire, length 2725.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5225.00 mils, 2425.00 mils): Horizontal Wire, length 900.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2350.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2425.00 mils): Vertical Wire, length 25.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2550.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2350.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2050.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2150.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 2250.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2050.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 2150.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6125.00 mils, 1950.00 mils): Horizontal Wire, length 325.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 1950.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(5825.00 mils, 1850.00 mils): Horizontal Bus, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(6025.00 mils, 1850.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2925.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2825.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2825.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3025.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3225.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3125.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3225.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3125.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2325.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2425.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2425.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2325.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2225.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2225.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2525.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2725.00 mils): Vertical Bus, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2625.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2725.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2525.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2625.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 2125.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3075.00 mils, 2025.00 mils): Horizontal Bus, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2125.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2025.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3325.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3525.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3425.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3725.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3625.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3625.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3075.00 mils, 3625.00 mils): Horizontal Bus, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3525.00 mils): Vertical Bus, length 50.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3425.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 3325.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3075.00 mils, 2825.00 mils): Horizontal Bus, length 200.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3275.00 mils, 2925.00 mils): Vertical Bus, length 100.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3375.00 mils, 3025.00 mils): Horizontal Wire, length 275.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3650.00 mils, 1725.00 mils): Symbol #PWR0706 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3500.00 mils, 2025.00 mils): Symbol #PWR0708 Hidden pin 1 [+3V3, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3650.00 mils, 1925.00 mils): Symbol #PWR0707 Hidden pin 1 [GND, Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3500.00 mils, 2025.00 mils): Horizontal Wire, length 150.00 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3650.00 mils, 4525.00 mils): Symbol #PWR0709 Hidden pin 1 [GND, Power input, Line]
+
+***** Sheet /Audio/
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3150.00 mils): Symbol U20 Pin K18 [IO_L7N_T1_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4050.00 mils): Symbol U20 Pin K19 [IO_L11P_T1_SRCC_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3950.00 mils): Symbol U20 Pin K20 [IO_L11N_T1_SRCC_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2350.00 mils): Symbol U20 Pin L16 [IO_L3N_T0_DQS_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3550.00 mils): Symbol U20 Pin K21 [IO_L9N_T1_DQS_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2650.00 mils): Symbol U20 Pin L17 [IO_L4P_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4250.00 mils): Symbol U20 Pin L18 [IO_L12P_T1_MRCC_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3850.00 mils): Symbol U20 Pin L21 [IO_L10P_T1_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4150.00 mils): Symbol U20 Pin L19 [IO_L12N_T1_MRCC_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3750.00 mils): Symbol U20 Pin L22 [IO_L10N_T1_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3050.00 mils): Symbol U20 Pin M15 [IO_L6P_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2550.00 mils): Symbol U20 Pin M17 [IO_L4N_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4850.00 mils): Symbol U20 Pin M21 [IO_L15P_T2_DQS_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5650.00 mils): Symbol U20 Pin N15 [IO_L19P_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2850.00 mils): Symbol U20 Pin N17 [IO_L5P_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4650.00 mils): Symbol U20 Pin N19 [IO_L14P_T2_SRCC_34, Bidirectional, Line]
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2600.00 mils, 7600.00 mils): Global Label 'LED_2G_CTRL'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(1000.00 mils, 7600.00 mils): Global Label 'LED_2B_CTRL'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(2000.00 mils, 5050.00 mils): Global Label 'TEMPO_SW'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(4100.00 mils, 7600.00 mils): Global Label 'LED_2R_CTRL'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(6700.00 mils, 4300.00 mils): Global Label 'JD_IN'
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2950.00 mils): Symbol U20 Pin M16 [IO_L6N_T0_VREF_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4450.00 mils): Symbol U20 Pin M19 [IO_L13P_T2_MRCC_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4350.00 mils): Symbol U20 Pin M20 [IO_L13N_T2_MRCC_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4750.00 mils): Symbol U20 Pin M22 [IO_L15N_T2_DQS_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2750.00 mils): Symbol U20 Pin N18 [IO_L5N_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4550.00 mils): Symbol U20 Pin N20 [IO_L14N_T2_SRCC_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5050.00 mils): Symbol U20 Pin N22 [IO_L16P_T2_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 6650.00 mils): Symbol U20 Pin P16 [IO_L24P_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5550.00 mils): Symbol U20 Pin P15 [IO_L19N_T3_VREF_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5850.00 mils): Symbol U20 Pin P17 [IO_L20P_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5750.00 mils): Symbol U20 Pin P18 [IO_L20N_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5350.00 mils): Symbol U20 Pin P21 [IO_L18N_T2_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 6550.00 mils): Symbol U20 Pin R16 [IO_L24N_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 6250.00 mils): Symbol U20 Pin R19 [IO_L22P_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5250.00 mils): Symbol U20 Pin R20 [IO_L17P_T2_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 6050.00 mils): Symbol U20 Pin T16 [IO_L21P_T3_DQS_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4250.00 mils): Symbol U20 Pin D18 [IO_L12P_T1_MRCC_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5150.00 mils): Symbol U20 Pin D21 [IO_L17N_T2_AD5N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5050.00 mils): Symbol U20 Pin D22 [IO_L16P_T2_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 1950.00 mils): Symbol U20 Pin E16 [IO_L1N_T0_AD0N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4050.00 mils): Symbol U20 Pin C17 [IO_L11P_T1_SRCC_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4150.00 mils): Symbol U20 Pin C19 [IO_L12N_T1_MRCC_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4550.00 mils): Symbol U20 Pin C20 [IO_L14N_T2_AD4N_SRCC_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2350.00 mils): Symbol U20 Pin D15 [IO_L3N_T0_DQS_AD1N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4950.00 mils): Symbol U20 Pin C22 [IO_L16N_T2_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2250.00 mils): Symbol U20 Pin D16 [IO_L2P_T0_AD8P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2150.00 mils): Symbol U20 Pin D17 [IO_L2N_T0_AD8N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4650.00 mils): Symbol U20 Pin D20 [IO_L14P_T2_AD4P_SRCC_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5950.00 mils): Symbol U20 Pin E20 [IO_L21N_T3_DQS_AD14N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2050.00 mils): Symbol U20 Pin F16 [IO_L1P_T0_AD0P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2950.00 mils): Symbol U20 Pin F17 [IO_L6N_T0_VREF_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5750.00 mils): Symbol U20 Pin F19 [IO_L20N_T3_AD6N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2850.00 mils): Symbol U20 Pin F18 [IO_L5P_T0_AD9P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 6450.00 mils): Symbol U20 Pin F21 [IO_L23P_T3_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 6350.00 mils): Symbol U20 Pin F22 [IO_L23N_T3_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2550.00 mils): Symbol U20 Pin G16 [IO_L4N_T0_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2650.00 mils): Symbol U20 Pin G15 [IO_L4P_T0_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3050.00 mils): Symbol U20 Pin G17 [IO_L6P_T0_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5850.00 mils): Symbol U20 Pin G19 [IO_L20P_T3_AD6P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 6150.00 mils): Symbol U20 Pin G21 [IO_L22N_T3_AD7N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 6650.00 mils): Symbol U20 Pin H22 [IO_L24P_T3_AD15P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2250.00 mils): Symbol U20 Pin J16 [IO_L2P_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2150.00 mils): Symbol U20 Pin J17 [IO_L2N_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3650.00 mils): Symbol U20 Pin J20 [IO_L9P_T1_DQS_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3150.00 mils): Symbol U20 Pin B15 [IO_L7N_T1_AD2N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4850.00 mils): Symbol U20 Pin A21 [IO_L15P_T2_DQS_AD12P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4750.00 mils): Symbol U20 Pin A22 [IO_L15N_T2_DQS_AD12N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3650.00 mils): Symbol U20 Pin A16 [IO_L9P_T1_DQS_AD3P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3550.00 mils): Symbol U20 Pin A17 [IO_L9N_T1_DQS_AD3N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3850.00 mils): Symbol U20 Pin A18 [IO_L10P_T1_AD11P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3750.00 mils): Symbol U20 Pin A19 [IO_L10N_T1_AD11N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 1950.00 mils): Symbol U20 Pin K15 [IO_L1N_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3450.00 mils): Symbol U20 Pin B16 [IO_L8P_T1_AD10P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3350.00 mils): Symbol U20 Pin B17 [IO_L8N_T1_AD10N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4450.00 mils): Symbol U20 Pin B19 [IO_L13P_T2_MRCC_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5450.00 mils): Symbol U20 Pin B21 [IO_L18P_T2_AD13P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 4350.00 mils): Symbol U20 Pin B20 [IO_L13N_T2_MRCC_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5350.00 mils): Symbol U20 Pin B22 [IO_L18N_T2_AD13N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3250.00 mils): Symbol U20 Pin C15 [IO_L7P_T1_AD2P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 3950.00 mils): Symbol U20 Pin C18 [IO_L11N_T1_SRCC_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2450.00 mils): Symbol U20 Pin E15 [IO_L3P_T0_DQS_AD1P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 2750.00 mils): Symbol U20 Pin E18 [IO_L5N_T0_AD9N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 6050.00 mils): Symbol U20 Pin E19 [IO_L21P_T3_DQS_AD14P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5250.00 mils): Symbol U20 Pin E21 [IO_L17P_T2_AD5P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 6150.00 mils): Symbol U20 Pin T19 [IO_L22N_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(5675.00 mils, 4000.00 mils): Symbol U23 Pin 2 [SDX, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 6250.00 mils): Symbol U20 Pin G20 [IO_L22P_T3_AD7P_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 6550.00 mils): Symbol U20 Pin G22 [IO_L24N_T3_AD15N_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 1750.00 mils): Symbol U20 Pin H15 [IO_0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 1850.00 mils): Symbol U20 Pin H18 [IO_25_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 1750.00 mils): Symbol U20 Pin H17 [IO_0_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5650.00 mils): Symbol U20 Pin H19 [IO_L19P_T3_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(10025.00 mils, 5550.00 mils): Symbol U20 Pin H20 [IO_L19N_T3_VREF_35, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2050.00 mils): Symbol U20 Pin J15 [IO_L1P_T0_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3250.00 mils): Symbol U20 Pin J18 [IO_L7P_T1_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3450.00 mils): Symbol U20 Pin J21 [IO_L8P_T1_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 3350.00 mils): Symbol U20 Pin J22 [IO_L8N_T1_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 2450.00 mils): Symbol U20 Pin K16 [IO_L3P_T0_DQS_PUDC_B_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5450.00 mils): Symbol U20 Pin P20 [IO_L18P_T2_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 4950.00 mils): Symbol U20 Pin P22 [IO_L16N_T2_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 1850.00 mils): Symbol U20 Pin R15 [IO_25_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 6450.00 mils): Symbol U20 Pin R18 [IO_L23P_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5150.00 mils): Symbol U20 Pin R21 [IO_L17N_T2_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 5950.00 mils): Symbol U20 Pin T17 [IO_L21N_T3_DQS_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(8100.00 mils, 6350.00 mils): Symbol U20 Pin T18 [IO_L23N_T3_34, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Bidirectional are connected
+    ; warning
+    @(7900.00 mils, 6100.00 mils): Symbol #FLG0802 Pin 1 [pwr, Power output, Line]
+    @(5675.00 mils, 3900.00 mils): Symbol U23 Pin 1 [SDO/SA0, Bidirectional, Line]
+
+ ** ERC messages: 424  Errors 0  Warnings 424

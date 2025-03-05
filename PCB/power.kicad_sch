@@ -11983,6 +11983,12 @@
 		(uuid "34346364-6b50-4d6e-938a-cd4f9f8a93fc")
 	)
 	(junction
+		(at 153.67 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351e9327-5092-475e-8b55-bbd71b785ce6")
+	)
+	(junction
 		(at 118.11 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13305,6 +13311,16 @@
 			(type default)
 		)
 		(uuid "a52d8397-a11c-4360-ba99-4c4bbfb19c70")
+	)
+	(wire
+		(pts
+			(xy 151.13 52.07) (xy 153.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c82a34-cbd9-466f-81b1-8c9a52875ea9")
 	)
 	(wire
 		(pts
@@ -25466,7 +25482,7 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:+5V-power")
-		(at 153.67 52.07 0)
+		(at 151.13 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25474,7 +25490,7 @@
 		(dnp no)
 		(uuid "07d28f21-8a1a-4299-92f1-fae499377162")
 		(property "Reference" "#PWR0402"
-			(at 153.67 49.784 0)
+			(at 151.13 49.784 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -25483,7 +25499,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 153.67 49.784 0)
+			(at 151.13 49.784 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -25491,7 +25507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 52.07 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25500,7 +25516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 52.07 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -25509,7 +25525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 52.07 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25589,6 +25605,72 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DFTBoard-rescue:PWR_FLAG")
+		(at 153.67 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78f447b2-bdfe-4d5e-8231-44374db79fdb")
+		(property "Reference" "#FLG0401"
+			(at 153.67 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 153.67 48.8188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74f7bf30-f63d-4fdd-a152-868f0ffdcfd4")
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
+					(reference "#FLG0401")
 					(unit 1)
 				)
 			)
