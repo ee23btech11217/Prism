@@ -9501,10 +9501,6 @@
 		(uuid "05d0ddd3-e1fa-4f8f-9011-87f3e9d136b6")
 	)
 	(no_connect
-		(at 125.095 95.25)
-		(uuid "0f190ed6-f06c-4591-87bf-5f28564048db")
-	)
-	(no_connect
 		(at 125.095 158.75)
 		(uuid "129890e0-e575-4864-a17b-e7ec09af6ad5")
 	)
