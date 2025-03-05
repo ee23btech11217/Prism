@@ -9557,16 +9557,16 @@
 		(uuid "a1011fc1-ec08-4485-8308-c2a5871be2e8")
 	)
 	(no_connect
+		(at 125.095 95.25)
+		(uuid "a31da291-8cf1-4429-8aec-5369654cb1ff")
+	)
+	(no_connect
 		(at 125.095 143.51)
 		(uuid "b298cb4a-34d7-4c88-9c21-2af0a259ba64")
 	)
 	(no_connect
 		(at 125.095 153.67)
 		(uuid "cb1ddd2d-22ae-4715-8097-63f8eef565b2")
-	)
-	(no_connect
-		(at 125.095 97.79)
-		(uuid "d0abfefe-1cdb-41a1-8e7f-1cbbeb443b89")
 	)
 	(no_connect
 		(at 125.095 138.43)
@@ -9694,6 +9694,28 @@
 			(justify left bottom)
 		)
 		(uuid "4c151b61-293f-49b4-8ad7-45cf76d61c6a")
+	)
+	(global_label "JOYMISO"
+		(shape output)
+		(at 125.095 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d0b7088-89df-4ec0-aef7-57e31d8635b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.7811 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD2_CMD"
 		(shape bidirectional)
@@ -9855,28 +9877,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JOYMISO"
-		(shape output)
-		(at 125.095 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59df68ac-f68e-45d2-bf5c-62440cf8bb32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7811 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10049,7 +10049,7 @@
 	)
 	(global_label "JOYMOSI"
 		(shape output)
-		(at 125.095 95.25 180)
+		(at 125.095 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10057,9 +10057,9 @@
 			)
 			(justify right)
 		)
-		(uuid "8cae176d-d5c8-4524-9492-86f98b5b5204")
+		(uuid "b1f7b9e9-ea4d-473d-8a7b-894c67c7f783")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7811 95.25 0)
+			(at 114.7811 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
