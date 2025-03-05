@@ -17350,7 +17350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005caf3837")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR081"
 			(at 200.66 148.59 0)
 			(effects
 				(font
@@ -17397,10 +17397,6 @@
 		)
 		(instances
 			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR081")
 					(unit 1)
@@ -17417,7 +17413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005caf383d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR082"
 			(at 200.66 175.26 0)
 			(effects
 				(font
@@ -17464,10 +17460,6 @@
 		)
 		(instances
 			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR082")
 					(unit 1)
@@ -17484,7 +17476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005caf3848")
-		(property "Reference" "GT?"
+		(property "Reference" "GT1"
 			(at 197.485 156.21 0)
 			(effects
 				(font
@@ -17582,10 +17574,6 @@
 		)
 		(instances
 			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "GT?")
-					(unit 1)
-				)
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "GT1")
 					(unit 1)
@@ -17830,10 +17818,6 @@
 					(reference "C43")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -17897,10 +17881,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR074")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -17967,10 +17947,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR075")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18090,10 +18066,6 @@
 					(reference "Q5")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "Q?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -18209,10 +18181,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "Q3")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -18332,10 +18300,6 @@
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "Q?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -18397,10 +18361,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR065")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18466,10 +18426,6 @@
 					(reference "#PWR061")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -18531,10 +18487,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR058")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -18649,10 +18601,6 @@
 					(reference "R19")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -18765,10 +18713,6 @@
 					(reference "R20")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -18879,10 +18823,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "R21")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19009,10 +18949,6 @@
 					(reference "D1")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "D?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -19123,10 +19059,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "R15")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19241,10 +19173,6 @@
 					(reference "R13")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -19355,10 +19283,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "R11")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19475,10 +19399,6 @@
 					(reference "C44")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -19542,10 +19462,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19612,10 +19528,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -19735,10 +19647,6 @@
 					(reference "Q6")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "Q?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -19854,10 +19762,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "Q4")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -19977,10 +19881,6 @@
 					(reference "Q2")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "Q?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -20042,10 +19942,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR066")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20111,10 +20007,6 @@
 					(reference "#PWR062")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -20176,10 +20068,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR059")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -20294,10 +20182,6 @@
 					(reference "R22")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -20410,10 +20294,6 @@
 					(reference "R23")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -20524,10 +20404,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "R24")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -20654,10 +20530,6 @@
 					(reference "D2")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "D?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -20768,10 +20640,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "R16")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -20886,10 +20754,6 @@
 					(reference "R14")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -21000,10 +20864,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "R12")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -21121,10 +20981,6 @@
 					(reference "C61")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -21238,10 +21094,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "C59")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -21359,10 +21211,6 @@
 					(reference "C57")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -21476,10 +21324,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "C55")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -21597,10 +21441,6 @@
 					(reference "C50")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -21714,10 +21554,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "C47")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -21835,10 +21671,6 @@
 					(reference "C46")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "C?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -21901,10 +21733,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR0208")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -21973,10 +21801,6 @@
 					(reference "#PWR0209")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -22043,10 +21867,6 @@
 					(reference "#PWR031")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -22111,10 +21931,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "#PWR0210")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -22229,14 +22045,6 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
 					(reference "R105")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
 					(unit 1)
 				)
 			)

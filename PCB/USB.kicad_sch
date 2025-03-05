@@ -9529,10 +9529,6 @@
 		(uuid "34373a15-7973-4dfe-832b-8385821121a4")
 	)
 	(no_connect
-		(at 125.095 125.73)
-		(uuid "44bd4d3e-d117-4229-bb2b-ad06fd9b99e6")
-	)
-	(no_connect
 		(at 125.095 148.59)
 		(uuid "4ac5309d-bd47-45f5-9486-7330650333cf")
 	)
@@ -9567,6 +9563,10 @@
 	(no_connect
 		(at 125.095 153.67)
 		(uuid "cb1ddd2d-22ae-4715-8097-63f8eef565b2")
+	)
+	(no_connect
+		(at 125.095 97.79)
+		(uuid "d0abfefe-1cdb-41a1-8e7f-1cbbeb443b89")
 	)
 	(no_connect
 		(at 125.095 138.43)
@@ -9859,6 +9859,28 @@
 			)
 		)
 	)
+	(global_label "JOYMISO"
+		(shape output)
+		(at 125.095 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59df68ac-f68e-45d2-bf5c-62440cf8bb32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.7811 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JOYSCK"
 		(shape output)
 		(at 125.095 100.33 180)
@@ -9981,28 +10003,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JOYMISO"
-		(shape output)
-		(at 125.095 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c6c6262-eba7-447d-bfeb-f4685a4b31c3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7811 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10220,10 +10220,6 @@
 					(reference "R33")
 					(unit 1)
 				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852ff3b"
-					(reference "R?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -10301,7 +10297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cb33fab")
-		(property "Reference" "C?"
+		(property "Reference" "C67"
 			(at 118.999 164.592 0)
 			(effects
 				(font
@@ -10399,10 +10395,6 @@
 		)
 		(instances
 			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
 					(reference "C67")
 					(unit 1)
@@ -10419,7 +10411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cb33fb6")
-		(property "Reference" "C?"
+		(property "Reference" "C65"
 			(at 106.299 164.592 0)
 			(effects
 				(font
@@ -10517,10 +10509,6 @@
 		)
 		(instances
 			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
 					(reference "C65")
 					(unit 1)
@@ -10537,7 +10525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cb33fc1")
-		(property "Reference" "C?"
+		(property "Reference" "C66"
 			(at 112.649 164.592 0)
 			(effects
 				(font
@@ -10635,10 +10623,6 @@
 		)
 		(instances
 			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
 					(reference "C66")
 					(unit 1)
@@ -10655,7 +10639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cb33fd1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0102"
 			(at 112.395 171.45 0)
 			(effects
 				(font
@@ -10705,10 +10689,6 @@
 		)
 		(instances
 			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
 					(reference "#PWR0102")
 					(unit 1)
@@ -10725,7 +10705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dd165e9")
-		(property "Reference" "R?"
+		(property "Reference" "R26"
 			(at 122.555 57.2516 90)
 			(effects
 				(font
@@ -10821,10 +10801,6 @@
 		)
 		(instances
 			(project "DFTBoard"
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "R?")
-					(unit 1)
-				)
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
 					(reference "R26")
 					(unit 1)
