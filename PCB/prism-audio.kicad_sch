@@ -2208,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 40.64) (xy 93.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ece92d-abf5-465e-9c47-d598fb1e3fd9")
+	)
+	(wire
+		(pts
 			(xy 212.09 135.89) (xy 222.25 135.89)
 		)
 		(stroke
@@ -2255,16 +2265,6 @@
 			(type default)
 		)
 		(uuid "0a6032d3-4130-4d5d-a5c7-2f15ef778484")
-	)
-	(wire
-		(pts
-			(xy 157.48 80.01) (xy 160.02 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b7f05a2-1753-472f-be6b-8a99660992c5")
 	)
 	(wire
 		(pts
@@ -2818,6 +2818,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 40.64) (xy 104.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df5c9a6-a7b4-4b82-9c0c-5853e71da249")
+	)
+	(wire
+		(pts
 			(xy 55.88 90.17) (xy 52.07 90.17)
 		)
 		(stroke
@@ -2985,6 +2995,16 @@
 			(type default)
 		)
 		(uuid "b0d3f5f1-0e92-42ae-b61d-91e5411e0d17")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 99.06 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38c12d6-82c8-4ff9-865c-16b5d2c77b71")
 	)
 	(wire
 		(pts
@@ -6573,7 +6593,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 93.98 44.45 0)
+		(at 93.98 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6581,7 +6601,7 @@
 		(dnp no)
 		(uuid "8abe2d34-27fe-4a7a-9bc3-716b39e81e50")
 		(property "Reference" "#PWR098"
-			(at 93.98 48.26 0)
+			(at 93.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +6610,7 @@
 			)
 		)
 		(property "Value" "VCC3V3"
-			(at 89.662 44.704 0)
+			(at 89.662 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 44.45 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 44.45 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +6636,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 93.98 44.45 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +6724,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 104.14 44.45 0)
+		(at 104.14 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6712,7 +6732,7 @@
 		(dnp no)
 		(uuid "8dec90eb-de48-4fde-a77c-c3259ecad5cf")
 		(property "Reference" "#PWR0100"
-			(at 104.14 48.26 0)
+			(at 104.14 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6741,7 @@
 			)
 		)
 		(property "Value" "VCC3V3"
-			(at 109.22 44.45 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 44.45 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 44.45 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +6767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 104.14 44.45 0)
+			(at 104.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +6928,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 99.06 44.45 0)
+		(at 99.06 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6917,7 +6937,7 @@
 		(fields_autoplaced yes)
 		(uuid "969efda7-7f55-4559-9b14-f01d8415bb90")
 		(property "Reference" "#PWR099"
-			(at 99.06 48.26 0)
+			(at 99.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +6946,7 @@
 			)
 		)
 		(property "Value" "VCC3V3"
-			(at 99.06 39.37 0)
+			(at 99.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,7 +6954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 44.45 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6943,7 +6963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 44.45 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +6972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 99.06 44.45 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

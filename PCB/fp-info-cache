@@ -1,4 +1,4 @@
-24402202147551524
+24388282290447017
 6N137S
 8-SMD
 
@@ -55537,13 +55537,6 @@ tl6215_right_angle
 0
 5
 5
-DSC1121CE5
-DSC1121CE50500000
-DSC1121CE5-050.0000-3
-Crystal or Oscillator
-0
-6
-6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -66023,13 +66016,6 @@ LGA12R50P4X4_200X200X86
 0
 12
 12
-MT41K512M16HA
-BGA96C80P9X16_900X1400X120
-96-Ball FBGA – x16 (HA)
-Integrated Circuit
-0
-96
-96
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -68627,13 +68613,6 @@ Mounting 4.5mm 9774100982
 0
 8
 1
-NC7WZ07P6X
-SOT65P210X110-6N
-NC7WZ07P6
-Integrated Circuit
-0
-6
-6
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -69873,24 +69852,10 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PJ-037AH
-CUI_PJ-037AH
-
-
-0
-2
-2
 PJ-102A
 CUI_PJ-102A
 
 
-0
-3
-3
-PMBT3904
-SOT95P230X110-3N
--SOT23 (TO-236AB)
-Transistor BJT NPN
 0
 3
 3
@@ -90705,27 +90670,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-S25FL128SAGMFI000
-SO3016_SPA
-
-S25FL128SAGMFI000 
-0
-16
-16
-S25FL128SAGMFI000
-SO3016_SPA-L
-
-S25FL128SAGMFI000 
-0
-16
-16
-S25FL128SAGMFI000
-SO3016_SPA-M
-
-S25FL128SAGMFI000 
-0
-16
-16
 SOP65P490X110-8N
 SOP65P490X110-8N
 

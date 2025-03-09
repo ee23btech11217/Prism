@@ -5,6 +5,145 @@
 	(uuid "c1365154-a7aa-4936-a60b-40dfc8381e05")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DFTBoard-rescue:+1V0-power"
 			(power)
 			(pin_names
@@ -11844,6 +11983,12 @@
 		(uuid "34346364-6b50-4d6e-938a-cd4f9f8a93fc")
 	)
 	(junction
+		(at 153.67 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "351e9327-5092-475e-8b55-bbd71b785ce6")
+	)
+	(junction
 		(at 118.11 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13166,6 +13311,16 @@
 			(type default)
 		)
 		(uuid "a52d8397-a11c-4360-ba99-4c4bbfb19c70")
+	)
+	(wire
+		(pts
+			(xy 151.13 52.07) (xy 153.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c82a34-cbd9-466f-81b1-8c9a52875ea9")
 	)
 	(wire
 		(pts
@@ -15005,7 +15160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c7becf5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR042"
 			(at 195.326 157.48 0)
 			(effects
 				(font
@@ -15053,11 +15208,7 @@
 			(uuid "6aec1d6c-5862-4fe9-a8e4-300ae901747f")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890"
-					(reference "#PWR?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "#PWR042")
 					(unit 1)
@@ -16628,7 +16779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c7d1d45")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR026"
 			(at 83.82 82.296 0)
 			(effects
 				(font
@@ -16676,11 +16827,7 @@
 			(uuid "1156c1f5-3c41-47d5-bc50-11beccfdb560")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890"
-					(reference "#PWR?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "#PWR026")
 					(unit 1)
@@ -19514,13 +19661,9 @@
 			(uuid "d8589da6-ec50-47ad-9e45-7d52a8ddf4eb")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R9")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19826,13 +19969,9 @@
 			(uuid "64abda1f-96aa-4c6c-9631-e2167ea7af11")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R1")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -19945,13 +20084,9 @@
 			(uuid "1115c5a2-2b24-4665-b24d-ffa712ae40ef")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R10")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -20127,13 +20262,9 @@
 			(uuid "c279a63e-bc17-4578-9afd-c0c19364650a")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R2")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -20243,13 +20374,9 @@
 			(uuid "60601fbd-3a62-4d4b-902b-843bf344103a")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R3")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -20359,13 +20486,9 @@
 			(uuid "3aaccd52-0298-4ec1-b5a4-1c9de11283f8")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R4")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -20475,13 +20598,9 @@
 			(uuid "f4f78223-5089-4fff-9d73-4c1d0b18657c")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R5")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -22527,7 +22646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cbda9d4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR022"
 			(at 91.186 149.86 0)
 			(effects
 				(font
@@ -22575,11 +22694,7 @@
 			(uuid "e8eae0f6-7523-4567-9cd8-5f219130eccb")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890"
-					(reference "#PWR?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "#PWR022")
 					(unit 1)
@@ -23514,13 +23629,9 @@
 			(uuid "71d32ea7-d341-45f8-ba4c-4d8e3d3aa99f")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R7")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -23632,13 +23743,9 @@
 			(uuid "d219a983-64e6-438b-a006-20456f81044b")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R8")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -23748,17 +23855,9 @@
 			(uuid "62541e19-4feb-48dd-9dc2-aaa9ce9de587")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "R6")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852ff3b"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -24410,7 +24509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e066024")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0183"
 			(at 169.926 154.94 0)
 			(effects
 				(font
@@ -24458,11 +24557,7 @@
 			(uuid "25724c30-b637-4ae5-b278-3d5caef2afb7")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890"
-					(reference "#PWR?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "#PWR0183")
 					(unit 1)
@@ -25387,6 +25482,71 @@
 	)
 	(symbol
 		(lib_id "DFTBoard-rescue:+5V-power")
+		(at 151.13 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07d28f21-8a1a-4299-92f1-fae499377162")
+		(property "Reference" "#PWR0402"
+			(at 151.13 49.784 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 151.13 49.784 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be35c6f2-f831-4f7f-b037-48faf1ac79d8")
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
+					(reference "#PWR0402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DFTBoard-rescue:+5V-power")
 		(at 38.1 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25445,6 +25605,208 @@
 			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DFTBoard-rescue:PWR_FLAG")
+		(at 153.67 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78f447b2-bdfe-4d5e-8231-44374db79fdb")
+		(property "Reference" "#FLG0401"
+			(at 153.67 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 153.67 48.8188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74f7bf30-f63d-4fdd-a152-868f0ffdcfd4")
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
+					(reference "#FLG0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DFTBoard-rescue:GND-power")
+		(at 153.67 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d918d98-27ac-48c1-8681-5baeac85f03b")
+		(property "Reference" "#PWR0403"
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 56.388 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27a0cdb9-7573-4ef9-b782-6640b6ab5b2e")
+		)
+		(instances
+			(project "DFTBoard"
+				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
+					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 158.75 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8223e4aa-7e8c-43b0-9671-614ebed02478")
+		(property "Reference" "J401"
+			(at 161.29 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 161.29 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d43596e-4afd-44ff-970b-839876a4bcd2")
+		)
+		(pin "1"
+			(uuid "412e7106-2c8a-41d5-955f-23ef07d37d81")
+		)
+		(instances
+			(project ""
+				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -26958,7 +27320,7 @@
 			(uuid "44331cc2-51e4-411b-95c7-6a64ba169e96")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
 					(reference "U20")
 					(unit 1)

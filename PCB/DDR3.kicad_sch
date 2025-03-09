@@ -18383,11 +18383,7 @@
 			(uuid "0c107dce-ac2b-4e70-9d0b-8e8f5e4a99de")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890"
-					(reference "U16")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "U16")
 					(unit 1)
@@ -22704,7 +22700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cb10b71")
-		(property "Reference" "C?"
+		(property "Reference" "C99"
 			(at 180.594 193.802 0)
 			(effects
 				(font
@@ -22801,11 +22797,7 @@
 			(uuid "e57d6733-8d08-481f-9e0a-0ac2d62f9f26")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "C99")
 					(unit 1)
@@ -23289,7 +23281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd6f744")
-		(property "Reference" "C?"
+		(property "Reference" "C128"
 			(at 147.574 187.452 0)
 			(effects
 				(font
@@ -23386,11 +23378,7 @@
 			(uuid "7d5a5ee9-9462-4e2f-8943-94ddd47d5f85")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "C128")
 					(unit 1)
@@ -23407,7 +23395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd72bce")
-		(property "Reference" "C?"
+		(property "Reference" "C129"
 			(at 152.654 187.452 0)
 			(effects
 				(font
@@ -23504,11 +23492,7 @@
 			(uuid "098ac6c4-b88a-4eb1-b4cc-b374525b89e1")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "C129")
 					(unit 1)
@@ -23525,7 +23509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd72c52")
-		(property "Reference" "C?"
+		(property "Reference" "C130"
 			(at 157.734 187.452 0)
 			(effects
 				(font
@@ -23622,11 +23606,7 @@
 			(uuid "c37e8e9b-9317-42f6-ae83-6c8a1afce7ec")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "C130")
 					(unit 1)
@@ -23706,7 +23686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd9c834")
-		(property "Reference" "C?"
+		(property "Reference" "C125"
 			(at 112.014 159.512 0)
 			(effects
 				(font
@@ -23803,11 +23783,7 @@
 			(uuid "03d0cc33-d09c-449b-8a0e-387aaf654e70")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "C125")
 					(unit 1)
@@ -23824,7 +23800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cd9c840")
-		(property "Reference" "C?"
+		(property "Reference" "C126"
 			(at 117.094 159.512 0)
 			(effects
 				(font
@@ -23921,11 +23897,7 @@
 			(uuid "e3b14183-0eba-44a6-b8c6-1c5761611170")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "C126")
 					(unit 1)
@@ -24182,7 +24154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cde8de7")
-		(property "Reference" "R?"
+		(property "Reference" "R101"
 			(at 147.32 173.99 90)
 			(effects
 				(font
@@ -24277,15 +24249,7 @@
 			(uuid "940de21f-e0f4-4aab-9acd-00b5b1fde7e1")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "R?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "R101")
 					(unit 1)
@@ -24302,7 +24266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cdf72fc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0223"
 			(at 144.78 173.99 0)
 			(effects
 				(font
@@ -24348,11 +24312,7 @@
 			(uuid "ce9e7b1d-b16e-4173-ad79-1ecd0356aee2")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "#PWR?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "#PWR0223")
 					(unit 1)
@@ -24369,7 +24329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cdf7fc5")
-		(property "Reference" "C?"
+		(property "Reference" "C127"
 			(at 135.636 168.148 0)
 			(effects
 				(font
@@ -24466,11 +24426,7 @@
 			(uuid "4da36b47-036c-4d80-8bb1-7e35cdf6c35a")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "C?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "C127")
 					(unit 1)
@@ -24487,7 +24443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ce245ff")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0159"
 			(at 135.89 167.64 0)
 			(effects
 				(font
@@ -24533,11 +24489,7 @@
 			(uuid "0374f34e-225d-4ceb-a6eb-5ac2fe268604")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "#PWR?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "#PWR0159")
 					(unit 1)
@@ -24617,7 +24569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ce5ffd3")
-		(property "Reference" "D?"
+		(property "Reference" "D7"
 			(at 149.86 173.99 0)
 			(effects
 				(font
@@ -24712,21 +24664,9 @@
 			(uuid "07239b48-cbe1-49c4-86b0-9815c041f4d9")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "D?")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
-					(reference "D?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "D7")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -24741,7 +24681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ce5ffdf")
-		(property "Reference" "R?"
+		(property "Reference" "R102"
 			(at 151.638 164.338 0)
 			(effects
 				(font
@@ -24838,21 +24778,9 @@
 			(uuid "5c04af02-8cc4-4103-aca2-e1ff52af3447")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508444"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
-					(reference "R?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "R102")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005c7c62ae"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -24867,7 +24795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005db3aedd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0225"
 			(at 152.4 163.83 0)
 			(effects
 				(font
@@ -24913,11 +24841,7 @@
 			(uuid "d562f999-fa86-4af7-9ee9-48e9018326c0")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058508414"
-					(reference "#PWR?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "#PWR0225")
 					(unit 1)
@@ -24934,7 +24858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ddfd56f")
-		(property "Reference" "R?"
+		(property "Reference" "R25"
 			(at 116.84 173.99 90)
 			(effects
 				(font
@@ -25029,17 +24953,9 @@
 			(uuid "bf7c7eac-ac1f-482b-8db4-e38de01b9abd")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
-					(reference "R?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "R25")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005ca1abae"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -25054,7 +24970,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005de96f1d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0176"
 			(at 116.84 179.07 0)
 			(effects
 				(font
@@ -25102,17 +25018,9 @@
 			(uuid "8a55795f-f82d-4986-a7de-d8ed46309b0c")
 		)
 		(instances
-			(project ""
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005852a88e"
-					(reference "#PWR?")
-					(unit 1)
-				)
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "#PWR0176")
-					(unit 1)
-				)
-				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-00005ca1abae"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -26803,7 +26711,7 @@
 			(uuid "a294842b-2768-4f40-9a2f-d45be5c97847")
 		)
 		(instances
-			(project ""
+			(project "DFTBoard"
 				(path "/0cf42e13-7c72-4f5f-898b-a3f851b94890/00000000-0000-0000-0000-000058818a06"
 					(reference "U20")
 					(unit 8)
