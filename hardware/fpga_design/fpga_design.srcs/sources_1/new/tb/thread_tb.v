@@ -49,7 +49,7 @@ initial begin
  chunkID = 2'b0;
 
 // Open the file for reading
- file = $fopen("asm_test/a.out", "rb");
+ file = $fopen("a.out", "rb");
 if (file == 0) begin
 $display("Error: Could not open file");
 $finish;

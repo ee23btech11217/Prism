@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-3" LaunchTime="1740812234" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/thread.dcp">
-  <File Type="VDS-TIMING-PB" Name="thread_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="thread_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="thread.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="thread_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="thread_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="thread_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="thread.vds"/>
-  <File Type="REPORTS-TCL" Name="thread_reports.tcl"/>
-  <File Type="PA-TCL" Name="thread.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-3" LaunchTime="1741519452" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/thread.dcp">
+  <File Type="VDS-TIMING-PB" Name="core_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="core_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="core.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="core_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="core_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="core_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="core.vds"/>
+  <File Type="REPORTS-TCL" Name="core_reports.tcl"/>
+  <File Type="PA-TCL" Name="core.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/thread.v">
@@ -26,13 +26,6 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/instructionDecode.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/memoryWheel.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -88,21 +81,56 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/ip/dualPortBlock18/dualPortBlock18.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/DualPortBlock16/DualPortBlock16.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/dualPortBlockAXI18/dualPortBlockAXI18.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/memoryShift.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/core.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/programBlock16/programBlock16.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="thread"/>
+      <Option Name="TopModule" Val="core"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-      </FileInfo>
-    </File>
     <Config>
-      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraints.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
@@ -118,6 +146,9 @@
         <Attr Name="UsedInSteps" Val="synth_1_copy_3"/>
         <Attr Name="UsedInSteps" Val="synth_1_copy_4"/>
         <Attr Name="UsedInSteps" Val="synth_1_copy_5"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_6"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_7"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_8"/>
         <Attr Name="AutoDcp" Val="1"/>
       </FileInfo>
     </File>
@@ -126,12 +157,11 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design">
       <Option Id="FlattenHierarchy">1</Option>
-      <Option Id="IncrementalMode">0</Option>
+      <Option Id="GatedClockConversion">2</Option>
+      <Option Id="IncrementalMode">2</Option>
     </Step>
   </Strategy>
 </GenRun>

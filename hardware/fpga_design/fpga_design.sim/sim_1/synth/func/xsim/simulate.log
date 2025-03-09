@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+WARNING: file asm_test/a.out could not be opened
+Error: Could not open file
+$finish called at time : 0 fs : File "/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sim_1/new/thread_test.v" Line 54

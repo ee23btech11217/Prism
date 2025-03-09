@@ -10,10 +10,11 @@ module thread #(parameter THREAD_ID = 7'b0)
         input [15:0] sbram_in,
         input [1:0] chunkID,
 
-        output [10:0] program_counter_addr,
-        output [10:0] bram_read_addr,
+        output [9:0] program_counter_addr,
+        output [9:0] bram_addr,
         output fbram_wr_en,
-        output [15:0] fbram_wr_data
+        output [15:0] fbram_wr_data,
+        output halt
     );
 
     // Ins Decode and pipelines
@@ -27,9 +28,8 @@ module thread #(parameter THREAD_ID = 7'b0)
     wire [9:0] imm;
     wire [3:0] shift_len;
     wire [3:0] dest_reg;
-    wire is_fb;
     wire is_jmp;
-    wire halt;
+    wire is_fb;
 
 
 
@@ -53,7 +53,7 @@ module thread #(parameter THREAD_ID = 7'b0)
     end
 
     assign fbram_wr_data = rdata_1[15:0]; 
-    assign bram_read_addr = rdata_2[10:0];
+    assign bram_addr = rdata_2[10:0];
     
     instructionDecode threadInsDecode(
         .ins (instruction_reg),
