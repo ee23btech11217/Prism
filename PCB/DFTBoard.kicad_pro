@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|195105000|112560000|a8045bf9-a46a-4b91-abb4-aefe97b1294a|d58c863a-82c7-4082-99d7-03ec4b30c050",
-        "clearance|195105000|113560000|50efba20-c9e4-434b-b0fc-53e9ccc2376e|d58c863a-82c7-4082-99d7-03ec4b30c050"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -1799,8 +1796,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "DFTBoard.net",
-      "plot": "",
-      "pos_files": "",
+      "plot": "output/",
+      "pos_files": "output/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -2088,6 +2085,14 @@
       "version": 1
     },
     "net_format_name": "Pcbnew",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "pagelayout_default.kicad_wks",
     "plot_directory": "/home/julian/Documents/",
     "spice_adjust_passive_values": false,
