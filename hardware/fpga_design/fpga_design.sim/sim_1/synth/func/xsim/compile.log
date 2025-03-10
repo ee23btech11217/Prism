@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mihir/Prism/hardware/fpga_design/fpga_design.sim/sim_1/synth/func/xsim/thread_test_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module barrelShifter
+INFO: [VRFC 10-311] analyzing module flags
+INFO: [VRFC 10-311] analyzing module instructionDecode
+INFO: [VRFC 10-311] analyzing module opSel
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module registerFile
+INFO: [VRFC 10-311] analyzing module thread
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/tb/thread_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module thread_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sim_1/new/thread_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module thread_test
