@@ -70,9 +70,14 @@ module alu(
     reg [15:0] mul_op2;
     reg [31:0] mul_reg;
 
+    reg [15:0] mul_op1_pipe1;
+    reg [15:0] mul_op2_pipe1;
+    
     always @(posedge clk ) begin : aluMulBlock
-        mul_op1 <= op1[15:0];
-        mul_op2 <= op2[15:0];
+        mul_op1_pipe1 <= op1[15:0];
+        mul_op2_pipe1 <= op2[15:0];
+        mul_op1 <= mul_op1_pipe1;
+        mul_op2 <= mul_op2_pipe1;
         mul_reg <= mul_op1 * mul_op2;
     end
     

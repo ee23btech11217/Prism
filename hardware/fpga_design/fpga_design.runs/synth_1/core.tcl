@@ -56,9 +56,15 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param checkpoint.writeSynthRtdsInDcp 1
+set_param chipscope.maxJobs 2
+set_param synth.incrementalSynthesisCache ./.Xil/Vivado-613790-engineering-laptop/incrSyn
+set_msg_config -id {Common 17-41} -limit 10000000
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 set_msg_config  -id {Common 17-69}  -string {{ERROR: [Common 17-69] Command failed: File '/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/sub.v' does not exist}}  -suppress 
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xc7z020clg484-3
+create_project -in_memory -part xc7z020clg484-2
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -110,13 +116,16 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc
+set_property used_in_implementation false [get_files /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constrainsts_1.xdc]
+
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top core -part xc7z020clg484-3 -flatten_hierarchy none -gated_clock_conversion auto -incremental_mode off
+synth_design -top core -part xc7z020clg484-2 -flatten_hierarchy none -gated_clock_conversion auto -incremental_mode off
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-3" LaunchTime="1741519452" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/thread.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-2" LaunchTime="1741633899" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/thread.dcp">
   <File Type="VDS-TIMING-PB" Name="core_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="core_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="core.dcp"/>
@@ -130,7 +130,14 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constrainsts_1.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constrainsts_1.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
@@ -142,6 +149,8 @@
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedInSteps" Val="synth_1"/>
         <Attr Name="UsedInSteps" Val="synth_1_copy_1"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_10"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_11"/>
         <Attr Name="UsedInSteps" Val="synth_1_copy_2"/>
         <Attr Name="UsedInSteps" Val="synth_1_copy_3"/>
         <Attr Name="UsedInSteps" Val="synth_1_copy_4"/>
@@ -149,6 +158,7 @@
         <Attr Name="UsedInSteps" Val="synth_1_copy_6"/>
         <Attr Name="UsedInSteps" Val="synth_1_copy_7"/>
         <Attr Name="UsedInSteps" Val="synth_1_copy_8"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_9"/>
         <Attr Name="AutoDcp" Val="1"/>
       </FileInfo>
     </File>
@@ -157,7 +167,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design">
       <Option Id="FlattenHierarchy">1</Option>
       <Option Id="GatedClockConversion">2</Option>

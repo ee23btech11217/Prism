@@ -8,12 +8,14 @@ module thread #(parameter THREAD_ID = 7'b0)
         input [17:0] instruction,
         input [15:0] fbram_in,
         input [15:0] sbram_in,
+        input [15:0] bmp_in,
         input [1:0] chunkID,
 
         output [9:0] program_counter_addr,
         output [9:0] bram_addr,
         output fbram_wr_en,
         output [15:0] fbram_wr_data,
+        output pop,
         output halt
     );
 
@@ -30,6 +32,7 @@ module thread #(parameter THREAD_ID = 7'b0)
     wire [3:0] dest_reg;
     wire is_jmp;
     wire is_fb;
+    wire is_bmp;
 
 
 
@@ -41,7 +44,7 @@ module thread #(parameter THREAD_ID = 7'b0)
 
     wire [15:0] mem_in;
 
-    assign mem_in = (is_fb) ? fbram_in : sbram_in;
+    assign mem_in = (~is_fb) ? sbram_in : (is_bmp) ? bmp_in : fbram_in;
 
     always @(posedge clk or posedge rst) begin
         if (rst) begin : rstInsPipeline
@@ -65,11 +68,14 @@ module thread #(parameter THREAD_ID = 7'b0)
         .imm (imm),
         .shift_len (shift_len),
         .is_fb (is_fb),
+        .is_bitmap(is_bmp),
+        .pop(pop),
         .is_jmp (is_jmp),
         .fb_wen(fbram_wr_en),
         .dest(dest_reg),
         .halt (halt)
     );
+    
 
     registerFile#(.THREAD_ID ( THREAD_ID )) threadRegisterFile(
         .clk (clk),

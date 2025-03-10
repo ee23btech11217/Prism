@@ -6,21 +6,21 @@ module pc(
     input [9:0] imm,
     input is_jmp,
     input halt,
-    output [10:0] prog_addrs
+    output [9:0] prog_addrs
     );
-    reg [10:0] counter;
+    reg [9:0] counter;
 
     assign prog_addrs = counter;
 
     always @(negedge clk or posedge rst) begin : mainProgCounter
         if(rst) begin : rstProgramCounter
-            counter <= 11'b0;
+            counter <= 10'b0;
         end
         else if (halt) begin : haltProgCounter
             counter <= counter;
         end
         else begin : incrProgCounter
-            counter <= (is_jmp) ? {1'b0, imm} : counter + 11'd1;
+            counter <= (is_jmp) ? imm : counter + 10'd1;
         end
     end
 

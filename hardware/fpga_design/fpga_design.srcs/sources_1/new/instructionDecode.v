@@ -11,6 +11,8 @@ module instructionDecode (
     output [3:0] shift_len,
     output [3:0] dest,
     output is_fb,
+    output is_bitmap,
+    output pop,
     output is_jmp,
     output fb_wen,
     output halt
@@ -26,11 +28,13 @@ module instructionDecode (
     assign imm = ins[13:4];
     assign dest = ins[3:0];
     assign is_fb = ins[13];
+    assign is_bitmap = ins[12];
     
     // wire isNegative = ;
     // wire isZero = ;
     // wire isUC = ;
 
+    assign pop = ins[17] & ~ins[16] & ~ins[15] & ins[14];
     assign is_jmp = (flags[1] & ins[16] & ins[15] | flags[0] & ~ins[16] & ~ins[15] | ins[17] & ins[16] & ~ins[15]) & jumpIns;
     assign halt = (ins[17] & ins[16] & ins[15] & ins[14]);
     assign reg_sel_1 = ins[11:8];
