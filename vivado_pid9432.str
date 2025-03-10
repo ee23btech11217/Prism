@@ -1,0 +1,356 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:34:34 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 9432
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Mar 06 15:02:23 IST 2025
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Ubuntu
+OS Version: 6.8.0-52-generic
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 1920x1080
+Local screen bounds: x = 70, y = 27, width = 1850, height = 1053
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/home/mihir/xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12
+Java executable: 	/home/mihir/xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	mihir
+User home directory: /home/mihir
+User working directory: /home/mihir/Prism
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/mihir/xilinx/Vivado
+HDI_APPROOT: /home/mihir/xilinx/Vivado/2024.2
+RDI_DATADIR: /home/mihir/xilinx/Vivado/2024.2/data
+RDI_BINDIR: /home/mihir/xilinx/Vivado/2024.2/bin
+
+Vivado preferences file: /home/mihir/.Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: /home/mihir/.Xilinx/Vivado/2024.2/
+Vivado layouts directory: /home/mihir/.Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	/home/mihir/xilinx/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/mihir/Prism/vivado.log
+Vivado journal file: 	/home/mihir/Prism/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-9432-engineering-laptop
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /home/mihir/xilinx/Vivado/2024.2
+RDI_BASEROOT: /home/mihir/xilinx/Vivado
+RDI_BINROOT: /home/mihir/xilinx/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/mihir/xilinx/Vivado/2024.2/data
+RDI_INSTALLROOT: /home/mihir/xilinx
+RDI_INSTALLVER: 2024.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /home/mihir/xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu/22:/home/mihir/xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu:/home/mihir/xilinx/Vivado/2024.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/mihir/xilinx/Vitis/2024.2/bin:/home/mihir/xilinx/Vivado/2024.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/mihir/xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/mihir/Prism:engineering-laptop_1741253523_9391
+RDI_SHARED_DATA: /home/mihir/xilinx/SharedData/2024.2/data
+RDI_TPS_ROOT: /home/mihir/xilinx/Vivado/2024.2/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /home/mihir/xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: /home/mihir/xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: /home/mihir/xilinx/Vitis/2024.2
+XILINX_PLANAHEAD: /home/mihir/xilinx/Vivado/2024.2
+XILINX_SDK: /home/mihir/xilinx/Vitis/2024.2
+XILINX_VITIS: /home/mihir/xilinx/Vitis/2024.2
+XILINX_VIVADO: /home/mihir/xilinx/Vivado/2024.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,428 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Opening Vivado Project: /home/mihir/Prism/hardware/fpga_design/fpga_design.xpr. Version: Vivado v2024.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/mihir/Prism/hardware/fpga_design/fpga_design.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,492 MB. GUI used memory: 68 MB. Current time: 3/6/25, 3:02:24 PM IST
+// TclEventType: COMPOSITE_FILE_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+94571kb) [00:00:14]
+// [Engine Memory]: 1,510 MB (+1432193kb) [00:00:14]
+// [GUI Memory]: 130 MB (+34443kb) [00:00:15]
+// [Engine Memory]: 1,597 MB (+12081kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  2860 ms.
+// Tcl Message: open_project /home/mihir/Prism/hardware/fpga_design/fpga_design.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/mihir/xilinx/Vivado/2024.2/data/ip'. 
+// [GUI Memory]: 138 MB (+1276kb) [00:00:17]
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 7759.543 ; gain = 301.094 ; free physical = 8670 ; free virtual = 29796 
+// [GUI Memory]: 147 MB (+2156kb) [00:00:17]
+// Project name: fpga_design; location: /home/mihir/Prism/hardware/fpga_design; part: xc7z020clg484-3
+dismissDialog("Open Project"); // bh (Open Project Progress)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 282 ; 534 ; 2.5 ; 0 ; 0 ; Wed Mar 05 17:16:29 IST 2025 ; 00:03:56 ; Vivado Synthesis Defaults* (Vivado Synthesis 2024) ; Vivado Synthesis Default Reports (Vivado Synthesis 2024) ; xc7z020clg484-3 ; engineering-laptop ; Vivado Synthesis Defaults", 0, (String) null, 14, true); // ar (PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.5s
+// [Engine Memory]: 1,681 MB (+4408kb) [00:00:22]
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 21, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 15); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 15); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 17); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 17); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 29, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z020clg484-3 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,804 MB. GUI used memory: 76 MB. Current time: 3/6/25, 3:02:54 PM IST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// [Engine Memory]: 2,132 MB (+384429kb) [00:00:49]
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,665 MB. GUI used memory: 76 MB. Current time: 3/6/25, 3:03:06 PM IST
+// [Engine Memory]: 2,667 MB (+448879kb) [00:00:55]
+// Xgd.load filename: /home/mihir/Prism/./.Xil/Vivado-9432-engineering-laptop/xc7z020_detail.xgd_70F1344B elapsed time: 1.2s
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 1.4s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 2,852 MB (+54055kb) [00:00:58]
+// DeviceView Instantiated
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.3s
+// [GUI Memory]: 160 MB (+6233kb) [00:00:59]
+// TclEventType: CURR_DESIGN_SET
+// WARNING: HEventQueue.dispatchEvent() is taking  2285 ms.
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg484-3 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 7950.555 ; gain = 0.000 ; free physical = 8269 ; free virtual = 29423 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 51 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2024.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc] 
+// Tcl Message: INFO: [Common 17-14] Message 'Vivado 12-508' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:7818] 
+// Tcl Message: Finished Parsing XDC File [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8761.961 ; gain = 0.000 ; free physical = 7837 ; free virtual = 29020 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: CURR_DESIGN_SET
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:19 . Memory (MB): peak = 8971.496 ; gain = 1175.805 ; free physical = 7190 ; free virtual = 28402 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Elapsed time: 20 seconds
+dismissDialog("Open Synthesized Design"); // bh (Open Synthesized Design Progress)
+// [GUI Memory]: 179 MB (+11136kb) [00:01:02]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // J (dialog0)
+// [GUI Memory]: 188 MB (+479kb) [00:19:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,886 MB. GUI used memory: 110 MB. Current time: 3/6/25, 3:33:09 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  1912282 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,886 MB. GUI used memory: 111 MB. Current time: 3/6/25, 4:07:29 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,886 MB. GUI used memory: 102 MB. Current time: 3/7/25, 11:29:26 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  21282 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20231 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20166 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20247 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20177 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20160 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20228 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20171 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20238 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20169 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20285 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20159 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20230 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20165 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20255 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20164 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20243 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20171 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20231 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20171 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20232 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20161 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20220 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20166 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20220 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20168 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20226 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20169 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20277 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20170 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20277 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20164 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20246 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20160 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20220 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20181 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20246 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20165 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20214 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20174 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20246 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20163 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20230 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20176 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20219 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20165 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20241 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20179 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20241 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20157 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20214 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20173 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20237 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20176 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20219 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20180 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20233 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20162 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20267 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20179 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20228 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20173 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20258 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20178 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20305 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20168 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20244 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20168 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20261 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20170 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20223 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20220 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20280 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20175 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20233 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20172 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20236 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20163 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,884 MB. GUI used memory: 102 MB. Current time: 3/7/25, 11:59:42 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  20162 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20177 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20253 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20164 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20226 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20175 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20236 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20171 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20269 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20172 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20271 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20162 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20279 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20171 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20264 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20163 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20264 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20180 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20272 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20174 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20251 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20165 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20278 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20173 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20231 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20177 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20241 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20171 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20231 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20169 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20235 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20163 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20232 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20167 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20234 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20169 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20230 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20222 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20266 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20167 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20281 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20169 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20242 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20164 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20230 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20234 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20291 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20204 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20276 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20152 ms.

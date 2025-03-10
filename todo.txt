@@ -1,0 +1,4 @@
+simulate BRAM read write, using vivado.
+simulate core in vivado
+
+populate BRAM, for read write access.
