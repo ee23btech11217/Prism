@@ -1,4 +1,4 @@
-24388282290447017
+24391853591657338
 6N137S
 8-SMD
 
@@ -55537,6 +55537,13 @@ tl6215_right_angle
 0
 5
 5
+DSC1121CE5
+DSC1121CE50500000
+DSC1121CE5-050.0000-3
+Crystal or Oscillator
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -86274,6 +86281,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Phoenix_custom
+PHOENIX_1748167
+
+
+0
+2
+2
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf

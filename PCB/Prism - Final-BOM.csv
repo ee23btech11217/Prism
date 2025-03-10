@@ -1,0 +1,64 @@
+Reference,Value,Datasheet,Footprint,Qty,Links,MPN,Price,Net Price
+"C1,C4,C8,C14,C15,C17,C18,C23,C29,C30,C31,C34,C46,C47,C50,C55,C65,C101,C102,C103,C104,C108,C116,C117,C118,C119,C121",.47uF,,Capacitor_SMD:C_0402_1005Metric,27,https://www.digikey.com/short/z090rjr8,GRM188R70J474KA01D,₹13.08,₹353.16
+"C2,C3,C10,C11,C13,C26,C33,C41,C51,C54,C58,C60,C125,C126,C128,C129,C130",10uF,,Capacitor_SMD:C_0603_1608Metric,17,https://www.digikey.com/short/87z9z29r,GRM188R60G106ME47J,₹13.08,₹222.36
+"C5,C9,C19,C20,C24,C27,C42,C57,C59,C66,C100,C114,C115,C122,C127",4.7uF,,Capacitor_SMD:C_0402_1005Metric,15,https://www.digikey.com/short/pn482zbj,GRM155R60J475ME47J,₹8.72,₹130.80
+"C6,C12,C25,C28,C67,C99,C123",100uF,,Capacitor_SMD:C_1210_3225Metric,7,https://www.digikey.com/short/v35jphwj,GRM32EE70G107ME19L,₹80.20,₹561.40
+"C7,C32,C61,C113",47uF,,Capacitor_SMD:C_0805_1005Metric,4,https://www.digikey.in/en/products/detail/samsung-electro-mechanics/CL21A476MQYNNNE/3887510,CL21A476MQYNNNE,₹15.69,₹62.76
+C22,330uF,,Capacitor_SMD:C_1206_3216Metric,1,https://robu.in/product/330uf-16v-dc-polymer-aluminium-smd-capacitor/?gQT=0,SKU: 872027,₹9.00,₹9.00
+C35,2.2uF,,Capacitor_SMD:C_0402_1005Metric,1,https://www.digikey.in/short/7t7df3rh,KGM05BS70G225MH,₹17.43,₹17.43
+"C39,C52,C53,C56,C62,C63,C94,C95,C96,C97,C107,C131",.1uF,,Capacitor_SMD:C_0402_1005Metric,12,https://www.digikey.in/short/819czrf7,GCM155R71H104KE02D,₹8.72,₹104.64
+"C43,C44,C45",1uF,,Capacitor_SMD:C_0402_1005Metric,3,https://robu.in/product/1uf-capacitor-smdc-0402-pack-of-50/,SKU: 1415733,₹50.00,₹150.00
+"C98,C105,C106,C110,C120",.01uF,,Capacitor_SMD:C_0402_1005Metric,5,https://www.digikey.in/short/tq5m3c9v,GRM155R71C103KA01J,₹8.72,₹43.60
+"C701,C702",22uF,,Capacitor_SMD:C_0603_1005Metric,2,https://www.digikey.in/en/products/detail/samsung-electro-mechanics/CL10A226MP8NUNE/3886932,CL10A226MP8NUNE,₹8.72,₹17.44
+CON1,AVR-JTAG-10,,DFTcustom:XilinxJTAG,1,https://robu.in/product/2-54mm-dc3-10-pin-straight-male-idc-socket-box-header-jtag-pack-of-5/,SKU: 498125,₹59.00,₹59.00
+"D1,D2",LED_RGB,,DFTcustom:PLCC6-SM-RGB-LED,2,https://www.digikey.com/short/fv7jp1bp,OVSARGB4R8,₹88.04,₹176.08
+"D4,D7",BLUE LED,,Capacitor_SMD:C_0603_1608Metric,2,https://evelta.com/blue-led-smd-0603-package/?utm_source=google&utm_campaign=21793918708&utm_medium=ad&utm_content=&utm_term=&gad_source=1&gclid=CjwKCAiAlPu9BhAjEiwA5NDSA-yDMWFe6mfkJOkeg_GKD5domFmr1ublKcrdqQawwsR_K2JMreoUdBoC3PkQAvD_BwE,BE-LED-0603,₹1.96,₹3.92
+D701,D_Schottky,,Diode_SMD:D_3220_8050Metric,1,https://www.mouser.in/ProductDetail/Nexperia/PMEG4030AEXEX?qs=olJun0bQHM%252BLPy0dlO8pcw%3D%3D,PMEG4030AEXE,₹37.41,₹37.41
+FB1,"120R, 100 MHz, size 0603",~,Capacitor_SMD:C_0603_1608Metric,1,https://in.element14.com/murata/blm18pg121sn1d/ferrite-bead-0603-0-05ohm-2a/dp/1515738,BLM18PG121SN1D,₹3.92,₹3.92
+J3,AUDIO JACK,,DFTcustom:RA49C14B,1,https://www.mouser.in/ProductDetail/Switchcraft/RA49C14B?qs=7lbtAbU1WMzEvbKAI2%2F%2FaQ%3D%3D,RA49C14B,₹594.21,₹594.21
+"J8,J601",Micro_SD_Card_Det,,DFTcustom:AMPHENOL-114-00841-68,2,https://www.digikey.in/short/h7fbb444,114-00841-68,₹142.09,₹284.18
+J701,FFC2B28-40-G,,FFC2B28-40-G:GCT_FFC2B28-40-G,1,https://www.digikey.in/short/qm7h5rw0,FFC2B28-40-G,₹79.33,₹79.33
+J702,Conn_01x06_Female,~,Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical_SMD_Pin1Right,1,https://mgsl.in/products/sfe-prt-11896?variant=47399635222811&country=IN&currency=INR,SFE-PRT-11896,₹49.00,₹49.00
+"L1,L2,L3,L4",2.2uH,,Capacitor_SMD:C_1812_4532Metric,4,https://www.digikey.in/short/4htpj82p,LQH43NH222J03L,₹43.58,₹174.32
+L701,4.7uH,,Capacitor_SMD:C_1812_4532Metric,1,https://mou.sr/4hQO2V6,LQH32CN4R7M23L,₹24.36,₹24.36
+"Q1,Q2,Q3,Q4,Q5,Q6,Q8",IRLML2502,,Package_TO_SOT_SMD:SOT-23,7,https://mou.sr/3NMdezM,IRLML2502TRPBF,₹38.28,₹267.96
+"R1,R2,R3,R4,R5,R29,R101",100k,,Resistor_SMD:R_0402_1005Metric,7,https://www.digikey.in/short/v7jq5tc7,RC0402FR-07100KL,₹8.72,₹61.04
+"R6,R33",10k,,Resistor_SMD:R_0402_1005Metric,2,https://www.digikey.in/short/qvn7bz2t,RCA040210K0FKED,₹8.72,₹17.44
+"R7,R49",240 1%,~,Resistor_SMD:R_0402_1005Metric,2,https://www.digikey.gr/short/334crw9z,ERJ-2RKF2400X,₹8.72,₹17.44
+"R8,R9,R10,R74,R98,R103,R104",4.7k,,Resistor_SMD:R_0402_1005Metric,7,https://www.digikey.com/short/9fjfpr85,RC0402JR-074K7L,₹8.72,₹61.04
+"R11,R12,R13,R14,R15,R16,R19,R20,R22,R23",100,,Resistor_SMD:R_0402_1005Metric,10,https://www.digikey.in/short/rhhvtj7n,AT0402BRD07100RL,₹8.72,₹87.20
+"R21,R24,R78,R102",150,,Resistor_SMD:R_0402_1005Metric,4,https://www.digikey.com/short/12wwhmvd,RC0402FR-07150RL,₹8.72,₹34.88
+"R25,R91,R92,R93,R94,R95,R96,R97,R106",20k,,Resistor_SMD:R_0402_1005Metric,9,https://www.digikey.com/short/d7rwdntn,RC1005J203CS,₹8.72,₹78.48
+"R26,R301",47,~,Resistor_SMD:R_0402_1005Metric,2,https://www.digikey.com/short/dwv2vfp9,ERJ-2RKF47R0X,₹8.72,₹17.44
+R30,49.9k,,Resistor_SMD:R_0402_1005Metric,1,https://robu.in/product/rc0402fr-0749k9p-yageo-62-5mw-thick-film-resistors-%C2%B11-%C2%B1150ppm-%E2%84%83-49-9k%CF%89-0402-chip-resistor-surface-mount-rohs/,RC0402FR-0749K9P,₹1.00,₹1.00
+"R47,R48,R703,R704,R705,R706,R707,R708,R709,R710",10k 1%,,Resistor_SMD:R_0402_1005Metric,10,https://www.digikey.com/short/7581ndj3,RC1005F103CS,₹8.72,₹87.20
+"R50,R75,R76",80.6 1%,,Resistor_SMD:R_0402_1005Metric,3,https://www.digikey.com/short/npzrvmtp,RC1005F80R6CS,₹8.72,₹26.16
+"R51,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R65,R66,R67,R68,R69,R70,R71,R72,R73",40.2 1%,,Resistor_SMD:R_0402_1005Metric,23,https://www.digikey.com/short/d74dfj48,ERJ-2RKF40R2X,₹8.72,₹200.56
+"R77,R105,R701",1k,,Resistor_SMD:R_0402_1005Metric,2,https://www.digikey.com/short/bt35fvzp,CR0402-FX-1001GLF,₹8.72,₹17.44
+"R88,R89,R90",0.05,,Resistor_SMD:R_2512_6332Metric,3,https://mou.sr/3XhHt5I,CSRN2512FK50L0,₹52.20,₹156.60
+"R99,R601",47k,~,Resistor_SMD:R_0402_1005Metric,2,https://www.digikey.com/short/p22vtt5d,CR0402-FX-4702GLF,₹8.72,₹17.44
+R100,24.9 1%,~,Resistor_SMD:R_0402_1005Metric,1,https://www.digikey.com/short/jdqbd9pd,RC1005F24R9CS,₹8.72,₹8.72
+R702,30k,~,Resistor_SMD:R_0402_1005Metric,1,https://www.digikey.in/en/products/detail/panasonic-electronic-components/ERA-2AEB303X/1706040,ERA-2AEB303X,₹8.72,₹8.72
+"SW701,SW702,SW703,SW704",SW_PUSH,,Button_Switch_SMD:SW_SPST_TL3305A,4,https://mou.sr/41eLc5o   (5mm height),TL3305BF100QG,₹14.79,₹59.16
+"U1,U2",LM3880,http://www.ti.com/lit/ds/symlink/lm3880.pdf,Package_TO_SOT_SMD:SOT-23-6,2,https://www.digikey.in/short/w3dcjv38,LM3880MF-1AA/NOPB,₹129.02,₹258.04
+U3,SC189 - 1.0V,DOCUMENTATION,Package_TO_SOT_SMD:SOT-23-5,1,https://www.digikey.in/short/2dw39f4p,SC189ASKTRT,₹161.28,₹161.28
+U4,SC189 - 3.3V,DOCUMENTATION,Package_TO_SOT_SMD:SOT-23-5,1,https://www.digikey.com/short/7pnb8h5m,SC189ZSKTRT,₹164.76,₹164.76
+U5,TLV62080DSGx,http://www.ti.com/lit/ds/symlink/tlv62080.pdf,Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,1,https://www.digikey.in/short/vthvm899,TLV62084DSGR,₹125.53,₹125.53
+U7,SC189 - 1.8V,DOCUMENTATION,Package_TO_SOT_SMD:SOT-23-5,1,https://www.digikey.in/short/bzpnz0q3,SC189LSKTRT,₹161.28,₹161.28
+U8,TPS51200DRCR,http://www.ti.com/lit/ds/symlink/tps51200.pdf,Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias,1,https://www.digikey.in/short/dq4hcpn4,TPS51200DRCR,₹68.00,₹68.00
+U9,TLV320AIC3104,,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.65x3.65mm,1,https://www.digikey.in/short/jznvfmrp,TLV320AIC3104IRHBR,₹353.06,₹353.06
+U16,MT41K256M16HA-125_E,FBGA-96 Micron,DFTcustom:FBGA-96-DDR3-SDRAM,1,https://www.amazon.in/MT41K256M16HA-125-SDRAM-Memory-Parallel-96-FBGA/dp/B0BQC2LHWS,MT41K256M16HA,"₹1,200.00","₹1,200.00"
+U17,FTDITypeUART,Pin Header,DFTcustom:FTDI_CONN,1,https://mgsl.in/products/sfe-prt-11896?variant=47399635222811&country=IN&currency=INR,SFE-PRT-11896,₹49.00,₹49.00
+U18,ABRACON-ASDMB,http://www.abracon.com/Oscillators/ASDMB.pdf,XTAL_ASDMB-24.000MHZ-LC-T:XTAL_ASDMB-24.000MHZ-LC-T,1,https://mou.sr/3CYQmKK,ASDMB-24.000MHZ-LC-T,₹221.85,₹221.85
+U19,S25FL256SAGNFI001,,footprints:Cypress-002-18827-0-0-0,1,https://www.digikey.in/en/products/detail/infineon-technologies/S25FL256SAGNFI001/3761549,S25FL256SAGNFI001,442.85,442.85
+U20,xc7z020clg484,,,1,https://www.digikey.in/en/products/detail/amd/XC7Z020-3CLG484E/3925764?s=N4IgTCBcDaIBoGEDsAtADGNBaAzAgMgOIAsAHMSALoC%2BQA,XC7Z020-3CLG484E,"₹18,224.00","₹18,224.00"
+U23,LSM6DSLTR,www.st.com/resource/en/datasheet/lsm6ds3.pdf,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,1,https://www.digikey.in/en/products/detail/stmicroelectronics/LSM6DSLTR/6192804,LSM6DSLTR,₹380.09,₹380.09
+U701,MT3608,https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf,Package_TO_SOT_SMD:SOT-23-6,1,https://techtonics.in/product/mt3608-2a-max-dc-dc-step-up-power-boost-module/,MT3608,₹35.00,₹35.00
+J401,Header socket 2-pin,,,1,https://www.digikey.in/en/products/detail/phoenix-contact/1748167/2511355?&utm_adgroup=&utm_term=&productid=2511355&utm_content=&gad_source=1,1748167,,₹0.00
+Connectors,Female header,,,1,https://mgsl.in/products/sfe-prt-11896?variant=47399635222811&country=IN&currency=INR,SFE-PRT-11896,₹49.00,₹49.00
+Connectors,Male header,,,1,https://www.digikey.in/en/products/detail/w-rth-elektronik/61301011121/2508439?&utm_adgroup=&utm_term=&productid=2508439&utm_content=&gad_source=1,61301011121,₹74.00,₹74.00
+Touch button,,,,2,https://robu.in/product/ttp223-touch-key-module-2pcs/?gad_source=1,TTP223,₹13.00,₹26.00
+Joystick,,,,1,https://www.digikey.in/en/products/detail/digilent-inc/410-330/6679816,410-330,"₹1,393.94","₹1,393.94"
+"5.0"" 40-pin TFT Display - 800x480",,,,1,https://www.mouser.in/ProductDetail/Adafruit/1596?qs=GURawfaeGuAW2iLYQ9nrJw%3D%3D,1596 adafruit,"₹2,605.65","₹2,605.65"
+Power Delivery,379-USB-PD-Board-V1.0,,N/A,,https://evelta.com/usb-c-pd-power-delivery-board/,USB-PD-Board-V1.0,₹778.80,778.8
+,,,,,,,Total,"31,156.37"

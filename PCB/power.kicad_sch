@@ -13864,7 +13864,7 @@
 	)
 	(text "Decoupling consistant with UG933, July 1 2018"
 		(exclude_from_sim no)
-		(at 186.69 146.05 0)
+		(at 178.9938 134.8232 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13899,7 +13899,7 @@
 	)
 	(text "CCPLL is a 1.8V nominal supply that provides \npower to the three PS PLLs and additional\nanalog circuits. It can be powered separately \nor derived from the VCCPAUX supply. If powered\nby VCCPAUX, VCCPLL must be filtered through \na 120Ω @ 100 MHz, size 0603 ferrite bead and\na 10 µF or larger, size 0603 decoupling capacitor. \nIn both cases a 0.47 µF to 4.7 µF 0402\ncapacitor must be placed near the VCCPLL BGA via. "
 		(exclude_from_sim no)
-		(at 104.14 144.78 0)
+		(at 103.5304 133.5532 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13910,7 +13910,7 @@
 	)
 	(text "VCCPINT is a 1.0V nominal supply that powers \nall of the PS internal logic circuits. This supply \ncan be combined with VCCINT if the system \ndoes not require the PL supply to be powered \ndown independent of the PS.\n\nSame with AUX"
 		(exclude_from_sim no)
-		(at 195.58 138.43 0)
+		(at 179.2224 128.905 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -13932,7 +13932,7 @@
 	)
 	(text "Sequencing: \nPINT (1.0v) then \nPAUX and PLL together (1.8v) then\nMIO (3v3) and DDR (1v35) then\nPOR"
 		(exclude_from_sim no)
-		(at 62.23 184.15 0)
+		(at 63.881 184.0738 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -25770,7 +25770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Phoenix_custom:PHOENIX_1748167"
 			(at 158.75 52.07 0)
 			(effects
 				(font
