@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="279.601 ns"></ZoomEndTime>
-      <Cursor1Time time="347.900 ns"></Cursor1Time>
+      <ZoomStartTime time="438.047 ns"></ZoomStartTime>
+      <ZoomEndTime time="490.548 ns"></ZoomEndTime>
+      <Cursor1Time time="580.966 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="261"></NameColumnWidth>
-      <ValueColumnWidth column_width="217"></ValueColumnWidth>
+      <ValueColumnWidth column_width="213"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="40" />
+   <WVObjectSize size="59" />
    <wvobject type="logic" fp_name="/core_tb/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -108,6 +108,10 @@
       <obj_property name="ElementShortName">instruction[17:0]</obj_property>
       <obj_property name="ObjectShortName">instruction[17:0]</obj_property>
    </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/instruction_reg">
+      <obj_property name="ElementShortName">instruction_reg[17:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_reg[17:0]</obj_property>
+   </wvobject>
    <wvobject type="array" fp_name="/core_tb/dut/thread0/program_counter_addr">
       <obj_property name="ElementShortName">program_counter_addr[9:0]</obj_property>
       <obj_property name="ObjectShortName">program_counter_addr[9:0]</obj_property>
@@ -179,5 +183,77 @@
    <wvobject type="array" fp_name="/core_tb/dut/coreProgMem/doutb">
       <obj_property name="ElementShortName">doutb[17:0]</obj_property>
       <obj_property name="ObjectShortName">doutb[17:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/op1">
+      <obj_property name="ElementShortName">op1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/op2">
+      <obj_property name="ElementShortName">op2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">op2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/shift_len">
+      <obj_property name="ElementShortName">shift_len[3:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_len[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/alu_sel">
+      <obj_property name="ElementShortName">alu_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/alu_res">
+      <obj_property name="ElementShortName">alu_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/mul_res">
+      <obj_property name="ElementShortName">mul_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/thread0/threadALU/n">
+      <obj_property name="ElementShortName">n</obj_property>
+      <obj_property name="ObjectShortName">n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/thread0/threadALU/ze">
+      <obj_property name="ElementShortName">ze</obj_property>
+      <obj_property name="ObjectShortName">ze</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/thread0/threadALU/is_neg">
+      <obj_property name="ElementShortName">is_neg</obj_property>
+      <obj_property name="ObjectShortName">is_neg</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/thread0/threadALU/is_zero">
+      <obj_property name="ElementShortName">is_zero</obj_property>
+      <obj_property name="ObjectShortName">is_zero</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/temp">
+      <obj_property name="ElementShortName">temp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/core_tb/dut/thread0/threadALU/ceff">
+      <obj_property name="ElementShortName">ceff</obj_property>
+      <obj_property name="ObjectShortName">ceff</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/shift_res">
+      <obj_property name="ElementShortName">shift_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_res[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/mul_op1">
+      <obj_property name="ElementShortName">mul_op1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_op1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/mul_op2">
+      <obj_property name="ElementShortName">mul_op2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_op2[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/mul_reg">
+      <obj_property name="ElementShortName">mul_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/mul_op1_pipe1">
+      <obj_property name="ElementShortName">mul_op1_pipe1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_op1_pipe1[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/core_tb/dut/thread0/threadALU/mul_op2_pipe1">
+      <obj_property name="ElementShortName">mul_op2_pipe1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_op2_pipe1[15:0]</obj_property>
    </wvobject>
 </wave_config>

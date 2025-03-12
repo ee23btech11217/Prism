@@ -5,6 +5,7 @@ module core #(parameter CORE_ID = 7'b0)
         input clk,
         input clk_axi,
         input rst,
+        input thread_rst,
         input [1:0] chunkID0,
         input [1:0] chunkID1,
         
@@ -56,7 +57,7 @@ module core #(parameter CORE_ID = 7'b0)
     thread #(.THREAD_ID(CORE_ID))
     thread0(
         .clk (clk),
-        .rst (rst),
+        .rst (thread_rst),
         .instruction (ins0),
         .fbram_in (fbram_in0),
         .sbram_in (sbram_in0),
@@ -73,7 +74,7 @@ module core #(parameter CORE_ID = 7'b0)
     thread #(.THREAD_ID(CORE_ID + 7'b1))  
     thread1(
         .clk (clk),
-        .rst (rst),
+        .rst (thread_rst),
         .instruction (ins1),
         .fbram_in (fbram_in1),
         .sbram_in (sbram_in1),
@@ -102,7 +103,7 @@ module core #(parameter CORE_ID = 7'b0)
         .enb(1'b1),              // Read always enabled
         .web(1'b0),              // Never write through 2nd port
         .addrb(prog_addr1),      // Ins Address from thread
-        .dinb(16'bx),            // Write data --> don't care
+        .dinb(18'bx),            // Write data --> don't care
         .doutb(ins1),            // Read data --> Ins to Thread1
         .rsta_busy(prog_rsta_busy),
         .rstb_busy(prog_rstb_busy) 

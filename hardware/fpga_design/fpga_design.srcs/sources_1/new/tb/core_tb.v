@@ -10,6 +10,7 @@ module core_tb;
     reg clk_axi;
     reg rst;
     reg [1:0] chunkID0, chunkID1;
+    reg thread_rst;
     
     // Program memory signals
     reg rst_prog_mem;
@@ -46,6 +47,7 @@ module core_tb;
     localparam [17:0] INS_ADD_R5_R1_R3 = 18'b000000001100011101;  // add r5, r1, r3
     localparam [17:0] INS_STR_R4       = 18'b010000000000000100;  // str r4, r0, r0 (store r4 to frame buffer addr 0)
     localparam [17:0] INS_STR_R5       = 18'b010000000000000101;  // str r5, r0, r0 (store r5 to frame buffer addr 0)
+    localparam [17:0] INS_MUL_R1_R2    = 18'h028123; // mul r3, r2, r1
     localparam [17:0] INS_HLT          = 18'b111100000000001110;  // hlt
     
     // Instantiate the core module
@@ -53,6 +55,7 @@ module core_tb;
         .clk(clk),
         .clk_axi(clk_axi),
         .rst(rst),
+        .thread_rst(thread_rst),
         .chunkID0(chunkID0),
         .chunkID1(chunkID1),
         .rst_prog_mem(rst_prog_mem),
@@ -114,6 +117,7 @@ module core_tb;
         bmp_addr = 0;
         chunkID0 = 2'b01;
         chunkID1 = 2'b10;
+        thread_rst = 1'b1;
         
         // Release reset after 100ns
         #100;
@@ -123,8 +127,8 @@ module core_tb;
         // Phase 1: Fill the shift BRAM with test data values
         shift_ena = 1;
         for (i = 0; i < 10; i = i + 1) begin
-            shift_addr = i;
-            shift_in0 = 16'h1000 + i; // Starting at 0x1000 and incrementing
+            shift_in0 = i;
+            shift_addr =16'h1000 + i; // Starting at 0x1000 and incrementing
             #14; // Complete shift clock cycle
         end
         shift_ena = 0;
@@ -156,7 +160,7 @@ module core_tb;
         #10;
         
         prog_waddr = 3;
-        prog_wdata = INS_ADD_R4_R1_R2; // Add R1 and R2, store in R4
+        prog_wdata = INS_MUL_R1_R2; // Mul R1 and R2, store in R3
         #10;
         
         prog_waddr = 4;
@@ -210,7 +214,7 @@ module core_tb;
         
         // Stop writing to program memory
         prog_wena = 0;
-        
+        thread_rst <= 1'b0;
         // Phase 4: Run execution and verify results
             begin
                 #5000; // Timeout

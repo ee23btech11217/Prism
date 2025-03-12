@@ -5,7 +5,7 @@ Running: /home/mihir/xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --d
 Using 8 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-9543] actual bit length 16 differs from formal bit length 18 for port 'dinb' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/core.v:105]
+WARNING: [VRFC 10-9543] actual bit length 16 differs from formal bit length 18 for port 'dinb' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/core.v:106]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
