@@ -56,11 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache ./.Xil/Vivado-5275-engineering-laptop/incrSyn
-set_msg_config -id {Common 17-41} -limit 10000000
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 set_msg_config  -id {Synth 8-327}  -string {{WARNING: [Synth 8-327] inferring latch for variable 'temp_reg' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/alu.v:23]}}  -suppress 
 set_msg_config  -id {Vivado 12-508}  -new_severity {CRITICAL WARNING} 
 set_msg_config  -id {Runs 36-337}  -string {{WARNING: [Runs 36-337] The following IPs are either missing output products or output products are not up-to-date for Simulation target. Since these IPs are locked, no update to the output products can be done. 
