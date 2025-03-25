@@ -4,3 +4,9 @@
 [submodule "Prism-PCB"]
 	path = Prism-PCB
 	url = https://github.com/Y10-Labs/Prism-PCB.git
+[submodule "Prism-Assets"]
+	path = Prism-Assets
+	url = https://github.com/Y10-Labs/Prism-Assets.git
+[submodule "Prism-SW"]
+	path = Prism-SW
+	url = https://github.com/Y10-Labs/Prism-SW.git
