@@ -1,0 +1,3 @@
+[submodule "Prism-RTL"]
+	path = Prism-RTL
+	url = https://github.com/Y10-Labs/Prism-RTL.git
