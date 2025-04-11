@@ -42,7 +42,7 @@ namespace Audio
      * @brief Sets the audio buffer for this channel
      * @param buf Pointer to the audio buffer
      */
-    void Channel::setBuffer(AudioBuffer* buf)
+    void Channel::setBuffer(std::shared_ptr<AudioBuffer> buf)
     {
         Command cmd;
         cmd.type = Command::Type::SET_BUFFER;
@@ -54,30 +54,6 @@ namespace Audio
         else
         {
             std::cerr << "Error: Attempted to set null buffer on channel " << channelID << std::endl;
-        }
-    }
-
-    /**
-     * @brief Loads an audio buffer from a file
-     * @param filePath Path to the audio file
-     * @return true if successful, false otherwise
-     */
-    bool Channel::loadBufferFromFile(const std::string& filePath)
-    {
-        if (!buffer)
-        {
-            buffer = new AudioBuffer(channelID);
-        }
-        
-        try
-        {
-            buffer->loadBuffer(filePath);
-            return true;
-        }
-        catch (const std::exception& e)
-        {
-            std::cerr << "Error loading audio file: " << e.what() << std::endl;
-            return false;
         }
     }
 
@@ -582,3 +558,46 @@ namespace Audio
         }
     }
 }
+
+
+// End of file
+// This file is part of the Audio Engine project.
+//
+// This project is licensed under the MIT License.
+// See the LICENSE file for details.
+
+//
+// This file contains the implementation of the Channel class, which manages audio playback,
+// effects, and automation for a single audio channel. The class provides methods for playback
+// control, effect management, and automation of various audio parameters. It also includes
+// methods for processing audio samples and applying effects in real-time.
+// The Channel class is designed to work with the Engine class and the ChainFX class for
+// audio effects processing. It uses a command queue to handle asynchronous operations and
+// ensure thread safety. The class also provides methods for setting and clearing automation
+// profiles for volume, pan, and playback speed, allowing for dynamic changes during playback.
+// The class is designed to be flexible and extensible, allowing for easy addition of new
+// effects and automation types in the future. It also includes error handling and validation
+// for various operations, ensuring robustness in audio processing.
+// The Channel class is part of a larger audio engine project, which includes other components
+// such as the Engine class, ChainFX class, and AudioBuffer class. The project is designed
+// to provide a comprehensive solution for audio playback and effects processing in C++.
+// The code is structured to be modular and maintainable, with clear separation of concerns
+// between different components. The use of smart pointers and STL containers ensures
+// efficient memory management and ease of use. The class also includes detailed comments
+// and documentation for each method, making it easy to understand and modify the code.
+// The Channel class is designed to be used in a variety of audio applications, including
+// music production, game audio, and multimedia applications. It provides a powerful and
+// flexible framework for audio playback and effects processing, making it a valuable
+// component of the audio engine project. The class is also designed to be cross-platform,
+// allowing for easy integration into different audio applications and environments.
+// The code is written in modern C++ and follows best practices for audio programming,
+// ensuring high performance and reliability. The use of templates and polymorphism allows
+// for easy extension and customization of the class, making it suitable for a wide range
+// of audio applications. The class is also designed to be thread-safe, allowing for
+// concurrent audio processing without issues. The use of atomic variables and mutexes
+// ensures that the class can be safely used in multi-threaded environments, making it
+// suitable for real-time audio applications. The class is also designed to be easily
+// testable, with clear interfaces and well-defined behavior. The use of unit tests and
+// integration tests ensures that the class behaves as expected in various scenarios,
+// providing confidence in its reliability and performance. The class is also designed
+

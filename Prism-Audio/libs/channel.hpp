@@ -22,20 +22,20 @@ namespace Audio
             // Channel state management
             enum class State 
             {
-                IDLE,       // Not playing
-                PLAYING,    // Actively playing
-                PAUSED,     // Paused
-                STOPPING,   // Fading out
-                ERROR       // Error state
+                IDLE,      
+                PLAYING,   
+                PAUSED,    
+                STOPPING,  
+                ERROR      
             };
 
             // Channel priority levels for resource management
             enum class Priority
             {
-                LOW,        // Can be stolen
-                MEDIUM,     // Standard priority
-                HIGH,       // Rarely stolen
-                CRITICAL    // Never stolen
+                LOW,
+                MEDIUM,
+                HIGH,
+                CRITICAL
             };
 
             // Command structure for the ChannelQueue
@@ -87,10 +87,10 @@ namespace Audio
             float playbackSpeed;
             std::function<void(uint32_t)> onCompleteCallback;
             std::function<void(uint32_t)> onLoopCallback;
-            AudioBuffer* buffer;
+            std::shared_ptr<AudioBuffer> buffer;
 
             // Buffer management
-            void setBuffer(AudioBuffer* buf);
+            void setBuffer(std::shared_ptr<AudioBuffer> buffer);
             bool loadBufferFromFile(const std::string& filePath);
             void clearBuffer();
             void applyAutomation(
@@ -102,6 +102,7 @@ namespace Audio
                 float maxValue,
                 bool isFactor = true
             );
+            
             // Automation control
             void setVolumeAutomation(const AutomationProfile& profile);
             void setPanAutomation(const AutomationProfile& profile);
@@ -138,9 +139,11 @@ namespace Audio
             // Audio processing
             void processAudio(float* outputBuffer, uint32_t numFrames, uint32_t sampleRate);
             
+            // Command queue
+            std::queue<Command> commandQueue;
+            bool hasCommands;
+            
         protected:
-            friend class Engine;
-            friend class Mixer;
             
             // Internal processing
             void processCommands();
@@ -168,9 +171,5 @@ namespace Audio
             bool hasVolumeAutomation;
             bool hasPanAutomation;
             bool hasSpeedAutomation;
-            
-            // Command queue
-            std::queue<Command> commandQueue;
-            bool hasCommands;
     };
 }

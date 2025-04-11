@@ -34,7 +34,6 @@ namespace Audio
 
             void loadBuffer(const std::string& filePath);
             void resampleBuffer(uint32_t newSampleRate);
-        private:
             Buffer audioBuffer;
     };
 

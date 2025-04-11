@@ -6,7 +6,7 @@ DEFINES =
 CCX := g++
 LD := g++
 LINKFLAGS := 
-CPPFLAGS := -Wall -Wextra -Iinclude -fdiagnostics-color=always -std=c++17 $(INCLUDES) $(DEFINES) -lm -MMD -MP
+CPPFLAGS := -Wall -Wextra -Iinclude -fdiagnostics-color=always -std=c++17 $(INCLUDES) $(DEFINES) -MMD -MP
 
 BUILD_DIR := build
 
