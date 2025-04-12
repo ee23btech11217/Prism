@@ -55,5 +55,6 @@
         "algorithm": "cpp",
         "charconv": "cpp",
         "forward_list": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

@@ -10,6 +10,7 @@ CPPFLAGS := -Wall -Wextra -Iinclude -fdiagnostics-color=always -std=c++17 $(INCL
 
 BUILD_DIR := build
 
+
 DEBUG_LIBS := -lm
 DEBUG_CPPFLAGS := $(CPPFLAGS) -g
 DEBUG_LINKFLAGS := $(LINKFLAGS) -g

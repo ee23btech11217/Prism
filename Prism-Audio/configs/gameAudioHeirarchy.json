@@ -1,0 +1,561 @@
+{
+    "1": {
+        "name": "Ambient",
+        "subcategories": {
+            "1": {
+                "name": "Background",
+                "sounds": {
+                    "1": {
+                        "name": "House ambient - quiet", 
+                        "file": "house_ambient_1.wav"
+                    },
+                    "2": {
+                        "name": "House ambient - creaking", 
+                        "file": "house_ambient_2.wav"
+                    },
+                    "3": {
+                        "name": "House ambient - distant sounds", 
+                        "file": "house_ambient_3.wav"
+                    },
+                    "4": {
+                        "name": "House ambient - settling sounds", 
+                        "file": "house_ambient_4.wav"
+                    },
+                    "5": {
+                        "name": "House ambient - pipe sounds", 
+                        "file": "house_ambient_5.wav"
+                    },
+                    "11": {
+                        "name": "Basement ambient - dripping water", 
+                        "file": "basement_drip.wav"
+                    },
+                    "12": {
+                        "name": "Basement ambient - mechanical hum", 
+                        "file": "basement_hum.wav"
+                    },
+                    "13": {
+                        "name": "Basement ambient - pipe noises", 
+                        "file": "basement_pipes.wav"
+                    },
+                    "21": {
+                        "name": "Attic ambient - wind through cracks", 
+                        "file": "attic_wind.wav"
+                    },
+                    "22": {
+                        "name": "Attic ambient - creaking wood", 
+                        "file": "attic_creak.wav"
+                    },
+                    "31": {
+                        "name": "Garden ambient - crickets", 
+                        "file": "garden_crickets.wav"
+                    },
+                    "32": {
+                        "name": "Garden ambient - distant dog barks", 
+                        "file": "garden_dogs.wav"
+                    }
+                }
+            },
+            "2": {
+                "name": "Weather",
+                "sounds": {
+                    "1": {
+                        "name": "Rain - light", 
+                        "file": "rain_light.wav"
+                    },
+                    "2": {
+                        "name": "Rain - medium", 
+                        "file": "rain_medium.wav"
+                    },
+                    "3": {
+                        "name": "Rain - heavy", 
+                        "file": "rain_heavy.wav"
+                    },
+                    "11": {
+                        "name": "Thunder - distant", 
+                        "file": "thunder_distant.wav"
+                    },
+                    "12": {
+                        "name": "Thunder - medium", 
+                        "file": "thunder_medium.wav"
+                    },
+                    "13": {
+                        "name": "Thunder - close", 
+                        "file": "thunder_close.wav"
+                    },
+                    "21": {
+                        "name": "Wind - gentle howling", 
+                        "file": "wind_gentle.wav"
+                    },
+                    "22": {
+                        "name": "Wind - strong whistling", 
+                        "file": "wind_strong.wav"
+                    }
+                }
+            },
+            "3": {
+                "name": "Stingers",
+                "sounds": {
+                    "1": {
+                        "name": "Tension riser - subtle", 
+                        "file": "tension_subtle.wav"
+                    },
+                    "2": {
+                        "name": "Tension riser - medium", 
+                        "file": "tension_medium.wav"
+                    },
+                    "3": {
+                        "name": "Tension riser - intense", 
+                        "file": "tension_intense.wav"
+                    },
+                    "11": {
+                        "name": "Jump scare - string hit", 
+                        "file": "jumpscare_string.wav"
+                    },
+                    "12": {
+                        "name": "Jump scare - noise burst", 
+                        "file": "jumpscare_noise.wav"
+                    },
+                    "21": {
+                        "name": "Atmospheric hit - low boom", 
+                        "file": "atmos_boom.wav"
+                    },
+                    "22": {
+                        "name": "Atmospheric hit - high tension", 
+                        "file": "atmos_high.wav"
+                    }
+                }
+            }
+        }
+    },
+    "2": {
+        "name": "Character",
+        "subcategories": {
+            "1": {
+                "name": "Player",
+                "sounds": {
+                    "1": {
+                        "name": "Footsteps - wood floor", 
+                        "file": "player_footstep_wood.wav"
+                    },
+                    "2": {
+                        "name": "Footsteps - carpet", 
+                        "file": "player_footstep_carpet.wav"
+                    },
+                    "3": {
+                        "name": "Footsteps - tile", 
+                        "file": "player_footstep_tile.wav"
+                    },
+                    "4": {
+                        "name": "Footsteps - concrete", 
+                        "file": "player_footstep_concrete.wav"
+                    },
+                    "5": {
+                        "name": "Footsteps - creaky wood", 
+                        "file": "player_footstep_creaky.wav"
+                    },
+                    "21": {
+                        "name": "Breathing - normal", 
+                        "file": "player_breath_normal.wav"
+                    },
+                    "22": {
+                        "name": "Breathing - scared", 
+                        "file": "player_breath_scared.wav"
+                    },
+                    "23": {
+                        "name": "Breathing - hurt", 
+                        "file": "player_breath_hurt.wav"
+                    },
+                    "31": {
+                        "name": "Heartbeat - calm", 
+                        "file": "player_heart_calm.wav"
+                    },
+                    "32": {
+                        "name": "Heartbeat - elevated", 
+                        "file": "player_heart_elevated.wav"
+                    },
+                    "33": {
+                        "name": "Heartbeat - racing", 
+                        "file": "player_heart_racing.wav"
+                    }
+                }
+            },
+            "2": {
+                "name": "Antagonist",
+                "sounds": {
+                    "1": {
+                        "name": "Footsteps - heavy wood", 
+                        "file": "granny_footstep_heavy.wav"
+                    },
+                    "2": {
+                        "name": "Footsteps - dragging", 
+                        "file": "granny_footstep_drag.wav"
+                    },
+                    "11": {
+                        "name": "Breathing - raspy", 
+                        "file": "granny_breath_raspy.wav"
+                    },
+                    "12": {
+                        "name": "Breathing - heavy", 
+                        "file": "granny_breath_heavy.wav"
+                    },
+                    "21": {
+                        "name": "Growl - low", 
+                        "file": "granny_growl_low.wav"
+                    },
+                    "22": {
+                        "name": "Growl - threatening", 
+                        "file": "granny_growl_threat.wav"
+                    },
+                    "23": {
+                        "name": "Mumbling - distant", 
+                        "file": "granny_mumble_distant.wav"
+                    },
+                    "24": {
+                        "name": "Mumbling - close", 
+                        "file": "granny_mumble_close.wav"
+                    }
+                }
+            }
+        }
+    },
+    "3": {
+        "name": "Interactive Objects",
+        "subcategories": {
+            "1": {
+                "name": "Doors",
+                "sounds": {
+                    "1": {
+                        "name": "Door - open normal", 
+                        "file": "door_open.wav"
+                    },
+                    "2": {
+                        "name": "Door - close normal", 
+                        "file": "door_close.wav"
+                    },
+                    "3": {
+                        "name": "Door - locked", 
+                        "file": "door_locked.wav"
+                    },
+                    "4": {
+                        "name": "Door - break", 
+                        "file": "door_break.wav"
+                    },
+                    "21": {
+                        "name": "Door - creaky open slow", 
+                        "file": "door_creaky_slow.wav"
+                    },
+                    "22": {
+                        "name": "Door - creaky open fast", 
+                        "file": "door_creaky_fast.wav"
+                    },
+                    "41": {
+                        "name": "Metal door - open", 
+                        "file": "metal_door_open.wav"
+                    },
+                    "42": {
+                        "name": "Metal door - close", 
+                        "file": "metal_door_close.wav"
+                    },
+                    "43": {
+                        "name": "Metal door - locked", 
+                        "file": "metal_door_locked.wav"
+                    }
+                }
+            },
+            "2": {
+                "name": "Items",
+                "sounds": {
+                    "1": {
+                        "name": "Pickup - small item", 
+                        "file": "item_pickup_small.wav"
+                    },
+                    "2": {
+                        "name": "Pickup - medium item", 
+                        "file": "item_pickup_medium.wav"
+                    },
+                    "11": {
+                        "name": "Key - pickup", 
+                        "file": "key_pickup.wav"
+                    },
+                    "12": {
+                        "name": "Key - use in lock", 
+                        "file": "key_use.wav"
+                    },
+                    "21": {
+                        "name": "Weapon - grab", 
+                        "file": "weapon_grab.wav"
+                    },
+                    "22": {
+                        "name": "Weapon - swing", 
+                        "file": "weapon_swing.wav"
+                    },
+                    "23": {
+                        "name": "Weapon - shoot", 
+                        "file": "weapon_shoot.wav"
+                    },
+                    "31": {
+                        "name": "Trap - set off", 
+                        "file": "trap_setoff.wav"
+                    },
+                    "32": {
+                        "name": "Trap - bear trap snap", 
+                        "file": "bear_trap_snap.wav"
+                    }
+                }
+            },
+            "3": {
+                "name": "Containers",
+                "sounds": {
+                    "1": {
+                        "name": "Drawer - open", 
+                        "file": "drawer_open.wav"
+                    },
+                    "2": {
+                        "name": "Drawer - close", 
+                        "file": "drawer_close.wav"
+                    },
+                    "11": {
+                        "name": "Cabinet - open", 
+                        "file": "cabinet_open.wav"
+                    },
+                    "12": {
+                        "name": "Cabinet - close", 
+                        "file": "cabinet_close.wav"
+                    }
+                }
+            }
+        }
+    },
+    "4": {
+        "name": "Physics",
+        "subcategories": {
+            "1": {
+                "name": "Impacts",
+                "sounds": {
+                    "1": {
+                        "name": "Wood impact - light", 
+                        "file": "wood_impact_light.wav"
+                    },
+                    "2": {
+                        "name": "Wood impact - medium", 
+                        "file": "wood_impact_medium.wav"
+                    },
+                    "3": {
+                        "name": "Wood impact - heavy", 
+                        "file": "wood_impact_heavy.wav"
+                    },
+                    "11": {
+                        "name": "Metal impact - light", 
+                        "file": "metal_impact_light.wav"
+                    },
+                    "12": {
+                        "name": "Metal impact - medium", 
+                        "file": "metal_impact_medium.wav"
+                    },
+                    "21": {
+                        "name": "Glass - crack", 
+                        "file": "glass_crack.wav"
+                    },
+                    "22": {
+                        "name": "Glass - shatter small", 
+                        "file": "glass_shatter_small.wav"
+                    },
+                    "23": {
+                        "name": "Glass - shatter large", 
+                        "file": "glass_shatter_large.wav"
+                    }
+                }
+            },
+            "2": {
+                "name": "Movement",
+                "sounds": {
+                    "1": {
+                        "name": "Item sliding - wood surface", 
+                        "file": "slide_wood.wav"
+                    },
+                    "2": {
+                        "name": "Item sliding - tile surface", 
+                        "file": "slide_tile.wav"
+                    },
+                    "11": {
+                        "name": "Cloth movement - light", 
+                        "file": "cloth_light.wav"
+                    },
+                    "12": {
+                        "name": "Cloth movement - heavy", 
+                        "file": "cloth_heavy.wav"
+                    },
+                    "21": {
+                        "name": "Chain - light rattle", 
+                        "file": "chain_light.wav"
+                    },
+                    "22": {
+                        "name": "Chain - heavy rattle", 
+                        "file": "chain_heavy.wav"
+                    }
+                }
+            }
+        }
+    },
+    "5": {
+        "name": "UI",
+        "subcategories": {
+            "1": {
+                "name": "Menu",
+                "sounds": {
+                    "1": {
+                        "name": "Button - hover", 
+                        "file": "ui_button_hover.wav"
+                    },
+                    "2": {
+                        "name": "Button - select", 
+                        "file": "ui_button_select.wav"
+                    },
+                    "3": {
+                        "name": "Button - back", 
+                        "file": "ui_button_back.wav"
+                    },
+                    "11": {
+                        "name": "Menu - appear", 
+                        "file": "ui_menu_appear.wav"
+                    },
+                    "12": {
+                        "name": "Menu - disappear", 
+                        "file": "ui_menu_disappear.wav"
+                    },
+                    "13": {
+                        "name" : "Menu - ambient",
+                        "file" : "ui_menu_ambient.wav"
+                    }
+                
+                }
+            },
+            "2": {
+                "name": "Game States",
+                "sounds": {
+                    "1": {
+                        "name": "Level - start", 
+                        "file": "game_level_start.wav"
+                    },
+                    "2": {
+                        "name": "Level - day transition", 
+                        "file": "game_day_transition.wav"
+                    },
+                    "3": {
+                        "name": "Game over - caught", 
+                        "file": "game_over_caught.wav"
+                    },
+                    "4": {
+                        "name": "Game over - trapped", 
+                        "file": "game_over_trapped.wav"
+                    },
+                    "5": {
+                        "name": "Victory - escaped", 
+                        "file": "game_victory.wav"
+                    },
+                    "6": {
+                        "name": "New day - rooster", 
+                        "file": "game_new_day.wav"
+                    }
+                }
+            }
+        }
+    },
+    "6": {
+        "name": "Music",
+        "subcategories": {
+            "1": {
+                "name": "Exploration",
+                "sounds": {
+                    "1": {
+                        "name": "Exploration - low tension", 
+                        "file": "music_explore_low.wav"
+                    },
+                    "2": {
+                        "name": "Exploration - building tension", 
+                        "file": "music_explore_building.wav"
+                    },
+                    "3": {
+                        "name": "Exploration - medium tension", 
+                        "file": "music_explore_medium.wav"
+                    },
+                    "4": {
+                        "name": "Exploration - high tension", 
+                        "file": "music_explore_high.wav"
+                    },
+                    "5": {
+                        "name": "Exploration - extreme tension", 
+                        "file": "music_explore_extreme.wav"
+                    }
+                }
+            },
+            "2": {
+                "name": "Chase",
+                "sounds": {
+                    "1": {
+                        "name": "Chase - start", 
+                        "file": "music_chase_start.wav"
+                    },
+                    "2": {
+                        "name": "Chase - transition", 
+                        "file": "music_chase_transition.wav"
+                    },
+                    "3": {
+                        "name": "Chase - main loop 1", 
+                        "file": "music_chase_loop1.wav"
+                    },
+                    "4": {
+                        "name": "Chase - main loop 2", 
+                        "file": "music_chase_loop2.wav"
+                    },
+                    "5": {
+                        "name": "Chase - intense loop", 
+                        "file": "music_chase_intense.wav"
+                    }
+                }
+            },
+            "3": {
+                "name": "Hiding",
+                "sounds": {
+                    "1": {
+                        "name": "Hiding - under bed", 
+                        "file": "music_hiding_bed.wav"
+                    },
+                    "2": {
+                        "name": "Hiding - in closet", 
+                        "file": "music_hiding_closet.wav"
+                    },
+                    "3": {
+                        "name": "Hiding - tense waiting", 
+                        "file": "music_hiding_tense.wav"
+                    }
+                }
+            },
+            "4": {
+                "name": "Special Events",
+                "sounds": {
+                    "1": {
+                        "name": "Special - discovered", 
+                        "file": "music_special_discovered.wav"
+                    },
+                    "2" : {
+                        "name": "Distraction - Music Box", 
+                        "file": "distraction_music_box.wav"
+                    },
+                    "3": {
+                        "name": "Special - final key found", 
+                        "file": "music_special_final_key.wav"
+                    },
+                    "4": {
+                        "name": "Special - escape sequence start", 
+                        "file": "music_escape_start.wav"
+                    },
+                    "5": {
+                        "name": "Special - escape sequence loop", 
+                        "file": "music_escape_loop.wav"
+                    }
+                }
+            }
+        }
+    }
+}
