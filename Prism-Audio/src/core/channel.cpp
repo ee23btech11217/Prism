@@ -13,13 +13,14 @@ namespace Audio
     Channel::Channel(uint32_t id, Engine* engine) :
         state(State::IDLE),
         loop(false),
-        priority(Priority::MEDIUM), 
+        priority(Priority::MEDIUM),
         volume(1.0f),
         pan(0.0f),
         playbackSpeed(1.0f),
         onCompleteCallback(nullptr),
         onLoopCallback(nullptr),
         buffer(nullptr),
+        hasCommands(false),
         parentEngine(engine),
         channelID(id),
         currentPosition(0),
@@ -27,8 +28,7 @@ namespace Audio
         fadeStep(0.0f),
         hasVolumeAutomation(false),
         hasPanAutomation(false),
-        hasSpeedAutomation(false),
-        hasCommands(false)
+        hasSpeedAutomation(false)
     {
         fx = std::make_shared<ChainFX>();
     }

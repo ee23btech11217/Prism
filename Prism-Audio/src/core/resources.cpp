@@ -36,7 +36,6 @@ namespace Audio
         NULL_RS.offset = 0;
         NULL_RS.sampleRate = 0;
         NULL_RS.state = ResourceState::FAILED;
-
         auto it = resourceBank.find(id);
         return it != resourceBank.end() ? it->second : NULL_RS;
     }
@@ -61,7 +60,6 @@ namespace Audio
         bankFile.read(reinterpret_cast<char*>(&headerSize), 4);
         bankFile.read(reinterpret_cast<char*>(&totalSize), 4);
 
-        // Skip padding if any
         size_t currentPos = bankFile.tellg();
         size_t padding = (4 - (currentPos % 4)) % 4;
         bankFile.seekg(currentPos + padding);
