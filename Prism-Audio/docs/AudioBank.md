@@ -20,7 +20,7 @@ A PrismAudio Bank file consists of three main sections:
 | 0      | 9    | char[9]  | Magic identifier ("PRSMAUBNK")              |
 | 9      | 1    | uint8_t  | Format version                               |
 | 10     | 4    | uint32_t | Number of entries                            |
-| 14     | 4    | uint32_t | Total header size (20 + 22×entries)          |
+| 14     | 4    | uint32_t | Total header size (22 + 20×entries)          |
 | 18     | 4    | uint32_t | Total file size                              |
 
 ### Entry Header (22 bytes)
@@ -35,15 +35,14 @@ Each entry header contains metadata for one audio sample:
 | 4      | 4    | uint32_t | Offset to audio data from start of file      |
 | 8      | 4    | uint32_t | Length of audio data in bytes                |
 | 12     | 4    | uint32_t | Number of frames (samples)                   |
-| 16     | 2    | uint16_t | Number of channels (1=mono, 2=stereo)        |
-| 18     | 4    | uint32_t | Sample rate in Hz                            |
+| 16     | 4    | uint32_t | Sample rate in Hz                            |
 
 ### Audio Data Blocks
 
 The audio data section contains raw audio data for each entry:
 
 - Each block contains raw PCM audio data (16-bit samples)
-- Blocks are 4-byte aligned for optimized memory access
+- Blocks are 4-byte aligned
 - Block sizes match the lengths specified in the corresponding entry headers
 - Blocks appear in the same order as their entry headers
 
@@ -56,5 +55,6 @@ Sounds are identified by a three-part hierarchical ID:
 - **Index** (uint16_t): Specific sound within the subcategory
 
 These three values can be combined to form a unique identifier for each sound in the bank.
-
-## Flow Diagram
+```verilog
+    32'b{{cat},{subcat},{idx}}
+```

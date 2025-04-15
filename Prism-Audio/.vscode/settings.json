@@ -54,7 +54,12 @@
         "vector": "cpp",
         "algorithm": "cpp",
         "charconv": "cpp",
-        "forward_list": "cpp"
+        "forward_list": "cpp",
+        "__config": "cpp",
+        "__tree": "cpp",
+        "fstream": "cpp",
+        "future": "cpp",
+        "map": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

@@ -3,7 +3,7 @@
 
 namespace Audio
 {
-    AudioBuffer::AudioBuffer(uint32_t bufID)
+    AudioBuffer::AudioBuffer(uint16_t bufID)
     {
         audioBuffer.id = bufID;
         audioBuffer.data_L = nullptr;
@@ -16,7 +16,6 @@ namespace Audio
 
     AudioBuffer::~AudioBuffer()
     {
-        // Only try to free memory if it was allocated
         if (audioBuffer.data_L)
         {
             delete[] audioBuffer.data_L;
@@ -44,8 +43,8 @@ namespace Audio
         
         audioBuffer.length = length;
         audioBuffer.sampleRate = sampleRate;
-        audioBuffer.data_L = new int32_t[length];
-        audioBuffer.data_R = new int32_t[length];
+        audioBuffer.data_L = new int16_t[length];
+        audioBuffer.data_R = new int16_t[length];
         audioBuffer.isLoaded = true;
         
         for (uint32_t i = 0; i < length; i++)
@@ -57,11 +56,19 @@ namespace Audio
         return audioBuffer;
     }
 
-    void AudioBuffer::loadBuffer(const std::string& filePath)
+    void AudioBuffer::loadBuffer(const uint32_t id, Manager& manager)
     {
-        // Have to implement later
-        // For now, we throw an exception so errors aren't silent
-        throw std::runtime_error("AudioBuffer::loadBuffer not implemented for file: " + filePath);
+        Resource resource = manager.getSound(id);
+
+        audioBuffer = makeBuffer(resource.length, resource.sampleRate);
+
+        std::vector<int16_t>::iterator it = manager.soundData.begin() + resource.offset;
+        
+        for (uint32_t i = 0; i < resource.length; i++)
+        {
+            audioBuffer.data_L[i] = static_cast<int16_t>(*it++);
+            audioBuffer.data_R[i] = static_cast<int16_t>(*it++);
+        }
     }
 
     void AudioBuffer::resampleBuffer(uint32_t newSampleRate)
@@ -70,20 +77,20 @@ namespace Audio
         {
             throw std::runtime_error("Error: Buffer is empty or not loaded.");
         }
-    
+
         if (audioBuffer.sampleRate == newSampleRate)
         {
             return;
         }
         
         // Resampling logic
-        // This is a simple linear interpolation resampling
+        // This is simple linear interpolation resampling
         double ratio = static_cast<double>(audioBuffer.sampleRate) / static_cast<double>(newSampleRate);
         uint32_t newLength = static_cast<uint32_t>(audioBuffer.length / ratio);
         
         // Allocate new buffers
-        int32_t* newData_L = new int32_t[newLength];
-        int32_t* newData_R = new int32_t[newLength];
+        int16_t* newData_L = new int16_t[newLength];
+        int16_t* newData_R = new int16_t[newLength];
         
         // Resample using linear interpolation
         for (uint32_t i = 0; i < newLength; ++i)
@@ -100,8 +107,8 @@ namespace Audio
             
             double frac = pos - idx1;
             
-            newData_L[i] = static_cast<int32_t>((1.0 - frac) * audioBuffer.data_L[idx1] + frac * audioBuffer.data_L[idx2]);
-            newData_R[i] = static_cast<int32_t>((1.0 - frac) * audioBuffer.data_R[idx1] + frac * audioBuffer.data_R[idx2]);
+            newData_L[i] = static_cast<int16_t>((1.0 - frac) * audioBuffer.data_L[idx1] + frac * audioBuffer.data_L[idx2]);
+            newData_R[i] = static_cast<int16_t>((1.0 - frac) * audioBuffer.data_R[idx1] + frac * audioBuffer.data_R[idx2]);
         }
         
         // Replace old buffers with new ones

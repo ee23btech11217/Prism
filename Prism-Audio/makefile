@@ -6,7 +6,7 @@ DEFINES =
 CCX := g++
 LD := g++
 LINKFLAGS := 
-CPPFLAGS := -Wall -Wextra -Iinclude -fdiagnostics-color=always -std=c++17 $(INCLUDES) $(DEFINES) -MMD -MP
+CPPFLAGS := -Wall -Wextra -Iinclude -fdiagnostics-color=always -std=c++17 $(INCLUDES) $(DEFINES) -MMD -MP 
 
 BUILD_DIR := build
 
@@ -26,13 +26,14 @@ RELEASE_DIR := $(BUILD_DIR)/release
 # leave 2nd arg empty to search from this directory
 rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
-EXCLUDE := #gl/%.cpp
+BUILD_EXCLUDE := src/utils/pab_parser.cpp
+RELEASE_EXCLUDE := src/utils/pab_parser.cpp
 
-DEBUG_SRC_CPP := $(filter-out $(EXCLUDE),$(call rwildcard,,*.cpp))
+DEBUG_SRC_CPP := $(filter-out $(BUILD_EXCLUDE),$(call rwildcard,,*.cpp))
 DEBUG_OBJ_CPP := $(patsubst %.cpp, $(DEBUG_DIR)/objs/%.o, $(DEBUG_SRC_CPP))
 DEBUG_DEPENDS := $(patsubst %.cpp,$(DEBUG_DIR)/objs/%.d,$(DEBUG_SRC_CPP))
 
-RELEASE_SRC_CPP := $(filter-out $(EXCLUDE),$(call rwildcard,,*.cpp))
+RELEASE_SRC_CPP := $(filter-out $(RELEASE_EXCLUDE),$(call rwildcard,,*.cpp))
 RELEASE_OBJ_CPP := $(patsubst %.cpp, $(RELEASE_DIR)/objs/%.o, $(RELEASE_SRC_CPP))
 RELEASE_DEPENDS := $(patsubst %.cpp,$(RELEASE_DIR)/objs/%.d,$(RELEASE_SRC_CPP))
 

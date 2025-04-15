@@ -1,98 +1,100 @@
-#include "resource_manager.hpp"
-#include <fstream>
-#include <stdexcept>
+#include "resourceManager.hpp"
 
 namespace Audio 
 {
     Manager::Manager() = default;
     
     Manager::~Manager() = default;
-
+    
     bool Manager::initialize(const std::string& bankPath)
     {
-        std::ifstream file(bankPath, std::ios::binary);
-        if (!file) 
-        {
-            return false;
-        }
-
-        uint32_t headerLength;
-        file.read((char*)(&headerLength), sizeof(headerLength));
-
-        std::vector<char> headerBuffer(headerLength);
-        file.read(headerBuffer.data(), headerLength);
-        
-        std::string headerJson(headerBuffer.begin(), headerBuffer.end());
-        
-        // TODO: Parse JSON headers
-        
-
-        std::vector<char> rawData((std::istreambuf_iterator<char>(file)),
-                                 std::istreambuf_iterator<char>());
-                                 bankData.resize(rawData.size() / 2);
-        std::copy(
-            reinterpret_cast<uint16_t*>(rawData.data()),
-            reinterpret_cast<uint16_t*>(rawData.data() + rawData.size()),
-            bankData.begin()
-        );
+        return parsePAB(bankPath);
     }
-
+    
     void Manager::shutdown()
     {
         resourceBank.clear();
-        bankData.clear();
+        soundData.clear();
     }
-
-    bool Manager::parseHeader()
-    {
-        // TODO: Implement JSON parsing and resource bank population
-        
-        return !resourceBank.empty();
-    }
-
+    
     uint32_t Manager::encodeIdentifier(const Identifier& id) const
     {
         return (static_cast<uint32_t>(id.category) << 24) |
                (static_cast<uint32_t>(id.subcategory) << 16) |
                id.index;
     }
-
-    std::vector<Resource> Manager::getSound(const Identifier& id)
+    
+    const Resource& Manager::getSound(const uint32_t id)
     {
-        std::vector<Resource> matchingResources;
-        
-        uint32_t key = encodeIdentifier(id);
-        auto range = resourceBank.equal_range(key);
-        
-        for (auto it = range.first; it != range.second; ++it) 
-        {
-            matchingResources.push_back(it->second);
-        }
-        
-        return matchingResources;
+        static Resource NULL_RS;
+        NULL_RS.frames = 0;
+        NULL_RS.id = Identifier{UINT8_MAX, UINT8_MAX, UINT16_MAX};
+        NULL_RS.length = 0;
+        NULL_RS.loopCount = 0;
+        NULL_RS.loopEnd = 0;
+        NULL_RS.loopStart = 0;
+        NULL_RS.offset = 0;
+        NULL_RS.sampleRate = 0;
+        NULL_RS.state = ResourceState::FAILED;
+
+        auto it = resourceBank.find(id);
+        return it != resourceBank.end() ? it->second : NULL_RS;
     }
 
-    int8_t Manager::loadSoundData(const Identifier& id, AudioBuffer* buffer)
+    bool Manager::parsePAB(const std::string& filename)
     {
-        auto resources = getSound(id);
-        if (resources.empty()) {
-            return -1;
+        std::ifstream bankFile(filename, std::ios::binary);
+        if (!bankFile.is_open()) {
+            std::cerr << "Error: Could not open file " << filename << std::endl;
+            return false;
         }
 
-        const Resource& resource = resources.front();
-
-        if (resource.state != ResourceState::READY) {
-            return -2; 
+        char magicBuf[10] = {0};
+        bankFile.read(magicBuf, 9);
+        std::string magic = std::string(magicBuf);
+        if (magic != "PRSMAUBNK") {
+            std::cerr << "Invalid magic identifier: " << magic << std::endl;
+            return false;
         }
-        buffer->makeBuffer(resource.frames, resource.sampleRate);
+        bankFile.read(reinterpret_cast<char*>(&version), 1);
+        bankFile.read(reinterpret_cast<char*>(&entryCount), 4);
+        bankFile.read(reinterpret_cast<char*>(&headerSize), 4);
+        bankFile.read(reinterpret_cast<char*>(&totalSize), 4);
 
-        const uint16_t* sourceData = bankData.data() + resource.offset;
-        
-        for (uint32_t i = 0; i < resource.frames; ++i) {
-            buffer->audioBuffer.data_L[i] = sourceData[i * 2] << 16;
-            buffer->audioBuffer.data_R[i] = sourceData[i * 2 + 1] << 16;
+        // Skip padding if any
+        size_t currentPos = bankFile.tellg();
+        size_t padding = (4 - (currentPos % 4)) % 4;
+        bankFile.seekg(currentPos + padding);
+
+        for (uint32_t i = 0; i < entryCount; ++i) {
+            Resource resource;
+            
+            bankFile.read(reinterpret_cast<char*>(&resource.id.category), 1);
+            bankFile.read(reinterpret_cast<char*>(&resource.id.subcategory), 1);
+            bankFile.read(reinterpret_cast<char*>(&resource.id.index), 2);
+            
+            bankFile.read(reinterpret_cast<char*>(&resource.offset), 4);
+            bankFile.read(reinterpret_cast<char*>(&resource.length), 4);
+            bankFile.read(reinterpret_cast<char*>(&resource.frames), 4);
+            bankFile.read(reinterpret_cast<char*>(&resource.sampleRate), 4);
+            bankFile.read(reinterpret_cast<char*>(&resource.loopStart), 4);
+            bankFile.read(reinterpret_cast<char*>(&resource.loopEnd), 4);
+            bankFile.read(reinterpret_cast<char*>(&resource.loopCount), 2);
+            
+            resource.state = ResourceState::UNLOADED;
+            
+            uint32_t key = encodeIdentifier(resource.id);
+            resourceBank.insert({key, resource});
         }
 
-        return 0;
+        soundData.resize(totalSize / sizeof(int16_t));
+        bankFile.read(reinterpret_cast<char*>(soundData.data()), totalSize - headerSize);
+
+        std::cout << "Parsed PAB file successfully: " << filename << std::endl;
+        std::cout << "Version: " << static_cast<int>(version) << ", Entry Count: " << entryCount
+                  << ", Header Size: " << headerSize << ", Total Size: " << totalSize << std::endl;
+
+        return true;
     }
+    
 }

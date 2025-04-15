@@ -3,6 +3,7 @@
 #include <cinttypes>
 #include <vector>
 #include <iostream>
+#include "libs/resourceManager.hpp"
 
 namespace Audio
 {
@@ -16,8 +17,8 @@ namespace Audio
     struct Buffer
     {
         uint32_t id;
-        int32_t* data_L;
-        int32_t* data_R;
+        int16_t* data_L;
+        int16_t* data_R;
         uint32_t length;
         uint32_t sampleRate;
         uint16_t idx;
@@ -27,12 +28,12 @@ namespace Audio
     class AudioBuffer
     {
         public:
-            AudioBuffer(uint32_t bufID);
+            AudioBuffer(uint16_t bufID);
             ~AudioBuffer();
             friend class Channel;
             Buffer makeBuffer(uint32_t length, uint32_t sampleRate);
 
-            void loadBuffer(const std::string& filePath);
+            void loadBuffer(const uint32_t id, Manager& manager);
             void resampleBuffer(uint32_t newSampleRate);
             Buffer audioBuffer;
     };
