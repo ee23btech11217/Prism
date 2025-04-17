@@ -8,7 +8,7 @@ namespace Audio
     
     bool Manager::initialize(const std::string& bankPath)
     {
-        return parsePAB(bankPath);
+        managerBankPath = bankPath;
     }
     
     void Manager::shutdown()
@@ -40,11 +40,11 @@ namespace Audio
         return it != resourceBank.end() ? it->second : NULL_RS;
     }
 
-    bool Manager::parsePAB(const std::string& filename)
+    bool Manager::parsePAB()
     {
-        std::ifstream bankFile(filename, std::ios::binary);
+        std::ifstream bankFile(managerBankPath, std::ios::binary);
         if (!bankFile.is_open()) {
-            std::cerr << "Error: Could not open file " << filename << std::endl;
+            std::cerr << "Error: Could not open file " << managerBankPath << std::endl;
             return false;
         }
 
@@ -88,7 +88,7 @@ namespace Audio
         soundData.resize(totalSize / sizeof(int16_t));
         bankFile.read(reinterpret_cast<char*>(soundData.data()), totalSize - headerSize);
 
-        std::cout << "Parsed PAB file successfully: " << filename << std::endl;
+        std::cout << "Parsed PAB file successfully: " << managerBankPath << std::endl;
         std::cout << "Version: " << static_cast<int>(version) << ", Entry Count: " << entryCount
                   << ", Header Size: " << headerSize << ", Total Size: " << totalSize << std::endl;
 

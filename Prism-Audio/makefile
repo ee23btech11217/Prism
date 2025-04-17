@@ -26,8 +26,8 @@ RELEASE_DIR := $(BUILD_DIR)/release
 # leave 2nd arg empty to search from this directory
 rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
 
-BUILD_EXCLUDE := src/utils/pab_parser.cpp tests/main.cpp
-RELEASE_EXCLUDE := src/utils/pab_parser.cpp tests/main.cpp
+BUILD_EXCLUDE := src/utils/pab_parser.cpp tests/main.cpp src/core/chaotic_mixer.cpp
+RELEASE_EXCLUDE := src/utils/pab_parser.cpp tests/main.cpp src/core/chaotic_mixer.cpp
 
 DEBUG_SRC_CPP := $(filter-out $(BUILD_EXCLUDE),$(call rwildcard,,*.cpp))
 DEBUG_OBJ_CPP := $(patsubst %.cpp, $(DEBUG_DIR)/objs/%.o, $(DEBUG_SRC_CPP))
@@ -42,7 +42,6 @@ TEST_DIR := tests
 TEST_SRCS := $(wildcard $(TEST_DIR)/*.cpp)
 TEST_OBJS := $(patsubst $(TEST_DIR)/%.cpp, $(DEBUG_DIR)/objs/$(TEST_DIR)/%.o, $(TEST_SRCS))
 
-# Core files needed for tests (excluding main.cpp)
 CORE_TEST_SRCS := src/core/helper.cpp src/core/resources.cpp src/core/channel.cpp src/audioFX/chainFX.cpp
 CORE_TEST_OBJS := $(patsubst %.cpp, $(DEBUG_DIR)/objs/test_%.o, $(CORE_TEST_SRCS))
 

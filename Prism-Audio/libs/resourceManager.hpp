@@ -49,11 +49,12 @@ namespace Audio
             bool initialize(const std::string& bankPath);
             void shutdown();
             
-            bool parsePAB(const std::string& bankPath);
+            bool parsePAB();
             const Resource& getSound(const uint32_t id);
             std::string mainHeader;
             std::vector<int16_t> soundData;
         private:
+            std::string managerBankPath;
             std::unordered_map<uint32_t, Resource> resourceBank;
             uint8_t version;
             uint32_t entryCount, headerSize, totalSize;
