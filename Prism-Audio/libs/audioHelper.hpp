@@ -1,8 +1,6 @@
 #pragma once
-
-#include <cinttypes>
-#include <vector>
-#include <iostream>
+#include "libs/includes.hpp"
+#include "libs/audioTypes.hpp"
 #include "libs/resourceManager.hpp"
 
 namespace Audio
@@ -17,11 +15,11 @@ namespace Audio
     struct Buffer
     {
         uint32_t id;
-        int16_t* data_L;
-        int16_t* data_R;
+        sample_t* data_L;
+        sample_t* data_R;
         uint32_t length;
         uint32_t sampleRate;
-        uint16_t idx;
+        audio_pos_t idx;
         bool isLoaded;
     };
 

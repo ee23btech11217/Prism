@@ -1,13 +1,7 @@
 #pragma once
 
-#include <cstdint>
-#include <vector>
-#include <memory>
-#include <string>
-#include <functional>
-#include <atomic>
-#include <queue>
-#include <iostream>
+#include "libs/includes.hpp"
+#include "libs/audioTypes.hpp"
 #include "libs/audioHelper.hpp"
 #include "libs/chainFX.hpp"
 
@@ -69,29 +63,23 @@ namespace Audio
                 uint32_t uintValue2;     // Parameter index
                 std::vector<float> params; // Effect parameters
             };
-
-            /**
-             * @brief Creates a new audio channel
-             * @param id Unique channel identifier
-             * @param engine Parent engine instance
-             */
-            Channel(uint32_t id, Engine* engine = nullptr);
+            
+            Channel(channelID_t id, Engine* engine = nullptr);
             ~Channel();
 
             // Public state and parameters
             State state;
             bool loop;
             Priority priority;
-            float volume;
-            float pan;
-            float playbackSpeed;
-            std::function<void(uint32_t)> onCompleteCallback;
-            std::function<void(uint32_t)> onLoopCallback;
+            volume_t volume;
+            pan_t pan;
+            speed_t playbackSpeed;
+            acallback_t onCompleteCallback;
+            acallback_t onLoopCallback;
             std::shared_ptr<AudioBuffer> buffer;
 
             // Buffer management
             void setBuffer(std::shared_ptr<AudioBuffer> buffer);
-            bool loadBufferFromFile(const std::string& filePath);
             void clearBuffer();
             void applyAutomation(
                 uint32_t currentSample,
@@ -116,8 +104,8 @@ namespace Audio
             void stopWithFade(uint32_t fadeDurationMs);
             
             // Position control
-            uint32_t getPosition() const;
-            uint32_t getDuration() const;
+            audio_pos_t getPosition() const;
+            audio_pos_t getDuration() const;
             void setPosition(uint32_t samplePosition);
             void seek(float positionInSeconds);
             

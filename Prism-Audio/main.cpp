@@ -2,6 +2,7 @@
 #include "chainFX.hpp"
 #include "audioHelper.hpp"
 #include "resourceManager.hpp"
+#include "libs/modifiers.hpp"
 
 int main() {
     // Audio::Manager amang;
@@ -10,7 +11,10 @@ int main() {
     audioManager.initialize("AudioBank/audio_bank.pab");
     audioManager.parsePAB();
 
-    Audio::Engine mainEngine;
+    Audio::AudioBuffer buffer(1);
+    Audio::Modifiers modifer;
+    modifer.processModifier(0, 0, buffer);
+    // Audio::Engine mainEngine;
     
 
     return 0;

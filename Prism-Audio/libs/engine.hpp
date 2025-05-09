@@ -9,7 +9,11 @@ namespace Audio
         public:
             Engine();
             ~Engine();
-            std::shared_ptr<AudioBuffer> master;
             
+            bool initialize(uint32_t sampleRate = 44100, uint16_t bufferSize = 1024);
+            void shutdown();
+
+            std::shared_ptr<AudioBuffer> master;
+
     };
 }

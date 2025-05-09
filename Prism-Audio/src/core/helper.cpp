@@ -43,8 +43,8 @@ namespace Audio
         
         audioBuffer.length = length;
         audioBuffer.sampleRate = sampleRate;
-        audioBuffer.data_L = new int16_t[length];
-        audioBuffer.data_R = new int16_t[length];
+        audioBuffer.data_L = new sample_t[length];
+        audioBuffer.data_R = new sample_t[length];
         audioBuffer.isLoaded = true;
         
         for (uint32_t i = 0; i < length; i++)
@@ -56,18 +56,18 @@ namespace Audio
         return audioBuffer;
     }
 
-    void AudioBuffer::loadBuffer(const uint32_t id, Manager& manager)
+    void AudioBuffer::loadBuffer(const resID_t id, Manager& manager)
     {
         Resource resource = manager.getSound(id);
 
         audioBuffer = makeBuffer(resource.length, resource.sampleRate);
 
-        std::vector<int16_t>::iterator it = manager.soundData.begin() + resource.offset;
+        std::vector<sample_t>::iterator it = manager.soundData.begin() + resource.offset;
         
         for (uint32_t i = 0; i < resource.length; i++)
         {
-            audioBuffer.data_L[i] = static_cast<int16_t>(*it++);
-            audioBuffer.data_R[i] = static_cast<int16_t>(*it++);
+            audioBuffer.data_L[i] = static_cast<sample_t>(*it++);
+            audioBuffer.data_R[i] = static_cast<sample_t>(*it++);
         }
     }
 
@@ -86,19 +86,19 @@ namespace Audio
         // Resampling logic
         // This is simple linear interpolation resampling
         double ratio = static_cast<double>(audioBuffer.sampleRate) / static_cast<double>(newSampleRate);
-        uint32_t newLength = static_cast<uint32_t>(audioBuffer.length / ratio);
+        audio_pos_t newLength = static_cast<audio_pos_t>(audioBuffer.length / ratio);
         
         // Allocate new buffers
-        int16_t* newData_L = new int16_t[newLength];
-        int16_t* newData_R = new int16_t[newLength];
+        sample_t* newData_L = new sample_t[newLength];
+        sample_t* newData_R = new sample_t[newLength];
         
         // Resample using linear interpolation
-        for (uint32_t i = 0; i < newLength; ++i)
+        for (audio_pos_t i = 0; i < newLength; ++i)
         {
             double pos = i * ratio;
     
-            uint32_t idx1 = static_cast<uint32_t>(pos);
-            uint32_t idx2 = idx1 + 1;
+            audio_pos_t idx1 = static_cast<audio_pos_t>(pos);
+            audio_pos_t idx2 = idx1 + 1;
             
             if (idx2 >= audioBuffer.length)
             {
@@ -107,8 +107,8 @@ namespace Audio
             
             double frac = pos - idx1;
             
-            newData_L[i] = static_cast<int16_t>((1.0 - frac) * audioBuffer.data_L[idx1] + frac * audioBuffer.data_L[idx2]);
-            newData_R[i] = static_cast<int16_t>((1.0 - frac) * audioBuffer.data_R[idx1] + frac * audioBuffer.data_R[idx2]);
+            newData_L[i] = static_cast<sample_t>((1.0 - frac) * audioBuffer.data_L[idx1] + frac * audioBuffer.data_L[idx2]);
+            newData_R[i] = static_cast<sample_t>((1.0 - frac) * audioBuffer.data_R[idx1] + frac * audioBuffer.data_R[idx2]);
         }
         
         // Replace old buffers with new ones

@@ -61,5 +61,6 @@
         "future": "cpp",
         "map": "cpp"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "idf.pythonInstallPath": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12/bin/python3"
 }

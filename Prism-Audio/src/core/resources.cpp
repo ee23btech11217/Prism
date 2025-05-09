@@ -17,14 +17,14 @@ namespace Audio
         soundData.clear();
     }
     
-    uint32_t Manager::encodeIdentifier(const Identifier& id) const
+    resID_t Manager::encodeIdentifier(const Identifier& id) const
     {
         return (static_cast<uint32_t>(id.category) << 24) |
                (static_cast<uint32_t>(id.subcategory) << 16) |
                id.index;
     }
     
-    const Resource& Manager::getSound(const uint32_t id)
+    const Resource& Manager::getSound(const resID_t id)
     {
         static Resource NULL_RS;
         NULL_RS.frames = 0;
@@ -81,11 +81,11 @@ namespace Audio
             
             resource.state = ResourceState::UNLOADED;
             
-            uint32_t key = encodeIdentifier(resource.id);
+            resID_t key = encodeIdentifier(resource.id);
             resourceBank.insert({key, resource});
         }
 
-        soundData.resize(totalSize / sizeof(int16_t));
+        soundData.resize(totalSize / sizeof(sample_t));
         bankFile.read(reinterpret_cast<char*>(soundData.data()), totalSize - headerSize);
 
         std::cout << "Parsed PAB file successfully: " << managerBankPath << std::endl;

@@ -1,7 +1,4 @@
 #include "libs/channel.hpp"
-#include <algorithm> // For std::clamp
-#include <cmath>     // For audio calculations
-#include <iostream>  // For error reporting
 
 namespace Audio
 {
@@ -237,7 +234,7 @@ namespace Audio
      * @brief Gets current playback position in samples
      * @return Current position
      */
-    uint32_t Channel::getPosition() const
+    audio_pos_t Channel::getPosition() const
     {
         return currentPosition;
     }
@@ -246,7 +243,7 @@ namespace Audio
      * @brief Gets total duration of the buffer in samples
      * @return Duration in samples
      */
-    uint32_t Channel::getDuration() const
+    audio_pos_t Channel::getDuration() const
     {
         return buffer ? buffer->audioBuffer.length : 0;
     }
@@ -520,6 +517,9 @@ namespace Audio
             outLeft = outRight = 0.0f;
             return;
         }
+        // Debug
+        std::cout << "Raw sample L: " << buffer->audioBuffer.data_L[position] 
+        << ", R: " << buffer->audioBuffer.data_R[position] << std::endl;
         
         constexpr float normalizationFactor = 1.0f / 2147483648.0f;
         outLeft = buffer->audioBuffer.data_L[position] * normalizationFactor;
@@ -562,9 +562,6 @@ namespace Audio
 
 // End of file
 // This file is part of the Audio Engine project.
-//
-// This project is licensed under the MIT License.
-// See the LICENSE file for details.
 
 //
 // This file contains the implementation of the Channel class, which manages audio playback,
