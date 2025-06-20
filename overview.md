@@ -50,8 +50,8 @@ We heavily modified the design, to incorporate out requirements, and the PCB des
 ## Enclosure
 
 We 3D printed the outer case for the console. The design has space to draw cables out to remaining parts. (It was spray-painted red)
-![case1](docs/case11.png)
-![case2](docs/case22.png)
+![case1](docs/case1.png)
+![case2](docs/case2.png)
 
 ## Software Architecture
 
